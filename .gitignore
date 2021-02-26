@@ -1,0 +1,7 @@
+node_modules/
+data/
+.idea
+npm-debug.log
+app/css/lib
+app/css/fonts
+app/js/lib

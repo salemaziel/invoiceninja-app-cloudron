@@ -1,0 +1,31 @@
+{
+  "id": "com.invoiceninja.cloudronapp2",
+  "title": "Invoice Ninja",
+  "author": "Invoice Ninja",
+  "description": "file://DESCRIPTION.md",
+  "changelog": "file://CHANGELOG",
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "tagline": "Invoice from anywhere get paid from everywhere",
+  "version": "0.1.0",
+  "healthCheckPath": "/",
+  "httpPort": 8000,
+  "addons": {
+    "localstorage": {},
+    "mysql": {},
+    "sendmail": {}
+  },
+  "manifestVersion": 2,
+  "website": "https://www.invoiceninja.org",
+  "contactEmail": "support@cloudron.io",
+  "icon": "file://logo.png",
+  "tags": [
+    "invoice", "expense", "quote", "finance"
+  ],
+  "mediaLinks": [
+    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp/img0.png",
+    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp/img1.jpg"
+  ],
+  "minBoxVersion": "5.3.0",
+  "forumUrl": "https://forum.cloudron.io/category/11/invoice-ninja",
+  "documentationUrl": "https://docs.cloudron.io/apps/invoiceninja/"
+}

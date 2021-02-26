@@ -1,0 +1,73 @@
+FROM cloudron/base:3.0.0@sha256:455c70428723e3a823198c57472785437eb6eab082e79b3ff04ea584faf46e92
+
+ARG PHANTOMJS=phantomjs-2.1.1-linux-x86_64
+
+RUN ln -s /usr/include/x86_64-linux-gnu/gmp.h /usr/local/include/ \
+    && curl -o ${PHANTOMJS}.tar.bz2 -SL https://bitbucket.org/ariya/phantomjs/downloads/${PHANTOMJS}.tar.bz2 \
+    && tar xvjf ${PHANTOMJS}.tar.bz2 \
+    && rm ${PHANTOMJS}.tar.bz2 \
+    && mv ${PHANTOMJS} /usr/local/share \
+    && ln -sf /usr/local/share/${PHANTOMJS}/bin/phantomjs /usr/local/bin
+
+RUN mkdir -p /app/code /app/pkg
+WORKDIR /app/code
+
+ARG VERSION=5.1.10
+
+# make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
+# https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
+RUN wget https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}-release/invoiceninja.zip -O ninja.zip \
+    && unzip ninja.zip \
+    && rm -f /tmp/ninja.zip \
+    && chown -R www-data:www-data /app/code
+
+# RUN sudo -u www-data composer dump-autoload --working-dir=/app/code --optimize --no-interaction \
+RUN sudo -u www-data php /app/code/artisan optimize --force --no-interaction --verbose \
+    && rm -rf /app/code/bootstrap/cache && ln -s /run/invoiceninja/bootstrap-cache /app/code/bootstrap/cache \
+    && mv /app/code/storage /app/code/storage-vanilla && ln -s /app/data/storage /app/code/storage \
+    # && mv /app/code/public/logo /app/code/public-logo-vanilla && ln -s /app/data/public/logo /app/code/public/logo \
+    && rm -f /app/code/.env && ln -s /app/data/env /app/code/.env \
+    && rm -rf /app/code/docs
+
+# RUN rm -f /app/code/.env && ln -s /app/data/env /app/code/.env
+
+# configure apache
+RUN rm /etc/apache2/sites-enabled/*
+RUN sed -e 's,^ErrorLog.*,ErrorLog "|/bin/cat",' -i /etc/apache2/apache2.conf
+COPY apache/mpm_prefork.conf /etc/apache2/mods-available/mpm_prefork.conf
+
+RUN a2disconf other-vhosts-access-log
+ADD apache/invoiceninja.conf /etc/apache2/sites-enabled/invoiceninja.conf
+RUN echo "Listen 8000" > /etc/apache2/ports.conf
+
+# configure mod_php. apache2ctl -M can be used to list enabled modules
+# the sessions path is unused since invoiceninja uses lavarel sessions
+RUN a2dismod perl && \
+    a2enmod rewrite && \
+    a2enmod expires && \
+    a2enmod headers && \
+    a2enmod cache
+
+RUN crudini --set /etc/php/7.4/apache2/php.ini PHP upload_max_filesize 500M && \
+    crudini --set /etc/php/7.4/apache2/php.ini PHP post_max_size 500M && \
+    crudini --set /etc/php/7.4/apache2/php.ini PHP max_input_vars 1800 && \
+    crudini --set /etc/php/7.4/apache2/php.ini Session session.save_path /run/invoiceninja/sessions && \
+    crudini --set /etc/php/7.4/apache2/php.ini Session session.gc_probability 1 && \
+    crudini --set /etc/php/7.4/apache2/php.ini Session session.gc_divisor 100
+
+RUN cp /etc/php/7.4/apache2/php.ini /app/pkg/php.ini && \
+    rm -rf /etc/php/7.4/apache2/php.ini && rm -rf /etc/php/7.4/cli/php.ini && \
+    ln -s /run/php.ini /etc/php/7.4/apache2/php.ini &&  ln -s /run/php.ini /etc/php/7.4/cli/php.ini
+
+# configure cron . clean out existing
+RUN rm -rf /var/spool/cron && ln -s /run/cron /var/spool/cron \
+    && rm -f /etc/cron.d/* /etc/cron.daily/* /etc/cron.hourly/* /etc/cron.monthly/* /etc/cron.weekly/* \
+    && truncate -s0 /etc/crontab
+
+# configure supervisor
+ADD supervisor/ /etc/supervisor/conf.d/
+RUN sed -e 's,^logfile=.*$,logfile=/run/supervisord.log,' -i /etc/supervisor/supervisord.conf
+
+COPY start.sh env.template crontab.template /app/pkg/
+
+CMD [ "/app/pkg/start.sh" ]
