@@ -23,9 +23,6 @@ if [[ ! -f "/app/data/env" ]]; then
         -e "s|.*\(PRECONFIGURED_INSTALL\).*|\1=true|g" \
         -e "s|.*\(APP_DEBUG\).*|\1=true|g" \
         /app/pkg/env.template > /app/data/env # sed -i seems to destroy symlink
-
-    # generate the APP_KEY. This is run as root because of permissions
-    $ARTISAN key:generate --force --no-interaction
 fi
 
 # Settings to be updated on every run.
@@ -50,12 +47,14 @@ sed -e "s|.*\(APP_URL\).*|\1=${CLOUDRON_APP_ORIGIN}|g" \
 if [[ ! -f "/app/data/.dbsetup" ]]; then
     echo "==> Copying files on first run"
     cp -r /app/code/storage-vanilla /app/data/storage
-    mkdir -p /app/data/public
+    mkdir -p /app/data/public /app/code/storage/logs
 
-    chown -R www-data:www-data /app/data
+    echo "==> Generate APP_KEY"
+    $ARTISAN key:generate --force --no-interaction
 
     # cp -r /app/code/public-logo-vanilla /app/data/public/logo
 
+    # chown -R www-data:www-data /app/data
     # $COMPOSER dump-autoload --optimize --no-interaction
     $ARTISAN optimize --no-interaction --verbose
     $ARTISAN migrate --force --no-interaction --verbose
