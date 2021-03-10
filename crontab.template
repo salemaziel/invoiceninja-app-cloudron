@@ -8,6 +8,4 @@
 # |  |  |  |  |
 # *  *  *  *  *  command to be executed
 
-0 */6 * * * sudo -E -u www-data php /app/code/artisan ninja:send-invoices  > /proc/$(cat /var/run/crond.pid)/fd/1 2>&1
-0 8 * * *   sudo -E -u www-data php /app/code/artisan ninja:send-reminders > /proc/$(cat /var/run/crond.pid)/fd/1 2>&1
-
+* * * * * sudo -E -u www-data php /app/code/artisan schedule:run >> /dev/null 2>&1
