@@ -21,7 +21,6 @@ if [[ ! -f "/app/data/env" ]]; then
     sed -e "s|.*\(API_SECRET\).*|\1=$(pwgen -1cns 32)|g" \
         -e "s|.*\(MAIL_FROM_NAME\).*|\1=InvoiceNinja|g" \
         -e "s|.*\(PRECONFIGURED_INSTALL\).*|\1=true|g" \
-        -e "s|.*\(APP_DEBUG\).*|\1=true|g" \
         /app/pkg/env.template > /app/data/env # sed -i seems to destroy symlink
 fi
 
