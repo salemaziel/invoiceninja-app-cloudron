@@ -60,7 +60,7 @@ if [[ ! -f "/app/data/.dbsetup" ]]; then
     $ARTISAN migrate --force --no-interaction --verbose
     $ARTISAN db:seed --force --no-interaction --verbose
 
-    # $ARTISAN ninja:create-single-account --no-interaction --verbose
+    $ARTISAN ninja:create-account --email admin@cloudron.local --password changeme --no-interaction --verbose
 
     touch "/app/data/.dbsetup"
 else
