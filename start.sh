@@ -51,10 +51,7 @@ if [[ ! -f "/app/data/.dbsetup" ]]; then
     echo "==> Generate APP_KEY"
     $ARTISAN key:generate --force --no-interaction
 
-    # cp -r /app/code/public-logo-vanilla /app/data/public/logo
-
     # chown -R www-data:www-data /app/data
-    # $COMPOSER dump-autoload --optimize --no-interaction
     $ARTISAN optimize --no-interaction --verbose
     $ARTISAN migrate --force --no-interaction --verbose
     $ARTISAN db:seed --force --no-interaction --verbose
