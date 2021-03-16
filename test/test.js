@@ -8,14 +8,15 @@
 
 'use strict';
 
-require('chromedriver');
+// We cannot currently test the UI so we will test the API only
+
+// https://app.swaggerhub.com/apis/invoiceninja/invoiceninja/5.1.17
 
 var execSync = require('child_process').execSync,
     expect = require('expect.js'),
     path = require('path'),
-    fs = require('fs'),
-    { Builder, By, Key, until } = require('selenium-webdriver'),
-    { Options } = require('selenium-webdriver/chrome');
+    superagent = require('superagent'),
+    fs = require('fs');
 
 describe('Application life cycle test', function () {
     this.timeout(0);
@@ -29,31 +30,12 @@ describe('Application life cycle test', function () {
     const email = 'admin@cloudron.local';
     const password = 'changeme';
 
-    var browser, app;
+    const VENDOR_NAME = 'Cloudron Vendor';
 
-    before(function () {
-        browser = new Builder().forBrowser('chrome').setChromeOptions(new Options().windowSize({ width: 1280, height: 1024 })).build();
-    });
-
-    after(function () {
-        browser.quit();
-    });
+    var app, token, vendorId;
 
     function sleep(millis) {
         return new Promise(resolve => setTimeout(resolve, millis));
-    }
-
-    async function waitForElement(elem) {
-        await browser.wait(until.elementLocated(elem), TEST_TIMEOUT);
-        await browser.wait(until.elementIsVisible(browser.findElement(elem)), TEST_TIMEOUT);
-    }
-
-    function assertElementText (elem, supposedText) {
-        return browser.findElement(elem).getText()
-          .then(text => {
-            if (text === supposedText) return true;
-            else throw new Error(`Assertion error. Expected text '${supposedText}'. Got '${text}.'`);
-          });
     }
 
     function getAppInfo () {
@@ -62,68 +44,54 @@ describe('Application life cycle test', function () {
         expect(app).to.be.an('object');
     }
 
-    function clearUpdateMessage () {
-        return browser.get('https://' + app.fqdn);
+    function login (callback) {
+        superagent.post('https://' + app.fqdn + '/api/v1/login?first_load=true').send({ email: email, password: password }).end(function (error, result){
+            expect(error).to.be(null);
+            expect(result.status).to.eql(200);
+
+            token = result.body.data[0].token.token;
+
+            callback();
+        });
     }
 
-    async function login () {
-        await browser.manage().deleteAllCookies();
+    function createVendor(callback) {
+        superagent.post('https://' + app.fqdn + '/api/v1/vendors').send({ name: VENDOR_NAME }).set('X-API-Token', token ).end(function (error, result) {
+            expect(error).to.be(null);
+            expect(result.status).to.eql(200);
 
-        await browser.get('https://' + app.fqdn);
-        await sleep(3000);
-        await browser.findElement(By.xpath('//body')).click();
-        await sleep(3000);
-        await waitForElement(By.xpath('//span[text()="Recover Password"]'));
+            vendorId = result.body.data.id;
 
-        // TODO elements are not interactable
-        // await waitForElement(By.id('email'));
-        // await browser.findElement(By.id('email')).sendKeys(email);
-        // await browser.findElement(By.id('current-password')).sendKeys(password);
-        // await browser.sleep(3000);
-        // await browser.findElement(By.xpath('//form')).submit();
-        // await waitForElement(By.xpath('//span[text()="Dashboard"]'));
+            callback();
+        });
     }
 
-    async function canGetPage () {
-        await browser.get('https://' + app.fqdn);
-        // await waitForElement(By.xpath('//span[text()="New Company"]'));
+    function getVendor(callback) {
+        superagent.get('https://' + app.fqdn + '/api/v1/vendors/' + vendorId).set('X-API-Token', token ).end(function (error, result) {
+            expect(error).to.be(null);
+            expect(result.status).to.eql(200);
+            expect(result.body.data.name).to.equal(VENDOR_NAME);
 
-        await sleep(3000);
-        await browser.findElement(By.xpath('//body')).click();
-        await sleep(3000);
-        await waitForElement(By.xpath('//span[text()="Recover Password"]'));
-    }
-
-    async function logout () {
-        await browser.get('https://' + app.fqdn);
-
-        await waitForElement(By.xpath('//span[text()="New Company"]'));
-        await browser.findElement(By.xpath('//span[text()="New Company"]')).click();
-        await waitForElement(By.xpath('//span[text()="Log Out"]'));
-        await browser.findElement(By.xpath('//span[text()="Log Out"]')).click();
-
-        // TODO we see a popup where the ok button is rendered in a canvas with no way to get the DOM node
+            callback();
+        });
     }
 
     xit('build app', function () { execSync('cloudron build', EXEC_ARGS); });
-    // it('install app', function () { execSync('cloudron install --location ' + LOCATION, EXEC_ARGS); });
+    it('install app', function () { execSync('cloudron install --location ' + LOCATION, EXEC_ARGS); });
 
     it('can get app information', getAppInfo);
 
     it('can login', login);
-    it('can get page', canGetPage);
-    // it('can logout', logout);
+    it('can create a project', createVendor);
+    it('project exists', getVendor);
 
     it('can restart app', function () { execSync('cloudron restart --app ' + app.id, EXEC_ARGS); });
 
-    // it('can login', login);
-    it('can get page', canGetPage);
-    // it('can logout', logout);
+    it('project exists', getVendor);
 
     it('backup app', function () { execSync('cloudron backup create --app ' + app.id, EXEC_ARGS); });
 
-    it('restore app', async function () {
-        await browser.get('about:blank');
+    it('restore app', function () {
         const backups = JSON.parse(execSync('cloudron backup list --raw --app ' + app.id));
         execSync('cloudron uninstall --app ' + app.id, EXEC_ARGS);
         execSync('cloudron install --location ' + LOCATION, EXEC_ARGS);
@@ -131,24 +99,14 @@ describe('Application life cycle test', function () {
         execSync(`cloudron restore --backup ${backups[0].id} --app ${app.id}`, EXEC_ARGS);
     });
 
-    // it('can login', login);
-    it('can get page', canGetPage);
-    // it('can logout', logout);
+    it('project exists', getVendor);
 
-    it('move to different location', async function () {
-        await browser.get('about:blank');
-        execSync('cloudron configure --location ' + LOCATION + '2 --app ' + app.id, EXEC_ARGS);
-    });
+    it('move to different location', function () { execSync('cloudron configure --location ' + LOCATION + '2 --app ' + app.id, EXEC_ARGS); });
     it('can get new app information', getAppInfo);
 
-    // it('can login', login);
-    it('can get page', canGetPage);
-    // it('can logout', logout);
+    it('project exists', getVendor);
 
-    it('uninstall app', async function () {
-        await browser.get('about:blank');
-        execSync('cloudron uninstall --app ' + app.id, EXEC_ARGS);
-    });
+    it('uninstall app', function () { execSync('cloudron uninstall --app ' + app.id, EXEC_ARGS); });
 
     // // update test
     // it('can install app', function () { execSync('cloudron install --appstore-id com.invoiceninja.cloudronapp --location ' + LOCATION, EXEC_ARGS); });
