@@ -7,7 +7,7 @@ readonly COMPOSER="sudo -u www-data composer --working-dir=/app/code"
 echo "==> Startup"
 
 # ensure directories
-mkdir -p /run/invoiceninja/sessions /run/invoiceninja/bootstrap-cache /run/invoiceninja/cache /run/invoiceninja/logs /run/cron
+mkdir -p /app/data/public-storage /run/invoiceninja/sessions /run/invoiceninja/bootstrap-cache /run/invoiceninja/cache /run/invoiceninja/logs /run/cron
 
 echo "==> Create php.ini"
 cp /app/pkg/php.ini /run/php.ini

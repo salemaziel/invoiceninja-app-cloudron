@@ -25,6 +25,7 @@ RUN wget https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSI
 RUN sudo -u www-data php /app/code/artisan optimize --force --no-interaction --verbose \
     && rm -rf /app/code/bootstrap/cache && ln -s /run/invoiceninja/bootstrap-cache /app/code/bootstrap/cache \
     && mv /app/code/storage /app/code/storage-vanilla && ln -s /app/data/storage /app/code/storage \
+    && rm -f /app/code/public/storage && ln -s /app/data/public-storage /app/code/public/storage \
     && rm -f /app/code/.env && ln -s /app/data/env /app/code/.env \
     && rm -rf /app/code/docs
 
