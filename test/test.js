@@ -108,28 +108,18 @@ describe('Application life cycle test', function () {
 
     it('uninstall app', function () { execSync('cloudron uninstall --app ' + app.id, EXEC_ARGS); });
 
-    // // update test
-    // it('can install app', function () { execSync('cloudron install --appstore-id com.invoiceninja.cloudronapp --location ' + LOCATION, EXEC_ARGS); });
+    // update test
+    it('can install app', function () { execSync('cloudron install --appstore-id com.invoiceninja.cloudronapp2 --location ' + LOCATION, EXEC_ARGS); });
+    it('can get app information', getAppInfo);
 
-    // it('can get app information', getAppInfo);
-    // it('can register', register);
-    // it('can login', login);
-    // xit('can accept ToS', acceptTos); // sometimes it asks for it, sometimes doesn't
-    // it('can accept cookies', acceptCookies);
-    // it('can create invoice', createInvoice);
-    // it('invoice exists', checkInvoiceExists);
-    // it('can logout', logout);
+    it('can login', login);
+    it('can create a project', createVendor);
+    it('project exists', getVendor);
 
-    // it('can update', function () { execSync('cloudron update --app ' + app.id, EXEC_ARGS); });
+    it('can update', function () { execSync('cloudron update --app ' + app.id, EXEC_ARGS); });
 
-    // it('clear update message', clearUpdateMessage);
-    // it('can login', login);
-    // it('can accept cookies', acceptCookies);
-    // it('invoice exists', checkInvoiceExists);
-    // it('can logout', logout);
+    it('can login', login);
+    it('project exists', getVendor);
 
-    // it('uninstall app', async function () {
-    //     await browser.get('about:blank');
-    //     execSync('cloudron uninstall --app ' + app.id, EXEC_ARGS);
-    // });
+    it('uninstall app', function () { execSync('cloudron uninstall --app ' + app.id, EXEC_ARGS); });
 });
