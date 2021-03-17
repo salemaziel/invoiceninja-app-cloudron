@@ -8,3 +8,6 @@
 * Add REST API tests
 * Fix logo and company documents upload
 
+[0.4.0]
+* Update InvoiceNinja to 5.1.26
+

@@ -12,7 +12,7 @@ RUN ln -s /usr/include/x86_64-linux-gnu/gmp.h /usr/local/include/ \
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
 
-ARG VERSION=5.1.25
+ARG VERSION=5.1.26
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
