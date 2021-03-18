@@ -46,7 +46,9 @@ RUN a2dismod perl && \
     a2enmod headers && \
     a2enmod cache
 
-RUN crudini --set /etc/php/7.4/apache2/php.ini PHP upload_max_filesize 500M && \
+# artisan queue:work needs pcntl_async_signals(), pcntl_signal(), pcntl_alarm()
+RUN crudini --set /etc/php/7.4/apache2/php.ini PHP disable_functions pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_unshare, && \
+    crudini --set /etc/php/7.4/apache2/php.ini PHP upload_max_filesize 500M && \
     crudini --set /etc/php/7.4/apache2/php.ini PHP post_max_size 500M && \
     crudini --set /etc/php/7.4/apache2/php.ini PHP max_input_vars 1800 && \
     crudini --set /etc/php/7.4/apache2/php.ini Session session.save_path /run/invoiceninja/sessions && \
