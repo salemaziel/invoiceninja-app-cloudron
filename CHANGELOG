@@ -17,3 +17,6 @@
 [0.5.1]
 * Fixup artisan cronjobs
 
+[0.5.2]
+* Update InvoiceNinja to 5.1.30
+
