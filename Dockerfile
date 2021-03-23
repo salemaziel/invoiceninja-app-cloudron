@@ -1,13 +1,9 @@
 FROM cloudron/base:3.0.0@sha256:455c70428723e3a823198c57472785437eb6eab082e79b3ff04ea584faf46e92
 
-ARG PHANTOMJS=phantomjs-2.1.1-linux-x86_64
-
-RUN ln -s /usr/include/x86_64-linux-gnu/gmp.h /usr/local/include/ \
-    && curl -o ${PHANTOMJS}.tar.bz2 -SL https://bitbucket.org/ariya/phantomjs/downloads/${PHANTOMJS}.tar.bz2 \
-    && tar xvjf ${PHANTOMJS}.tar.bz2 \
-    && rm ${PHANTOMJS}.tar.bz2 \
-    && mv ${PHANTOMJS} /usr/local/share \
-    && ln -sf /usr/local/share/${PHANTOMJS}/bin/phantomjs /usr/local/bin
+# dependencies for chromium headless used by https://github.com/beganovich/snappdf
+RUN apt-get update && \
+    apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
+    rm -r /var/cache/apt /var/lib/apt/lists
 
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
