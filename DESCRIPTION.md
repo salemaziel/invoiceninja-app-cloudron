@@ -1,4 +1,4 @@
-This app packages Invoice Ninja <upstream>5.1.30</upstream>.
+This app packages Invoice Ninja <upstream>5.1.31</upstream>.
 
 ## About
 
