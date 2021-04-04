@@ -6,7 +6,7 @@
   "changelog": "file://CHANGELOG",
   "postInstallMessage": "file://POSTINSTALL.md",
   "tagline": "Invoice from anywhere get paid from everywhere",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "healthCheckPath": "/",
   "httpPort": 8000,
   "addons": {
@@ -22,8 +22,11 @@
     "invoice", "expense", "quote", "finance"
   ],
   "mediaLinks": [
-    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp/img0.png",
-    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp/img1.jpg"
+    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/Client-Data-View.png",
+    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/Payment-Summary-View.png",
+    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/Task-Summary-View.png",
+    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/top-laptop-and-mobile-image.png",
+    "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/v5-Dashboard-Screenshot.jpeg"
   ],
   "minBoxVersion": "5.3.0",
   "forumUrl": "https://forum.cloudron.io/category/11/invoice-ninja",
