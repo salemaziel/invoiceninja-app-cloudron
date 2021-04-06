@@ -21,6 +21,7 @@
   "tags": [
     "invoice", "expense", "quote", "finance"
   ],
+  "memoryLimit": 536870912,
   "mediaLinks": [
     "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/Client-Data-View.png",
     "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/Payment-Summary-View.png",

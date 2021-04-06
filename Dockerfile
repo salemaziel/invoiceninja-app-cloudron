@@ -55,15 +55,10 @@ RUN cp /etc/php/7.4/apache2/php.ini /app/pkg/php.ini && \
     rm -rf /etc/php/7.4/apache2/php.ini && rm -rf /etc/php/7.4/cli/php.ini && \
     ln -s /run/php.ini /etc/php/7.4/apache2/php.ini &&  ln -s /run/php.ini /etc/php/7.4/cli/php.ini
 
-# configure cron . clean out existing
-RUN rm -rf /var/spool/cron && ln -s /run/cron /var/spool/cron \
-    && rm -f /etc/cron.d/* /etc/cron.daily/* /etc/cron.hourly/* /etc/cron.monthly/* /etc/cron.weekly/* \
-    && truncate -s0 /etc/crontab
-
 # configure supervisor
 ADD supervisor/ /etc/supervisor/conf.d/
 RUN sed -e 's,^logfile=.*$,logfile=/run/supervisord.log,' -i /etc/supervisor/supervisord.conf
 
-COPY start.sh env.template crontab.template /app/pkg/
+COPY start.sh env.template /app/pkg/
 
 CMD [ "/app/pkg/start.sh" ]

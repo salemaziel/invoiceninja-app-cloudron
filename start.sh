@@ -7,7 +7,7 @@ readonly COMPOSER="sudo -u www-data composer --working-dir=/app/code"
 echo "==> Startup"
 
 # ensure directories
-mkdir -p /app/data/public-storage /run/invoiceninja/sessions /run/invoiceninja/bootstrap-cache /run/invoiceninja/cache /run/invoiceninja/logs /run/cron
+mkdir -p /app/data/public-storage /run/invoiceninja/sessions /run/invoiceninja/bootstrap-cache /run/invoiceninja/cache /run/invoiceninja/logs
 
 echo "==> Create php.ini"
 cp /app/pkg/php.ini /run/php.ini
@@ -82,16 +82,6 @@ rm -rf /app/data/storage/logs && ln -s /run/invoiceninja/logs /app/data/storage/
 # clear cached stuff under /app/data/storage/framework (https://github.com/laravel/framework/issues/17377)
 $ARTISAN view:clear
 $ARTISAN cache:clear
-
-[[ ! -f /app/data/crontab ]] && cp /app/pkg/crontab.template /app/data/crontab
-
-# configure in-container Crontab - http://www.gsp.com/cgi-bin/man.cgi?section=5&topic=crontab
-# we run as root user so that the cron tasks can redirect properly to the cron's stdout/stderr
-if ! (env; cat /app/data/crontab; echo -e '\nMAILTO=""') | crontab -u root -; then
-    echo "==> Error importing crontab. Continuing anyway"
-else
-    echo "==> Imported crontab"
-fi
 
 # ensure permissions are set correctly
 chown -R www-data:www-data /app/data /run/invoiceninja
