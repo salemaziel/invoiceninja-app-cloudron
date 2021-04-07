@@ -38,3 +38,7 @@
 * Use laravel queues instead of crontab to improve performance
 * Fix email sending
 * Set minimum memory limit to 512MB
+
+[0.6.0]
+* Update InvoiceNinja to 5.1.40
+
