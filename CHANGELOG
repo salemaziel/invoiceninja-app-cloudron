@@ -85,3 +85,6 @@
 [1.0.4]
 * Update Invoice Ninja to 5.1.61
 
+[1.0.5]
+* Run the artisan scheduler via supervisor
+
