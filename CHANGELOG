@@ -88,3 +88,7 @@
 [1.0.5]
 * Run the artisan scheduler via supervisor
 
+[1.0.6]
+* Update Invoice Ninja to 5.1.62
+* Set lower memory limit to 1G
+
