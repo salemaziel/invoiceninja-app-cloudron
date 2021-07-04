@@ -8,11 +8,11 @@ RUN apt-get update && \
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
 
-ARG VERSION=5.2.5
+ARG VERSION=5.2.10
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
-RUN wget https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}-release/invoiceninja.zip -O ninja.zip \
+RUN wget https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.zip -O ninja.zip \
     && unzip ninja.zip \
     && rm -f /tmp/ninja.zip \
     && chown -R www-data:www-data /app/code

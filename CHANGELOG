@@ -121,3 +121,6 @@
 * Fixes for Stripe Customer Imports
 * Fixes for Reminders
 
+[1.1.2]
+* Update Invoice Ninja to 5.2.10
+
