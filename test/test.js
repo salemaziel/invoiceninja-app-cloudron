@@ -79,6 +79,7 @@ describe('Application life cycle test', function () {
 
     function createVendor(callback) {
         superagent.post('https://' + app.fqdn + '/api/v1/vendors').send({ name: VENDOR_NAME }).set('X-API-Token', token ).end(function (error, result) {
+            if (error && error.status === 500) return kickApp(createVendor.bind(null, callback));
             expect(error).to.be(null);
             expect(result.status).to.eql(200);
 
@@ -90,6 +91,7 @@ describe('Application life cycle test', function () {
 
     function getVendor(callback) {
         superagent.get('https://' + app.fqdn + '/api/v1/vendors/' + vendorId).set('X-API-Token', token ).end(function (error, result) {
+            if (error && error.status === 500) return kickApp(getVendor.bind(null, callback));
             expect(error).to.be(null);
             expect(result.status).to.eql(200);
             expect(result.body.data.name).to.equal(VENDOR_NAME);
@@ -100,6 +102,7 @@ describe('Application life cycle test', function () {
 
     function createClient(callback) {
         superagent.post('https://' + app.fqdn + '/api/v1/clients').send({ name: CLIENT_NAME }).set('X-API-Token', token ).end(function (error, result) {
+            if (error && error.status === 500) return kickApp(createClient.bind(null, callback));
             expect(error).to.be(null);
             expect(result.status).to.eql(200);
 
@@ -111,6 +114,7 @@ describe('Application life cycle test', function () {
 
     function getClient(callback) {
         superagent.get('https://' + app.fqdn + '/api/v1/clients/' + clientId).set('X-API-Token', token ).end(function (error, result) {
+            if (error && error.status === 500) return kickApp(getClient.bind(null, callback));
             expect(error).to.be(null);
             expect(result.status).to.eql(200);
             expect(result.body.data.name).to.equal(CLIENT_NAME);
@@ -142,6 +146,7 @@ describe('Application life cycle test', function () {
 
     function getInvoice(callback) {
         superagent.get('https://' + app.fqdn + '/api/v1/invoices/' + invoiceId).set('X-API-Token', token ).end(function (error, result) {
+            if (error && error.status === 500) return kickApp(getInvoice.bind(null, callback));
             expect(error).to.be(null);
             expect(result.status).to.eql(200);
             expect(result.body.data.client_id).to.equal(clientId);
