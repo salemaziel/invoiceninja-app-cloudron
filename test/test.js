@@ -42,7 +42,9 @@ describe('Application life cycle test', function () {
     var app, token, clientId, vendorId, invoiceId, browser;
 
     before(function () {
-        browser = new Builder().forBrowser('chrome').setChromeOptions(new Options().windowSize({ width: 1280, height: 1024 })).build();
+        const options = new Options().windowSize({ width: 1280, height: 1024 });
+        if (process.env.HEADLESS) options.addArguments('headless');
+        browser = new Builder().forBrowser('chrome').setChromeOptions(options).build();
     });
 
     after(function () {
