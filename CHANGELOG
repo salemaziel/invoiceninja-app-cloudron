@@ -156,3 +156,6 @@
 * eWay and Paytrace payment drivers.
 * optional flutter renderer
 
+[1.2.1]
+* Update Invoice Ninja to 5.3.1
+
