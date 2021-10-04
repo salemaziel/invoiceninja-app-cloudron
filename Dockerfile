@@ -8,7 +8,7 @@ RUN apt-get update && \
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
 
-ARG VERSION=5.3.17
+ARG VERSION=5.3.18
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
@@ -21,7 +21,7 @@ RUN wget https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSI
 RUN sudo -u www-data php /app/code/artisan optimize --force --no-interaction --verbose \
     && rm -rf /app/code/bootstrap/cache && ln -s /run/invoiceninja/bootstrap-cache /app/code/bootstrap/cache \
     && mv /app/code/storage /app/code/storage-vanilla && ln -s /app/data/storage /app/code/storage \
-    && rm -f /app/code/public/storage && ln -s /app/data/public-storage /app/code/public/storage \
+    && rm -rf /app/code/public/storage && ln -s /app/data/public-storage /app/code/public/storage \
     && rm -f /app/code/.env && ln -s /app/data/env /app/code/.env \
     && rm -rf /app/code/docs
 
