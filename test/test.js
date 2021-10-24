@@ -35,7 +35,7 @@ describe('Application life cycle test', function () {
     const VENDOR_NAME = 'Cloudron Vendor';
     const CLIENT_NAME = 'Cloudron Client';
 
-    var app, token, clientId, vendorId, invoiceId, browser;
+    let app, token, clientId, vendorId, invoiceId, browser;
 
     before(function () {
         const options = new Options().windowSize({ width: 1280, height: 1024 });
@@ -58,17 +58,19 @@ describe('Application life cycle test', function () {
     }
 
     // the setTimout retry on 500 is since for some reason the app is shaky during startup
-    async function retry(func) {
-        for (let i = 0; i < 10; i++) {
-            try {
-                return await func();
-            } catch (error) {
-                if (error.message !== 'kickme') throw error;
+    function retry(func) {
+        return async function () {
+            for (let i = 0; i < 10; i++) {
+                try {
+                    return await func();
+                } catch (error) {
+                    if (error.message !== 'kickme') throw error;
 
-                console.log('kicking app. attempt', i);
-                await browser.get('https://' + app.fqdn);
-                await sleep(2000);
-                continue; // try again
+                    console.log('kicking app. attempt', i);
+                    await browser.get('https://' + app.fqdn);
+                    await sleep(2000);
+                    continue; // try again
+                }
             }
         }
     }
