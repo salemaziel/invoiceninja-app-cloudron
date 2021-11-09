@@ -238,3 +238,17 @@
 * Fixes for agreement formatting
 * Improve spacing on payment form
 * Minor fixes for client numbers
+
+[1.3.2]
+* Update Invoice Ninja to 5.3.30
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.30)
+* Fixes for Stripe Webhook @LarsK1
+* Fix for double Update Entity Webhook call
+* Update designs
+* Update automatic font resolving
+* Login page fixes
+* Hide client name on small devices
+* Save quietly for payment model
+* Remove logo-dark variant from admin templates
+* Add client to payments webhook
+
