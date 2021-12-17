@@ -1,4 +1,4 @@
-FROM cloudron/base:3.0.0@sha256:455c70428723e3a823198c57472785437eb6eab082e79b3ff04ea584faf46e92
+FROM cloudron/base:3.2.0@sha256:ba1d566164a67c266782545ea9809dc611c4152e27686fd14060332dd88263ea
 
 # dependencies for chromium headless used by https://github.com/beganovich/snappdf
 RUN apt-get update && \
@@ -8,7 +8,7 @@ RUN apt-get update && \
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
 
-ARG VERSION=5.3.35
+ARG VERSION=5.3.38
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
