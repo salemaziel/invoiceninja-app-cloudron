@@ -280,3 +280,17 @@
 * Update Invoice Ninja to 5.3.39
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.39)
 
+[1.3.10]
+* Update Invoice Ninja to 5.3.40
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.40)
+* Fixes for edge cases around duplicate contacts in portal
+* Fixes for company import
+* Add Serbian language
+* Add Payment Terms filters
+* Ensure zero balance invoices are marked as Paid
+* Fixes for Check 3DS
+* Stripe Zero Decimal CUrrencies
+* Tests for zero decimals
+* Fixes for UBL creation
+* Fixes for import
+
