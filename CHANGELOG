@@ -294,3 +294,30 @@
 * Fixes for UBL creation
 * Fixes for import
 
+[1.3.11]
+* Update Invoice Ninja to 5.3.41
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.41)
+* Apply border to checkbox/select elements
+* Apply style changes
+* Minor fixes for invoice service
+* fixes for token gateways
+* Remove viewed property from invoice import transformers
+* Try / Catch on delete PDF
+* Change label for credits
+* Fixes for handling payment drivers that do not exist in v5
+* Reorder action on invoices after payment
+* Fixes for Company Import
+* Slovak language
+* Fixes for composer.lock PHP 7.4 support
+* Additional domain restrictions
+* Further translations for AP
+* Show cancellation dialogue
+* Tax Rate Filters
+* Task Status Filters
+* Company gateway Filters
+* Update lang files
+* Add option in client statements for filtering by invoice status
+* Force public access to PDFs
+* Align Reminder cron to Reminder console job
+* Fixes for Stripe ACH
+* Fixes for Partially deleted payments
