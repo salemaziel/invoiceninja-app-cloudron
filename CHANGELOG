@@ -321,3 +321,33 @@
 * Align Reminder cron to Reminder console job
 * Fixes for Stripe ACH
 * Fixes for Partially deleted payments
+
+[1.3.12]
+* Update Invoice Ninja to 5.3.43
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.43)
+* Minor adjustments for mollie payment driver
+* Ensure PDFs are created when sending recurring invoices
+* Fixes for endless reminders
+* Minor fixes for postmark message query
+* Handle negative payments - update client.paid_to_date
+* Slack notifications for bounce/spam emails
+* Minor Fixes
+* Set locale for migrated companies
+* Obfuscate tokens
+* Update lang for bank transfer
+* Tests for apple pay
+* Try/catch for apple pay domain
+* Stripe Apple Pay
+* Enfore payment_terms to '0' if none is set
+* Do not allow an invoice to be created for a deleted client
+* Fixes for FlySystem exceptions for corrupt paths
+* Add Apple Domain Verification to Stripe Gateways
+* Minor fixes for Additional Stripe Field
+* Fixes for clean design
+* Fixes for mollie payment driver
+* Fixes for send_email triggered action not generating PDFs in time.
+* Force ZAR for PayFast
+* Hide expired quotes from client portal
+* Fixes for client portal quote tables
+* Touch pdf when marked sent
+* Handle 100% gateway fees
