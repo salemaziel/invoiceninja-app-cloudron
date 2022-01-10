@@ -351,3 +351,8 @@
 * Fixes for client portal quote tables
 * Touch pdf when marked sent
 * Handle 100% gateway fees
+
+[1.3.13]
+* Update Invoice Ninja to 5.3.44
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.44)
+
