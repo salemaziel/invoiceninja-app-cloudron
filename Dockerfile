@@ -59,6 +59,10 @@ RUN cp /etc/php/7.4/apache2/php.ini /app/pkg/php.ini && \
 ADD supervisor/ /etc/supervisor/conf.d/
 RUN sed -e 's,^logfile=.*$,logfile=/run/supervisord.log,' -i /etc/supervisor/supervisord.conf
 
+# temporary fix for pdf generation via snappdf - https://github.com/invoiceninja/invoiceninja/issues/7151#issuecomment-1019587793
+RUN cd /app/code/vendor/beganovich/snappdf/versions && wget https://invoiceninja.org/chrome.zip -O chrome.zip && unzip -o chrome.zip && rm chrome.zip
+ENV SNAPPDF_CHROMIUM_PATH "/app/code/vendor/beganovich/snappdf/versions/959838-Linux_x64/chrome-linux/chrome"
+
 COPY start.sh env.template /app/pkg/
 
 CMD [ "/app/pkg/start.sh" ]
