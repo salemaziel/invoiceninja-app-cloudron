@@ -411,3 +411,20 @@
 * Process reserved keywords in Recurring Expenses
 * Add currency conversion column
 
+[1.3.22]
+* Update Invoice Ninja to 5.3.57
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.57)
+* Add vendor relation to invoice
+* Timezone calcs
+* Fixes for save payment methods dialogue
+* Fixes for quantity regression
+* Do not set exchange rate if already set
+* Allow draft quotes to be approved if accessed directly
+* Fixes for currency set for paymentsa
+* Set password for first invoice access in Client Portal
+* Stub methods for harvesting payment profiles from Auth.net
+* Minor fixes for get Payment methods Auth.net
+* Add meta data to Checkout payments
+* Add variable for payments in invoices
+* Add shareable links to client portal
+
