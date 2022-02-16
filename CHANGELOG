@@ -437,3 +437,5 @@
 * Forward user to quote on conversion
 * Fixes for client registration
 
+[1.3.24]
+* Allow aliases for client portal domain
