@@ -439,3 +439,32 @@
 
 [1.3.24]
 * Allow aliases for client portal domain
+
+[1.3.25]
+* Update Invoice Ninja to 5.3.59
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.59)
+* Fixes for trailing zeros in quantity column
+* Show last invoice in previews
+* Set defaults for client filter
+* Remove customer profile and payment profile if we are not storing token
+* Fixes for domain set on password query:
+* Auth.net customer profile
+* Extending Auth.net implementation
+* Add client public notes to available variables
+* Fixes for bad sort query filter
+* Working on importing Auth.net customers
+* Import clients and payment methods via auth.net
+* Fixes for auth.net
+* Run time form requests
+* Fixes for incorrectly implemented guards
+* Fixes for show/hide invitation key
+* Clean up for due date days recurring invoices
+* Admin Portal - Hosted
+* Add back in multiple contact selector
+* Add Google Analytics to client portal pages if tracking ID is impleme…
+* Zoho Imports
+* Freshbooks import
+* Fresh Books Import Tests
+* Invoice2Go tests
+* Invoicely import tests
+* Refactor for imports
