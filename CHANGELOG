@@ -484,3 +484,27 @@
 * Improve Stripe customer importation
 * Update composer dependencies to Laravel 8.81
 
+[1.3.27]
+* Update Invoice Ninja to 5.3.62
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.62)
+* Forward to correct location if modules are disabled
+* Translations for dropzone
+* Fixes for markdown displaying in client portal
+* Add fix for vendor contacts in check data script
+* Fixes for SEPA token billing
+* Fixes for js formatting
+* Allow duplicate Taxes to be created
+* Minor fixes for calculations
+* Add apple domain verification to stripe config
+* Insert Apple Domain Verification into Stripe Gateway config
+* Updates for payment currency
+* Fixes for payments
+* Fixes for tests
+* Add unsubscribe landing page for emails
+* Add unsubscribe links to emails
+* Disable gmail email sending on self hosted if importing from hosted p…
+* Refactor for backup update console command
+* Fixes for composer
+* Fixes for CSV import - ensure clients/vendors have a contact
+* Improve quantity resolution
+* Fixes for languages

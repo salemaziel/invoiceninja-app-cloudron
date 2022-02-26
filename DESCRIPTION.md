@@ -1,5 +1,3 @@
-This app packages Invoice Ninja <upstream>5.3.61</upstream>.
-
 ## About
 
 Invoice from anywhere, get paid from everywhere.
