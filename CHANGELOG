@@ -508,3 +508,14 @@
 * Fixes for CSV import - ensure clients/vendors have a contact
 * Improve quantity resolution
 * Fixes for languages
+
+[1.3.28]
+* Update Invoice Ninja to 5.3.63
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.63)
+* Fixes for key login
+* Add helper for Invoice payable amount
+* Minor cleanup
+* Fixes for CSV import
+* Improve refunding from subscription upgrades
+* Fixes for viewed entities
+
