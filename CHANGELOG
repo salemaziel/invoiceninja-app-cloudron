@@ -543,3 +543,50 @@
 * Fixes for backup script
 * Minor fixes for backup update
 
+[1.3.31]
+* Update Invoice Ninja to 5.3.67
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.67)
+* Fixes for migration
+* Ensure factories for invoice,quotes,credits have at least todays date…
+* Fixes for ACSS payments
+* Fixes for eWay
+* Checks for company user in check data
+* Fixes for entity viewed listener - recurring invoices
+* Required fields refactor
+* Fixes for required fields
+* Fixes for hosted stripe payments
+* Move auto bill to +6 UTC
+* Slight modification for query of company owner
+* Sort order or payment methods
+* Adjustments for client balance
+* Refactor to use increments
+* Refactor to use increments
+* Transaction events
+* Allow file key for uploads
+* Add projects to recurring invoices
+* Fixes for balances
+* Fixes for required client info
+* Transaction logs
+* Transaction events
+* Fixes for tests
+* Update for trial pay - annual discounted plans
+* Set x-frame-origin
+* Set default send_time for all entities to +6 UTC
+* Set default auto bill time to 12:20
+* Sort companies by code in client registration page
+* Start stop tasks via API
+* Fixes for validation on vendors
+* Approve quote
+* Disable paynow button for ACH payments on submit
+* Fixes for importing ACH bank accoun tokens
+* Fixes for onboarding migratino
+* Update TailWind
+* Fixes for exporting projects attached to invoices
+* Refactor for trial plan workflow
+* Show invoice expense documents
+* Add clients and invoices into default templates
+* Add gross line total to inclusive item sum calcs
+* Fixes for project name
+* Fixes for invoice->expenses()
+* Fixes for failed migration email
+* Fixes for client countries
