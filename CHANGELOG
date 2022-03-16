@@ -590,3 +590,11 @@
 * Fixes for invoice->expenses()
 * Fixes for failed migration email
 * Fixes for client countries
+
+[1.3.32]
+* Update Invoice Ninja to 5.3.68
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.68)
+* Fixes for customer translations for contact register page
+* Disable transaction events in self hosted
+* Fixes for auto bill time scheduling
+* Fixes for permissions on list response
