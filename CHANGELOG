@@ -598,3 +598,11 @@
 * Disable transaction events in self hosted
 * Fixes for auto bill time scheduling
 * Fixes for permissions on list response
+
+[1.3.33]
+* Update InvoiceNinja to 5.3.70
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.70)
+* Fixes for documents
+* Do no auto convert quote if converted by admin user
+* Minor fixes for quote approvals
+
