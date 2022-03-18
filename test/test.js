@@ -251,9 +251,5 @@ describe('Application life cycle test', function () {
     it('invoice exists', retry(getInvoice));
     it('can render preview pdf', retry(getPreviewPdf));
 
-    it('uninstall app', async function () {
-        // ensure we don't hit NXDOMAIN in the mean time
-        await browser.get('about:blank');
-        execSync('cloudron uninstall --app ' + app.id, EXEC_ARGS);
-    });
+    it('uninstall app', function () { execSync('cloudron uninstall --app ' + app.id, EXEC_ARGS); });
 });
