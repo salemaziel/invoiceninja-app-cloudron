@@ -606,3 +606,11 @@
 * Do no auto convert quote if converted by admin user
 * Minor fixes for quote approvals
 
+[1.3.34]
+* Update InvoiceNinja to 5.3.73
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.73)
+* Fixes for database check on setup.
+* Replace config:clear with optimize during setup process
+* Fixes for designs
+* Fixes for white label - pdfs
+
