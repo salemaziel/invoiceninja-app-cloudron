@@ -638,3 +638,22 @@
 * Fixes for frequencyforkey
 * Improve memory handling for self update
 
+[1.3.38]
+* Update Invoice Ninja to 5.3.78
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.78)
+* Fixes for custom messages
+* Remove domain verification for apple pay
+* Improve client paid to date calc
+* Remove authorize method for SEPA
+* Admin Portal - Hosted
+* Fixes for fillable fields for company
+* Company Transformer fixes
+* Fixes for string to array issues with converting variables in public notes
+* Triggered actions for Recurring Expenses
+* Fixes for task edge cases
+* Improve test coverage for triggered actions
+* Add line breaks to messages
+* Improve formatting of support messages
+* Update company defaults
+* Flutter implemented WYSIWYG editor
+* Fixes for regression in Handler.php
