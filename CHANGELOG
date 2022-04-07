@@ -657,3 +657,33 @@
 * Update company defaults
 * Flutter implemented WYSIWYG editor
 * Fixes for regression in Handler.php
+
+[1.3.39]
+* Update Invoice Ninja to 5.3.79
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.79)
+* Protected sub domains
+* Add CHF as the symbol as well as code
+* Fixes for seeds
+* Force integer for client id
+* Fixes for api docs
+* Fixes for translations corrupting client savings
+* Fixes for eWay descriptions
+* Admin Portal - Hosted
+* Fixes for ledger
+* Reduce transaction retries
+* Fixes for coercing types for react UI
+* Reduce queries for Invoice POST
+* Fixes for regression
+* Fixes for contact key login
+* Localize timezone for payment date
+* Entity translations
+* Link converted quote to invoice
+* Coerce types for authorize payment error
+* Handle user not present in completePurchase method of subscriptions
+* Fixes for translation of task statuses
+* Do not send notifications to archived/deleted users
+* Allow draft credits to be used in payments
+* Client Reports
+* Prevent double gateway fee removal
+* Improve invoice number generation when race conditions encountered
+* Update client details in Stripe during a transaction
