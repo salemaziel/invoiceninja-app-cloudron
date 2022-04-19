@@ -687,3 +687,26 @@
 * Prevent double gateway fee removal
 * Improve invoice number generation when race conditions encountered
 * Update client details in Stripe during a transaction
+
+[1.3.40]
+* Update Invoice Ninja to 5.3.80
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.80)
+* Coerce default_task_rate to float
+* Query lazy loading imrpovements
+* Disable lazy load blocker
+* restore query logging middleware
+* coerce string to int
+* Enforce character lengths for authorize fields
+* Add Partial Due Date variable
+* Fixes for company gateway creation
+* Webhooks for Projects
+* Updates for self updater
+* Gateway fees for PayPal
+* Restrict reminders to paid accounts on hosted
+* Fixes for client tests
+* Fixes for types in settings
+* Add back livewire configuration
+* Sort statements by due date ascending
+* Remove unused includes
+* Improve error response from eWay gateway
+* Clean up logging
