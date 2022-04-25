@@ -736,3 +736,8 @@
 * GoCardless Logging
 * Fixes for regression - incorrect type setting in ClientSettings
 
+[1.3.43]
+* Update Invoice Ninja to 5.3.83
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.83)
+* Bug fixes for auth.net - client creation.
+
