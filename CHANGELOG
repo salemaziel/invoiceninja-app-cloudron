@@ -756,3 +756,19 @@
 * Payable filters
 * Disable gateway refund options for GoCardless
 * Delete bootstrap/cache folder contents as part of the update process
+
+[1.3.45]
+* Update Invoice Ninja to 5.3.85
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.85)
+* Export CSVs
+* Update Copyright text
+* Exports
+* Expose export csv routes
+* CSV Exports
+* Quote CSV exports
+* Limit client activities
+* Recurring Invoice Export CSV
+* Payment Export CSV
+* Improve WePay guardian
+* Product CSV Export
+Quote Items Export
