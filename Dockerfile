@@ -8,7 +8,7 @@ RUN apt-get update && \
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
 
-ARG VERSION=5.3.88
+ARG VERSION=5.3.89
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
