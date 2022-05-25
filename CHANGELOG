@@ -825,3 +825,16 @@
 * Fixes for company ledger
 * Additional invoice filters
 
+[1.3.50]
+* Update Invoice Ninja to 5.3.91
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.91)
+* Fixes for required request parameter
+* Fixes for validation rules for exports
+* Fixes for data array for migration email
+* Fixes for reports
+* Handle no report key parameter
+* Add logging for google analytics
+* Drop redundant column
+* Fixes for mollie
+* Hide @example.com email address
+
