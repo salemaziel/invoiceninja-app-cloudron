@@ -12,7 +12,7 @@
     "chromedriver": "^101.0.0",
     "expect.js": "^0.3.1",
     "mocha": "^10.0.0",
-    "selenium-webdriver": "^4.1.2",
+    "selenium-webdriver": "^4.2.0",
     "superagent": "^7.1.3"
   }
 }
