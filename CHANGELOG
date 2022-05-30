@@ -848,3 +848,9 @@
 * Enable page numbering logic
 * Updated dependencies
 * Fixes for self hosted setup
+
+[1.3.52]
+* Update Invoice Ninja to 5.3.93
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.93)
+* Fixes for page numbering.
+
