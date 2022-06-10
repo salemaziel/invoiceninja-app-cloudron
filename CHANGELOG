@@ -880,3 +880,26 @@
 * Fixes for email previews
 * Add schema for inventory management.
 
+[1.3.46]
+* Update Invoice Ninja to 5.3.98
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.98)
+* Purchase orders
+* Send email set on blank contact vendor
+* Handle negative surcharges
+* Adjust memory settings for queue work
+* Scaffold for PDF generation for purchase orders
+* Vendor PDFs
+* Translations for purchase orders
+* Add client include for quotes
+* Fixes for variable naming
+* Purchase Order Actions
+* Update for invoice designs
+* Fixes for invoice sum calculations
+* Fixes for csv imports - exclude deleted data
+* Update product request
+* Update language files for inventory management
+* Add activity events for purchase orders
+* Update front end dependencies
+* Remove logging for google analytics data
+* Purchase Order Events
+* Event / Listeners for Purchase Orders
