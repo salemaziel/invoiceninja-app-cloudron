@@ -880,7 +880,7 @@
 * Fixes for email previews
 * Add schema for inventory management.
 
-[1.3.46]
+[1.3.56]
 * Update Invoice Ninja to 5.3.98
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.98)
 * Purchase orders
