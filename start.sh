@@ -19,7 +19,6 @@ crudini --set /run/php.ini PHP memory_limit ${memory_limit}M
 if [[ ! -f "/app/data/env" ]]; then
     echo "==> Creating initial /app/data/env file"
     sed -e "s|.*\(API_SECRET\).*|\1=$(pwgen -1cns 32)|g" \
-        -e "s|.*\(MAIL_FROM_NAME\).*|\1=InvoiceNinja|g" \
         -e "s|.*\(PRECONFIGURED_INSTALL\).*|\1=true|g" \
         /app/pkg/env.template > /app/data/env # sed -i seems to destroy symlink
 fi
@@ -39,6 +38,7 @@ sed -e "s|.*\(APP_URL\).*|\1=${CLOUDRON_APP_ORIGIN}|g" \
     -e "s|.*\(MAIL_HOST\).*|\1=${CLOUDRON_MAIL_SMTP_SERVER}|g" \
     -e "s|.*\(MAIL_USERNAME\).*|\1=${CLOUDRON_MAIL_SMTP_USERNAME}|g" \
     -e "s|.*\(MAIL_FROM_ADDRESS\).*|\1=${CLOUDRON_MAIL_FROM}|g" \
+    -e "s|.*\(MAIL_FROM_NAME\).*|\1=${CLOUDRON_MAIL_FROM_DISPLAY_NAME:-InvoiceNinja}|g" \
     -e "s|.*\(MAIL_PASSWORD\).*|\1=${CLOUDRON_MAIL_SMTP_PASSWORD}|g" \
     -e "s|.*\(REQUIRE_HTTPS\).*|\1=true|g" \
     -i /app/data/env
