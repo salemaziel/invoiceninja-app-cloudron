@@ -903,3 +903,14 @@
 * Remove logging for google analytics data
 * Purchase Order Events
 * Event / Listeners for Purchase Orders
+
+[1.4.0]
+* Update Invoice Ninja to 5.3.99
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.99)
+* Fix installation on ubuntu 22
+* Email display name support
+* Clean up logging
+* Hide surcharges on PDF if the value is blank
+* Ensure client contact id is being return in activity
+* Store silent in session to prevent entities being viewed by admins
+* Fixes for quote form request
