@@ -11,8 +11,15 @@ mkdir -p /app/data/public-storage /run/invoiceninja/sessions /run/invoiceninja/b
 
 echo "==> Create php.ini"
 cp /app/pkg/php.ini /run/php.ini
-memory_full=$(cat /sys/fs/cgroup/memory/memory.limit_in_bytes) # this is the RAM. we have equal amount of swap
-memory_limit=$((memory_full/1024/1024)) # we will give php 50% of the whole memory, so just the allocated RAM
+if [[ -f /sys/fs/cgroup/cgroup.controllers ]]; then # cgroup v2
+    memory_full=$(cat /sys/fs/cgroup/memory.max)
+    [[ "${memory_full}" == "max" ]] && memory_full=$(( 2 * 1024 * 1024 * 1024 )) # "max" means unlimited
+    memory_limit=$((memory_full/1024/1024)) # we will give php 50% of the whole memory, so just the allocated RAM
+else
+    memory_full=$(cat /sys/fs/cgroup/memory/memory.limit_in_bytes) # this is the RAM. we have equal amount of swap
+    memory_limit=$((memory_full/1024/1024)) # we will give php 50% of the whole memory, so just the allocated RAM
+fi
+
 crudini --set /run/php.ini PHP memory_limit ${memory_limit}M
 
 # Settings which should be updated only once
