@@ -914,3 +914,14 @@
 * Ensure client contact id is being return in activity
 * Store silent in session to prevent entities being viewed by admins
 * Fixes for quote form request
+
+[1.4.1]
+* Update Invoice Ninja to 5.3.100
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.3.100)
+* Add Vendor guard
+* Map vendors api routes
+* Vendor route file
+* Add Microsoft provider for oauth
+* Install Apple driver for socialite
+* Minor fixes for client portal badges
+
