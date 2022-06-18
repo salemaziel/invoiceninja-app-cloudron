@@ -925,3 +925,18 @@
 * Install Apple driver for socialite
 * Minor fixes for client portal badges
 
+[1.5.0]
+* Update Invoice Ninja to 5.4.3
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.0)
+* Minor fixes for correct disk configuration when using S3
+* Stubs for vendor portal
+* Fixes for badge color shading
+* Remove old snappdf installations prior to upgrading
+* Accept a purchase order
+* Accept signatures on purchase orders
+* Update composer dependencies
+* Vendor profile update
+* Checkout v2 refactor
+* Minor fixes for recurring invoices
+* Add switch to force react as front end
+
