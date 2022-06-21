@@ -940,3 +940,12 @@
 * Minor fixes for recurring invoices
 * Add switch to force react as front end
 
+[1.5.1]
+* Update Invoice Ninja to 5.4.4
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.4)
+* Fixes for reminders when no due date is set
+* Add dedicated :MONTHYEAR reserved keyword
+* Ensure we save auto_bill_tries
+* Updates for hosted platform
+* Minor fixes for bcc's
+* Add logging for payment intents
