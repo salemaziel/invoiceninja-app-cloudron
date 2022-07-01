@@ -949,3 +949,36 @@
 * Updates for hosted platform
 * Minor fixes for bcc's
 * Add logging for payment intents
+
+[1.5.2]
+* Update Invoice Ninja to 5.4.6
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.6)
+* Forte gateway added. Thanks @kishanmnpatel
+* Add microsoft oauth to index.html
+* Compiled js file added to public folder.
+* Fixes for purchase order fillable list
+* Fixes for designs
+* Checks for access token property
+* Improve queries for client statements
+* Appropriately refresh sending tokens
+* Admin notifications
+* Spam notifications
+* Change purchase order transformer type
+* Add signup checks to flutter routes
+* Fixes for stripe webhooks
+* Minor fixes for Purchase orders
+* Reduce scopes for microsoft email
+* Password protection route with Microsoft OAuth
+* Always ensure contacts can pay an invoice with an invitation link
+* Bulk actions for purchase orders
+* Minor fixes for connected accounts
+* Minor fixes for create user route
+* Minor fixes for company imports
+* Purchase order decorators
+* Add flagging abilities to accounts table
+* Fixes for paths
+* Swiss QR codes
+* Templates for Purchase Orders
+* Fixes for duplicate quote approved notifications
+* Fixes for type checking for purchase orders
+* Fixes for surcharge visibility
