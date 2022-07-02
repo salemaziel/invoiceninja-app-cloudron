@@ -982,3 +982,12 @@
 * Fixes for duplicate quote approved notifications
 * Fixes for type checking for purchase orders
 * Fixes for surcharge visibility
+
+[1.5.3]
+* Update Invoice Ninja to 5.4.7
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.7)
+* BUGFIX - Show recurring invoice thanks @yois615
+* Fixes for tests when calling classes outside app scope
+* Hide custom values that are empty
+* Hide purchase orders from UI
+
