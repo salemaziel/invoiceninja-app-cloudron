@@ -991,3 +991,14 @@
 * Hide custom values that are empty
 * Hide purchase orders from UI
 
+[1.5.4]
+* Update Invoice Ninja to 5.4.8
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.8)
+* Additional translations
+* Minor fixes for mailer
+* New Account Notification
+* Fixes for template engine
+* Purchase Order Emails
+* Minor fixes for import
+* Fixes for send email option inside invoice
+
