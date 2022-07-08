@@ -1002,3 +1002,19 @@
 * Minor fixes for import
 * Fixes for send email option inside invoice
 
+[1.5.5]
+* Update Invoice Ninja to 5.4.9
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.9)
+* Remove paid to date from credit PDF
+* Uploads for purchase orders
+* Add quantity to subscriptions
+* Expense a Purchase Order
+* Inventory management from purchase orders
+* Update translations
+* Introduce Bulgarian translations
+* Fixes for migrations
+* Fixes for language seeder
+* Fixes for purchase order to expense
+* Fixes for send_email bulk routes
+* Minor fixes for invoice filters
+
