@@ -1018,3 +1018,26 @@
 * Fixes for send_email bulk routes
 * Minor fixes for invoice filters
 
+[1.5.6]
+* Update Invoice Ninja to 5.4.10
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.10)
+* Pad out expense when converted from Purchase Order
+* Pad out expense when converted from Purchase Order
+* Handle pay now redirects offsite
+* Verify hash
+* Add index to payment hashes
+* Fixes for indexes
+* Do no alter client balance after an invoice has been marked as paid
+* Apple ID AUth
+* Allow forced sending of first recurring invoice
+* Silence bounce notifications
+* Add webhook endpoint when connecting Stripe
+* Wrap paid to date in transaction
+* Apple OAuth
+* Fixes for wrong payment types
+* Start recurring invoice on send now
+* Add status and client to task transformer
+* Company Import|Export for purchase orders
+* Add rules for invitations
+* Translate entities
+
