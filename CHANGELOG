@@ -1041,3 +1041,12 @@
 * Add rules for invitations
 * Translate entities
 
+[1.5.7]
+* Update Invoice Ninja to 5.4.11
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.11)
+* Update Stripe responses for redirect_status
+* Minor fixes for stripe
+* Fixes for purging company data
+* Fixes for invoice status if balance changes to negative
+* Fixes for relations
+
