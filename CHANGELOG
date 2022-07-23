@@ -1050,3 +1050,24 @@
 * Fixes for invoice status if balance changes to negative
 * Fixes for relations
 
+[1.5.8]
+* Update Invoice Ninja to 5.4.12
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.4.12)
+* Button for Client Portal @yois615
+* Add missing translations for task statuses
+* Add exchange rate to factory
+* Fixes for purchase orders and business design
+* Add support for showing related entity documents on invoice
+* Working on signatures
+* Ensure signature is provided in client portal prior to moving to next…
+* Fixes for quote approve button when signature dialog is closed
+* Force delete activities on purge data
+* Prep for Hebrew
+* Fixes for task statuses
+* Add hebrew to repo
+* Client include for expenses
+* Vendor include for expenses
+* Fixes for vendors
+* Fixes for mailer
+* Notification for changes to v5.5
+
