@@ -1099,3 +1099,8 @@
 * Integrate twilio
 * Fixes for lock
 
+[1.6.2]
+* Update Invoice Ninja to 5.5.4
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.4)
+* Fixes for types
+
