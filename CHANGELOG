@@ -1077,3 +1077,25 @@
 * Minor fixes for date format migration for new installations
 * Update to php 8.1
 
+[1.6.1]
+* Update Invoice Ninja to 5.5.3
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.3)
+* Fixes for subscriptions - allow currency id to be passed through
+* Add enabled_expense_tax_rates
+* Fixes for BPP in subscriptions
+* The "with" filter for the QueryFilters
+* Define "with_property" for ProductFilters
+* Fixes for tests
+* Improve efficiency of queries relying on Country
+* Fixes for livewire
+* Fixes for Twilio
+* Fixes for settings purchase order designs
+* Minor fixes for check data
+* Fixes for vendor documents
+* Vendor documents
+* Fixes for emails - remove mime types
+* Rebasing commits from v5-develop
+* Fixes for multidb + twilio
+* Integrate twilio
+* Fixes for lock
+
