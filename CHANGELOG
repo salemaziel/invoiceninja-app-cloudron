@@ -1104,3 +1104,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.4)
 * Fixes for types
 
+[1.6.3]
+* Update Invoice Ninja to 5.5.5
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.5)
+* Minor fixes for the client portal where the payment methods was not displaying
+
