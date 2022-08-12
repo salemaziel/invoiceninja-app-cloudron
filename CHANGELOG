@@ -1124,3 +1124,13 @@
 [1.6.6]
 * Update Invoice Ninja to 5.5.8
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.8)
+
+[1.6.7]
+* Update Invoice Ninja to 5.5.9
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.9)
+* Recurring invoice due on receipt @yois615
+* Relocate portalButton variable @yois615
+* System logger added for Forte. @kishanmnpatel
+* Fixes for phpunit - github actions
+* Centralize where we inject email tags
+* Remove cs-fixer from github actions
