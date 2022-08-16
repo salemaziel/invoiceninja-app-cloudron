@@ -1134,3 +1134,12 @@
 * Fixes for phpunit - github actions
 * Centralize where we inject email tags
 * Remove cs-fixer from github actions
+
+[1.6.8]
+* Update Invoice Ninja to 5.5.10
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.10)
+* Additional checks for checkout.com
+* Add missing fields for activity transformer
+* Paytrace cleanup
+* Improve subscription currencies
+
