@@ -1151,3 +1151,16 @@
 * Portuguese translations updated.
 * Fixes for Postmark delivery.
 
+[1.6.10]
+* Update Invoice Ninja to 5.5.13
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.13)
+* Add validation for task time logs
+* Fixes for single route actions
+* Fixes for base path for canvas kit
+* Fixes for showing fees in both the product and tax tables
+* Change the order of email filters
+* Tests for deleting an invoice
+* Fixes for edge case when deleting an invoice with a partial payment
+* Clean up for tests
+* Remove snappdf download from composer script
+
