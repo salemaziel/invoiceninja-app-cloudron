@@ -1164,3 +1164,6 @@
 * Clean up for tests
 * Remove snappdf download from composer script
 
+[1.6.11]
+* Update Invoice Ninja to 5.5.14
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.14)
