@@ -1167,3 +1167,21 @@
 [1.6.11]
 * Update Invoice Ninja to 5.5.14
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.14)
+
+[1.6.12]
+* Update Invoice Ninja to 5.5.15
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.15)
+* Update user observer to dispatch a job
+* Set relative path for canvaskit
+* Clean up for mail listener
+* Fixes for task requests
+* Adjust credit balance on client record
+* Working on client credit balance field
+* Tests for credit balance
+* Update credit balances when a payment is deleted
+* Add daily checks for credit balances
+* Fixes for restoring a credit
+* Refactor for payments to improve query efficiency
+* Refactor payment queries for improved efficiency
+* Valid credits rules
+
