@@ -1185,3 +1185,10 @@
 * Refactor payment queries for improved efficiency
 * Valid credits rules
 
+[1.6.13]
+* Update Invoice Ninja to 5.5.16
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.16)
+* Prevent negative credits from being applied as payments to a invoice
+* Ensure correct PDF is displayed to the contact
+* Fixes for logo width for outlook emails
+
