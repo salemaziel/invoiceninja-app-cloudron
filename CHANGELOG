@@ -1192,3 +1192,12 @@
 * Ensure correct PDF is displayed to the contact
 * Fixes for logo width for outlook emails
 
+[1.6.14]
+* Update Invoice Ninja to 5.5.17
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.17)
+* Add vendor & expense includes for purchase orders
+* Add missing translations
+* Add new column for invoice_task_project
+* Fixes for project with both project and client id
+* Wrap client paid to date in transaction
+* Toggle sms verification based on domain
