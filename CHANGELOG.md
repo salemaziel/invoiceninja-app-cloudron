@@ -1201,3 +1201,29 @@
 * Fixes for project with both project and client id
 * Wrap client paid to date in transaction
 * Toggle sms verification based on domain
+
+[1.6.15]
+* Update Invoice Ninja to 5.5.18
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.18)
+* Minor fixes for invitation in view portal
+* Fixes for showing invoice
+* Allow client variables in purchase orders
+* Refactor trial confirmed page
+* Fixes for applying payment number
+* Clean up login controller
+* Catch and remove updates for oauth_provider_id
+* Add checks for oauth provider id
+* Fixes for github actions
+* Use transaction when marking an invoice as paid
+* Adjust spam filtering
+* Minor fixes for templates
+* Formatting for client emails
+* Check for exec function prior to attemping to use it
+* Minor fixes for client filter sorted by display name
+* Support for vendor and vendor contact imports
+* update vendor csv for tests
+* Refactor recurring invoice query
+* Improve query efficiency
+* Fixes for transforming vendor contacts
+* Add indexes to DB
+
