@@ -1227,3 +1227,17 @@
 * Fixes for transforming vendor contacts
 * Add indexes to DB
 
+[1.6.16]
+* Update Invoice Ninja to 5.5.19
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.19)
+* Stripe Imports: Check for valid bank account property before attempting to iterate
+* Set required fields to lazy
+* Refactor for switch plans
+* Better logging around setLateFee()
+* Better logging around setLateFee()
+* Fresh client prior to updating
+* Update project name to just project for label
+* Add option to send payment email when invoice has been marked as paid
+* Fixes for canvaskit path
+* Fixes for inventory notifications
+
