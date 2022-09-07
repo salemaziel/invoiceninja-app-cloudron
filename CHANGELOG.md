@@ -1241,3 +1241,33 @@
 * Fixes for canvaskit path
 * Fixes for inventory notifications
 
+[1.6.17]
+* Update Invoice Ninja to 5.5.20
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.20)
+* Add check if plan is expired
+* Add checks for ninja portal urls
+* Improve handling of purchaseOrder and purchase_order
+* Updates for vendor routes
+* Client Paid To Date updates
+* Fixes for tech template
+* Fixes for braintree
+* Update client presenter methods
+* Updated composer lock
+* Fixes for default mark down settings
+* Fixes for tests.
+* Fixes for auto billing when using credits
+* Working on credit paymenta
+* Fixes for store payment request
+* Ensure documents array is an array
+* Handle single contact object passed into array
+* Handle single contact object passed into array
+* Fixes for handling partial payments with credits
+* Fixes for stripe error message when authorizing credit card
+* Fixes for seeding languages
+* Refactor for client balance
+* Fixes for select box background color
+* Fixes for registration fields and ensure client contact email is uniq…
+* Remove redundant code from CompanySettings
+* CLean up code paths for client balance
+* Remove DispatchNow()
+
