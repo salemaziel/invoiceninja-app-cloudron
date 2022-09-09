@@ -1271,3 +1271,19 @@
 * CLean up code paths for client balance
 * Remove DispatchNow()
 
+[1.6.18]
+* Update Invoice Ninja to 5.5.21
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.21)
+* Add secondary font as a variable in HTMLENGINE
+* Add additional field for reports to companies table
+* Fixes for InputBag
+* Fixes for race condition when saving expense numbers
+* Improve date resolution in recurring invoices
+* Improve float parsing in csv imports
+* Additional checks for GoCardless webhooks
+* Improve efficiency of lightlogs
+* Fixes for vendor templates
+* Fixes for sending purchase orders when using a custom template
+* Change [] for vendors to contacts.company
+* Move lightlogs back to batching
+
