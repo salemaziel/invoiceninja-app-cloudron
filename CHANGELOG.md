@@ -1287,3 +1287,31 @@
 * Change [] for vendors to contacts.company
 * Move lightlogs back to batching
 
+[1.6.19]
+* Update Invoice Ninja to 5.5.22
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.22)
+* Configuration for in app purchases
+* Move lightlogs to batch
+* Improve client imports
+* Add recurring invoice id to expense when it is generated
+* Fixes for support messages
+* Fixes for check data
+* Minor fixes for support messages
+* Ensure we also query trashed client records before lock
+* Logging around generates counter
+* Additional logging in generates counter
+* Minor fixes + additional logging
+* Fixes for applying numbers
+* Fixes for entity policy not capturing recurring invoice policies
+* Update customer details
+* Fixes for restricting csv imports
+* Add redundancy checks when creating task numbers
+* Port entity policy changes to view() policy
+* Set SEPA stripe token payments to pending
+* Fixes for QR Ibans with no payment references
+* Fixes for adding a payment method with Checkout.com
+* Adapt Email entity sending using emailentity
+* Fixes for sending custom templates with purchase orders
+* Add webhook functionality to credits
+* Fixes for tests
+
