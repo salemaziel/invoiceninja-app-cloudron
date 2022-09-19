@@ -1315,3 +1315,15 @@
 * Add webhook functionality to credits
 * Fixes for tests
 
+[1.6.20]
+* Update Invoice Ninja to 5.5.23
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.23)
+* Fixes for send now functionality of recurring invoice
+* Single root element for wepay signups
+* Fixes for single root - Livewire
+* Update resources to defer
+* Minor fixes for client portal queries
+* Optimize css bundles
+* Fixes for tests
+* If blank exchange rate is sent, force 1
+
