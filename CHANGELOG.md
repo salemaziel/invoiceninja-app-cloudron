@@ -1327,3 +1327,17 @@
 * Fixes for tests
 * If blank exchange rate is sent, force 1
 
+[1.6.21]
+* Update Invoice Ninja to 5.5.24
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.24)
+* Working on hosted upgrades
+* Improve trial page
+* Increase backoff period
+* Force company currency for purchase orders
+* Ensure we do not remove gateway fee prematurely
+* Fixes for payment layouts (Regression)
+* Exclude canvaskit path for hosted
+* Implement 3DS for Braintree
+* Fixes for seeders
+* Fixes for checkout.com customer request class
+
