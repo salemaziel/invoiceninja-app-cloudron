@@ -1341,3 +1341,17 @@
 * Fixes for seeders
 * Fixes for checkout.com customer request class
 
+[1.6.22]
+* Update Invoice Ninja to 5.5.25
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.25)
+* Minor fixes for stripe imports
+* Do not serialize company after migration
+* Put in checks for client filters
+* Show labels of custom fields in registration form
+* Remove direct google URLs
+* Minor fixes for QR Code generation for live previews
+* Improve livewire performance with Defer
+* Fixes for sms verification list
+* Minor fixes for Stripe ACH Verifications
+* Fixes for wepay
+
