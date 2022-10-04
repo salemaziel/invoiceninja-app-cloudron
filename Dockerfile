@@ -29,6 +29,9 @@ RUN sudo -u www-data php /app/code/artisan optimize --force --no-interaction --v
     && rm -f /app/code/.env && ln -s /app/data/env /app/code/.env \
     && rm -rf /app/code/docs
 
+# downloads the snappdf chrome instance
+RUN /app/code/vendor/beganovich/snappdf/snappdf download
+
 # configure apache
 RUN rm /etc/apache2/sites-enabled/*
 RUN sed -e 's,^ErrorLog.*,ErrorLog "|/bin/cat",' -i /etc/apache2/apache2.conf
@@ -62,10 +65,6 @@ RUN cp /etc/php/8.1/apache2/php.ini /app/pkg/php.ini && \
 # configure supervisor
 ADD supervisor/ /etc/supervisor/conf.d/
 RUN sed -e 's,^logfile=.*$,logfile=/run/supervisord.log,' -i /etc/supervisor/supervisord.conf
-
-# temporary fix for pdf generation via snappdf - https://github.com/invoiceninja/invoiceninja/issues/7151#issuecomment-1019587793
-# RUN cd /app/code/vendor/beganovich/snappdf/versions && wget https://invoiceninja.org/chrome.zip -O chrome.zip && unzip -o chrome.zip && rm chrome.zip
-# ENV SNAPPDF_CHROMIUM_PATH "/app/code/vendor/beganovich/snappdf/versions/959838-Linux_x64/chrome-linux/chrome"
 
 COPY start.sh env.template /app/pkg/
 
