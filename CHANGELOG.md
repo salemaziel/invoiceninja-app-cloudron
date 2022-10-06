@@ -1366,3 +1366,12 @@
 * fix: SwissQr postal code appears twice thanks @filo87
 * Return early to improve PDF generation performance
 * Fixes for WePay
+
+[1.6.24]
+* Update Invoice Ninja to 5.5.27
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.27)
+* Improve Expense Imports
+* Improve Stripe ACH when using microdeposits
+* Additional DB Queries
+* Fixes for non-admin users hitting list views
+
