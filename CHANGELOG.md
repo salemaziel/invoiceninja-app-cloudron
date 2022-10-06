@@ -1355,3 +1355,14 @@
 * Minor fixes for Stripe ACH Verifications
 * Fixes for wepay
 
+[1.6.23]
+* Update Invoice Ninja to 5.5.26
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.26)
+* Remove authorize for SEPA
+* Minor fixes
+* Fixes for generating counters
+* Strip tags from client and user nameS
+* Remove redundant code in save company request
+* fix: SwissQr postal code appears twice thanks @filo87
+* Return early to improve PDF generation performance
+* Fixes for WePay
