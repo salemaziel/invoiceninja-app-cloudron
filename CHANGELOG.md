@@ -1375,3 +1375,11 @@
 * Additional DB Queries
 * Fixes for non-admin users hitting list views
 
+[1.6.25]
+* Update Invoice Ninja to 5.5.28
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.28)
+* Add key to account transformer
+* Minor updates for htmlengine
+* Fixes for forte payment driver
+* Fixes for subscription renewals
+
