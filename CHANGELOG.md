@@ -1383,3 +1383,6 @@
 * Fixes for forte payment driver
 * Fixes for subscription renewals
 
+[1.6.26]
+* Update Invoice Ninja to 5.5.30
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.30)
