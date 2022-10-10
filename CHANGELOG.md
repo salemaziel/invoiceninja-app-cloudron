@@ -1386,3 +1386,9 @@
 [1.6.26]
 * Update Invoice Ninja to 5.5.30
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.30)
+
+[1.6.27]
+* Update Invoice Ninja to 5.5.31
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.31)
+* Performance improvements for flutter UI
+
