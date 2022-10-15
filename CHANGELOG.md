@@ -1392,3 +1392,20 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.31)
 * Performance improvements for flutter UI
 
+[1.6.28]
+* Update Invoice Ninja to 5.5.32
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.32)
+* Fixes for purge client
+* Add Preloader
+* Fixes for document indexing
+* Fixes for indexes
+* Add to fillable
+* Fixes for storage paths in self host
+* Clean up for preload
+* Minor fixes for recurring invoices
+* Handle invoices going from zero balance to positive balance
+* Fixes for refund activity notes
+* Minor fixes for filters
+* Minor changes for setup intents
+* Minor fixes for check data
+
