@@ -1409,3 +1409,26 @@
 * Minor changes for setup intents
 * Minor fixes for check data
 
+[1.6.29]
+* Update Invoice Ninja to 5.5.33
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.33)
+* MatchBankTransactions
+* Working on matching transactions
+* Expense categories
+* Transaction expense resolution
+* Resolve categories
+* Add provisional match
+* Auto pull transactions when linking accounts
+* Fill from_date to be one year in the past
+* Add transaction id to expenses and payments
+* Fixes for bank integration routes
+* Allow Bank Accounts to be created manually
+* Save Bank Transaction manually
+* Bank Transactions matching default category ID
+* Always force a baseType
+* Return list of bank transactions
+* Minor fixes for braintree 3DS
+* Disable auto billing when an invoice has been refunded.
+* Adjust status if invoice is modified after payment
+* Attempt to import documents into new company
+
