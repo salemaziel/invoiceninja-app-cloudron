@@ -1432,3 +1432,25 @@
 * Adjust status if invoice is modified after payment
 * Attempt to import documents into new company
 
+[1.6.30]
+* Update Invoice Ninja to 5.5.34
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.34)
+* Remove sentry from self host
+* Fixes for purchase order viewed activity
+* Additional checks for exchange rates
+* Fixes for Yodlee Test
+* Fixes for bank transaction tests
+* Set company defaults for expenses when matching bank transactions
+* Wipe OAuth data when changing email addresses
+* Fixes for tests
+* Improve check data
+* Minor fixes when calculating invoice cancellations
+* 2FA reset
+* Fixes for Payment Previews
+* Order designs in ascending order
+* Restore paymentable reliably when restoring invoice with attached pay…
+* Pass references instead of full models into auto bill jobs
+* Restrict size and amount of jobs
+* Fixes for breaking change in CreateInvoicePdf
+* Updates for bug with Sentinel / Redis
+
