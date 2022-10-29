@@ -1454,3 +1454,9 @@
 * Fixes for breaking change in CreateInvoicePdf
 * Updates for bug with Sentinel / Redis
 
+[1.6.31]
+* Update Invoice Ninja to 5.5.35
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.35)
+* Fixes for handling restoring a deleted invoice
+* Fixes for settings checks
+
