@@ -1460,3 +1460,10 @@
 * Fixes for handling restoring a deleted invoice
 * Fixes for settings checks
 
+[1.6.32]
+* Update Invoice Ninja to 5.5.36
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.36)
+* Fixes for Swiss QR
+* Remove inventory adjustments when deleting a invoice
+* Remove RFC requirements for email on setup
+
