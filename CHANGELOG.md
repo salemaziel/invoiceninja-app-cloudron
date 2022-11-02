@@ -1467,3 +1467,13 @@
 * Remove inventory adjustments when deleting a invoice
 * Remove RFC requirements for email on setup
 
+[1.6.33]
+* Update Invoice Ninja to 5.5.37
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.37)
+* Merge PDFs
+* Fixes for failed payments when the paypal credentials are incorrect
+* Fixes for stripe autobilling
+* Don't link entities when we are in a transaction
+* Fixes for payment email preview
+* QR codes for invoices as a variable
+* Return reminders to dispatch
