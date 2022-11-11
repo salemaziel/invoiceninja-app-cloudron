@@ -1477,3 +1477,22 @@
 * Fixes for payment email preview
 * QR codes for invoices as a variable
 * Return reminders to dispatch
+
+[1.6.34]
+* Update Invoice Ninja to 5.5.38
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.38)
+* Allow individual SMTP per company
+* Add verified phone number flag
+* Check users number for validity for SMS verifications
+* User Twilio API to verify phone numbers
+* User Twilio API to verify phone numbers
+* Update phpunit spec for github actions
+* Update translations
+* Fixes for imports
+* Datamapper classes
+* Return early in some hosted jobs
+* Override phone number with international format
+* Fixes for bank transaction imports
+* Minor fixes for validation
+* Minor fixes for Bank Transactions / Integratiosn
+* Improve error handling with Checkout Payment Gateway
