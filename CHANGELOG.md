@@ -1496,3 +1496,13 @@
 * Minor fixes for validation
 * Minor fixes for Bank Transactions / Integratiosn
 * Improve error handling with Checkout Payment Gateway
+
+[1.6.35]
+* Update Invoice Ninja to 5.5.39
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.39)
+* EPC QR Codes
+* Additional logging for Checkout transactions
+* Improvements for using react with self host
+* Minor fixes for updating a recurring invoice
+* Minor fixes for negative invoices
+* Change UX for downloading documents from the client portal
