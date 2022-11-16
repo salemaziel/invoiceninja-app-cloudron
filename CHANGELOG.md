@@ -1506,3 +1506,20 @@
 * Minor fixes for updating a recurring invoice
 * Minor fixes for negative invoices
 * Change UX for downloading documents from the client portal
+
+[1.6.36]
+* Update Invoice Ninja to 5.5.40
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.40)
+* Process Invoice Numbers which includes letters
+* Flip the request requirements
+* Save default terms/footers
+* Allow different mail from / mail name for multi company mailers
+* Patch for 2FA Verification
+* Triggered actions for Credits / Quotes
+* Expired quote notifications
+* Fixes for uses_inclusive_taxes with recurring invoices
+* Fixes for bank transaction imports
+* Reset event delay
+* New Design
+* Update Readme
+
