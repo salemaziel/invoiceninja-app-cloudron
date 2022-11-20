@@ -1523,3 +1523,22 @@
 * New Design
 * Update Readme
 
+[1.6.37]
+* Update Invoice Ninja to 5.5.41
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.41)
+* Add a new design - Calm
+* Fix migrations for new invoice design
+* Fixes for gocardless events
+* Prevent deleted/archived/completed transactions from being re-converted
+* Fixes for bank transaction tests
+* Fixes for playful design
+* Stubs for search authorize.net
+* Fixes for gocardless delayed instant bank payment notification:
+* Add a Paid CSS Overlay to invoice designs using the variable $status_logo
+* Late fee tests
+* Tests for recurring invoice variables
+* Minor fixes for date range calculation for :WEEK
+* Fixes for Fortre payment driver and where no service fees are applicable
+* Clean input for custom css
+* Implement additional filters for list views
+
