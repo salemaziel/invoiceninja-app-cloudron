@@ -94,5 +94,6 @@ $ARTISAN cache:clear
 chown -R www-data:www-data /app/data /run/invoiceninja
 
 echo "==> Starting InvoiceNinja"
+rm -f /run/apache2/apache2.pid
 exec /usr/bin/supervisord --configuration /etc/supervisor/supervisord.conf --nodaemon -i InvoiceNinja
 
