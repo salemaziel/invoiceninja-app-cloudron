@@ -1542,3 +1542,17 @@
 * Clean input for custom css
 * Implement additional filters for list views
 
+[1.6.38]
+* Update Invoice Ninja to 5.5.42
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.42)
+* [Feature] Bank Transaction Rules
+* [Feature] API Doc Blocks for Bank Transaction Rules
+* [Bug fix] Fixes for failed email mailer, edge case where balances may not adjust
+* [Bug fix] Adjust when we send certain events after an email failure
+* [Feature] Match Bank Transactions
+* Tests for matching expenses
+* Transaction rules tests
+* [Bug fix] Remove delay from events
+* [Bug fix] Escape variables in custom designs
+* Minor fixes for create company routes
+* [Bug fix]Catch EPC QR failures
