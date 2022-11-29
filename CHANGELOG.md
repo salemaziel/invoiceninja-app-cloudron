@@ -1556,3 +1556,38 @@
 * [Bug fix] Escape variables in custom designs
 * Minor fixes for create company routes
 * [Bug fix]Catch EPC QR failures
+
+[1.6.39]
+* Update Invoice Ninja to 5.5.43
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.43)
+* Spread out cron jobs to even system load
+* Updates for SMS confirmations
+* Update twilio sms authorize() method
+* Improve cron definitions to prevent race conditions
+* Improve validation layer for reports
+* Minor refactor for reminder jobs
+* Refactor the way we execute scheduled commands
+* Use translation for request cancellation
+* Clean up subscription service
+* Fix for subscription cancellation where there are no outstanding invoices
+* Fixes for displaying correct quote status in client portal
+* Minor fixes for bank transaction imports
+* Fixes for creating backup directory if it does not exist
+* Minor fixes for type checks
+* Minor fixes for failed notifications
+* Don't return value from void function
+* Refactor reminder crons
+* Fixes for client number race conditions when importing stripe clients
+* Fixes for stripe importing customers
+* Wind back Middleware for Bank Service Matching
+* Fixes for updated_at in bank_transaction_rules
+* Change private to protected property for middleware key
+* Inject small delay into email dispatch
+* Implement chunking of auto bill data
+* Handle nothing being passed into sort() filter
+* Fixes for missing properties in store bank integration request
+* Minor fix for client balance adjustment
+* Add more entropy when updating company ledger
+* Fixes for demo mode
+* Refactor for Stripe payment intents + charges + new api
+
