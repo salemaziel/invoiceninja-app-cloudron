@@ -1591,3 +1591,26 @@
 * Fixes for demo mode
 * Refactor for Stripe payment intents + charges + new api
 
+[1.6.40]
+* Update Invoice Ninja to 5.5.44
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.44)
+* Translate Stripe payment texts by @LarsK1 in #7999
+* Bug Fix - Client balance corrupted when transaction is deleted. by @turbo124 in #8010
+* #8008 csv import auto detect delimiter by @checkitsedo in #8009
+* Refactor PDF attachments as data instead of file paths
+* Inject slight delay into emails
+* Translate Stripe payment texts thanks @LarsK1
+* LarsK1 committed 22 hours ago
+* Implement checkout object for phone
+* Minor fixes for Stripe Payment Intent query
+* Fixes for store bank transaction
+* Add frequency to recurring invoice export
+* Fixes for storing bank transactions
+* Add CSV delimiter Autodetection thanks @checkitsedo
+* Fixes for CSV imports, replace work_phone with phone
+* Fixes for applying payment from a transaction, and then unwinding the…
+* Fixes for multiple deletes on a single invoice
+* Do not allow restoration of a invoice with a deleted payment
+* Fixes for expense category validation
+* Fixes for Stripe payment translations
+
