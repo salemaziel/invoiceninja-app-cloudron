@@ -1614,3 +1614,21 @@
 * Fixes for expense category validation
 * Fixes for Stripe payment translations
 
+[1.6.41]
+* Update Invoice Ninja to 5.5.45
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.45)
+* Add Payment id to bank transactions table
+* Tests for linking expenses and payments
+* Add css class to enable resizing of payment QR Codes
+* Increase chunk size for autobill
+* Fixes for payment tests
+* Fixes for Zoho Import
+* Fixes for single account creation
+* Add form request for enable two factor authentication
+* Updates for translations for Stripe
+* Additional checks for reminder scheduling for endless reminders
+* Updates for cookie consent - translate to locale if available
+* Ensure due_date_days is populated
+* Fixes for edge cases with recurring invoice due date days = 0
+* Count Bank Account Created on Hosted
+
