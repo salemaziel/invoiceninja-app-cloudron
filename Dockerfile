@@ -1,18 +1,14 @@
-FROM cloudron/base:3.2.0@sha256:ba1d566164a67c266782545ea9809dc611c4152e27686fd14060332dd88263ea
+FROM cloudron/base:4.0.0@sha256:31b195ed0662bdb06a6e8a5ddbedb6f191ce92e8bee04c03fb02dd4e9d0286df
 
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
 
-RUN add-apt-repository --yes ppa:ondrej/php && \
-    apt update && \
-    apt-get remove -y php-* php7.4-* libapache2-mod-php7.4 && \
-    apt-get autoremove -y && \
+RUN apt update && \
 # dependencies for chromium headless used by https://github.com/beganovich/snappdf
     apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
-    apt-get install -y php8.1 php8.1-{apcu,bcmath,bz2,cgi,cli,common,curl,dba,dev,enchant,fpm,gd,gmp,gnupg,imagick,imap,interbase,intl,ldap,mailparse,mbstring,mysql,odbc,opcache,pgsql,phpdbg,pspell,readline,redis,snmp,soap,sqlite3,sybase,tidy,uuid,xml,xmlrpc,xsl,zip,zmq} libapache2-mod-php8.1 && \
     rm -r /var/cache/apt /var/lib/apt/lists
 
-ARG VERSION=5.5.45
+ARG VERSION=5.5.46
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
