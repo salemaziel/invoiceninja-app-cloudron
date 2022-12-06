@@ -1632,3 +1632,15 @@
 * Fixes for edge cases with recurring invoice due date days = 0
 * Count Bank Account Created on Hosted
 
+[1.6.42]
+* Update Invoice Ninja to 5.5.46
+* Use Cloudron base image 4.0.0
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.46)
+* Provide translations by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/7972
+* Fixes for custom labels/values for credits by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8030
+* Add status to client export by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8032
+* Reserved keywords are aware of date in recurring invoice PDF preview by @talkstraightuk in https://github.com/invoiceninja/invoiceninja/pull/7979
+* Update Sentry Laravel SDK to v3 by @cleptric in https://github.com/invoiceninja/invoiceninja/pull/8026
+* Tests for linking payments with expenses by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8033
+* Add delete webhook for projects by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8034
+
