@@ -1644,3 +1644,15 @@
 * Tests for linking payments with expenses by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8033
 * Add delete webhook for projects by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8034
 
+[1.6.43]
+* Update Invoice Ninja to 5.5.47
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.47)
+* Add payment id to bank transaction matching
+* Expand document name in client portal from 20 -> 40 chars
+* Ensure we retrieve archived invoices in Stripe payment webhook
+* Check for properties before accessing
+* Improve bank transaction filters
+* Ensure client is tagged on view quote activity
+* Add convert currency properties to company table
+* Subscriptions v2
+
