@@ -1656,3 +1656,24 @@
 * Add convert currency properties to company table
 * Subscriptions v2
 
+[1.6.44]
+* Update Invoice Ninja to 5.5.48
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.48)
+* Add support for Matomo
+* Add Matomo to database table
+* Fixes for Matomo URL/ID
+* Add idempotency key for mollie
+* Fixes for Klarna
+* Add missing translations
+* Fixes for phone validation
+* Add checks prior to attempting to add in payment types
+* Add transaction filters for payments and expenses
+* Minor clean up of layout files
+* Use redirect away for mollie
+* Disable auto billing on recurring invoices and generated invoices
+* Fixes for type hints
+* Catch mollie payments if redirect URL is null
+* Add proper description to mollie credit card transactions
+* Minor fixes for stripe translations
+* Subscriptions v2 (WIP)
+
