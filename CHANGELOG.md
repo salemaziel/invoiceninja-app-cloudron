@@ -1677,3 +1677,16 @@
 * Minor fixes for stripe translations
 * Subscriptions v2 (WIP)
 
+[1.6.45]
+* Update Invoice Ninja to 5.5.49
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.49)
+* OTP for subscriptions by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8069
+* Quote filters for expired and upcoming by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8071
+* Change Klarna intregration to comply with Klarna's rules by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8059
+* Force a currency for vendors by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8074
+* Subscriptions v2 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8076
+* Attach invoice documents to payment emails by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8077
+* Disable auto fill for credit cards by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8078
+* minor fixes for subscriptions by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8080
+* v5.5.49 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8081
+
