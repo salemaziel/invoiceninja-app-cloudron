@@ -1690,3 +1690,11 @@
 * minor fixes for subscriptions by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8080
 * v5.5.49 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8081
 
+[1.6.46]
+* Update Invoice Ninja to 5.5.50
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.50)
+* Flip sort order for payments in client portal by @turbo124 in #8085
+* Minor fixes for tax currencies - vendor vs client by @turbo124 in #8089
+* Fixes for Matomo by @LarsK1 in #8083
+* Fix eWay failures related to 32-bit integer limit by @joshuadwire in #8095
+
