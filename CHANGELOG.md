@@ -1698,3 +1698,5 @@
 * Fixes for Matomo by @LarsK1 in #8083
 * Fix eWay failures related to 32-bit integer limit by @joshuadwire in #8095
 
+[1.6.47]
+* Disable auto update checker
