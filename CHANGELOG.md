@@ -1700,3 +1700,12 @@
 
 [1.6.47]
 * Disable auto update checker
+
+[1.6.48]
+* Update Invoice Ninja to 5.5.51
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.51)
+* fix SEPA QR Code recurring invoice by @Hobby-Student in #8105
+* adding `update_payment` webhook by @paulwer in #8118
+* Product Sales Report by @turbo124 in #8119
+* Minor improvements for checkout 3ds processing by @turbo124 in #8120
+
