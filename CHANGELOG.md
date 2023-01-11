@@ -1709,3 +1709,9 @@
 * Product Sales Report by @turbo124 in #8119
 * Minor improvements for checkout 3ds processing by @turbo124 in #8120
 
+[1.6.49]
+* Update Invoice Ninja to 5.5.52
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.52)
+* Add issue templates back into the repo by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8126
+* Additional mailer implementation by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8129
+
