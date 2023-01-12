@@ -1715,3 +1715,8 @@
 * Add issue templates back into the repo by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8126
 * Additional mailer implementation by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8129
 
+[1.6.50]
+* Update Invoice Ninja to 5.5.54
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.54)
+* Fix for leak on products route when using the ?with filter by @turbo124 in #8137
+
