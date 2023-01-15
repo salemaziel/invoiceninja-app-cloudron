@@ -1720,3 +1720,6 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.54)
 * Fix for leak on products route when using the ?with filter by @turbo124 in #8137
 
+[1.6.51]
+* Update Invoice Ninja to 5.5.55
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.55)
