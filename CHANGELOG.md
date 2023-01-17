@@ -1723,3 +1723,12 @@
 [1.6.51]
 * Update Invoice Ninja to 5.5.55
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.55)
+
+[1.6.52]
+* Update Invoice Ninja to 5.5.56
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.56)
+* Fixes for deleting payments by @turbo124 in #8151
+* Minor fixes for transactions by @turbo124 in #8152
+* Fixes for client mailers by @turbo124 in #8153
+* Quote Filters by @turbo124 in #8156
+* Fixes for matomo by @LarsK1 in #8157
