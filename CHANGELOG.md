@@ -1732,3 +1732,9 @@
 * Fixes for client mailers by @turbo124 in #8153
 * Quote Filters by @turbo124 in #8156
 * Fixes for matomo by @LarsK1 in #8157
+
+[1.6.53]
+* Update Invoice Ninja to 5.5.57
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.57)
+* Implement next_run calculation for scheduled tasks by @turbo124 in #8172
+* Add company logo size to company settings object by @turbo124 in #8173
