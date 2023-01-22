@@ -1738,3 +1738,9 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.57)
 * Implement next_run calculation for scheduled tasks by @turbo124 in #8172
 * Add company logo size to company settings object by @turbo124 in #8173
+
+[1.6.54]
+* Update Invoice Ninja to 5.5.60
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.60)
+* Fixes for clientcontact observer bug
+
