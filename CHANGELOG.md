@@ -1744,3 +1744,12 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.60)
 * Fixes for clientcontact observer bug
 
+[1.6.55]
+* Update Invoice Ninja to 5.5.61
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.61)
+* Fixes for Client Portal Bug
+* Fixes for Multidb Task Scheduler
+* Setup permissions for Bank Transactions
+* Fixes for content-disposition in CORS
+* Add filename to headers for inline files
+
