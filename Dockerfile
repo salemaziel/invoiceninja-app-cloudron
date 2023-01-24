@@ -8,7 +8,7 @@ RUN apt update && \
     apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
     rm -r /var/cache/apt /var/lib/apt/lists
 
-ARG VERSION=5.5.60
+ARG VERSION=5.5.61
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
