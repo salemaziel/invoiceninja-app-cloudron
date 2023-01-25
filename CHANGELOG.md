@@ -1759,4 +1759,4 @@
 * enhance address field by @Hobby-Student in #8188
 * fix: processReservedKeywords should be aware of recurring invoice date by @talkstraightuk in #8182
 * fix for permissions regression
-*
+
