@@ -1753,3 +1753,10 @@
 * Fixes for content-disposition in CORS
 * Add filename to headers for inline files
 
+[1.6.56]
+* Update Invoice Ninja to 5.5.62
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.62)
+* enhance address field by @Hobby-Student in #8188
+* fix: processReservedKeywords should be aware of recurring invoice date by @talkstraightuk in #8182
+* fix for permissions regression
+*
