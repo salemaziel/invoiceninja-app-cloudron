@@ -1760,3 +1760,8 @@
 * fix: processReservedKeywords should be aware of recurring invoice date by @talkstraightuk in #8182
 * fix for permissions regression
 
+[1.6.57]
+* Update Invoice Ninja to 5.5.63
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.63)
+* Ensure api token has a name using update route by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8211
+
