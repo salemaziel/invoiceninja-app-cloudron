@@ -1765,3 +1765,19 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.63)
 * Ensure api token has a name using update route by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8211
 
+[1.6.58]
+* Update Invoice Ninja to 5.5.64
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.64)
+* Adjust throttling for password reset requests
+* Minor checks for user deleted_at state
+* Set timezone when testing date ranges
+* Update clean design to allow clean page breaks
+* Updates for bug template
+* Implement logic that changes the response based on user permissions
+* Fixes for validation of webhooks
+* Live Design Preview Test
+* Skip live designs in github actions
+* Enable setting the width of the logo via settings
+* Update designs
+* Fixes for reports
+
