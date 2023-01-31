@@ -1781,3 +1781,14 @@
 * Update designs
 * Fixes for reports
 
+[1.6.59]
+* Update Invoice Ninja to 5.5.65
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.65)
+* Fixes for Job Retries in Mailers and Webhooks by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8220
+* Minor fixes for create entity when models are missing by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8221
+* Minor fixes for the Clean design by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8222
+* Minor fixes for the task scheduler by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8223
+* Fixes for ninja mailer by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8224
+* Fixes for staticmodel scopes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8228
+* v5.5.65 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8229
+
