@@ -1792,3 +1792,12 @@
 * Fixes for staticmodel scopes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8228
 * v5.5.65 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8229
 
+[1.6.60]
+* Update Invoice Ninja to 5.5.66
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.66)
+* Adding additional filter methods by @paulwer in #8227
+* Add Webhook for archiving / restoring by @LarsK1 in #8216
+* Minor cleanup for filters by @turbo124 in #8232
+* Refactor for Observers by @turbo124 in #8237
+* Enhance discount label if percentage (closes #8204) by @tissieres in #8226
+* Optional user input after a quote is approved. by @turbo124 in #8242
