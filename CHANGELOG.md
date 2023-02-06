@@ -1801,3 +1801,12 @@
 * Refactor for Observers by @turbo124 in #8237
 * Enhance discount label if percentage (closes #8204) by @tissieres in #8226
 * Optional user input after a quote is approved. by @turbo124 in #8242
+
+[1.6.61]
+* Update Invoice Ninja to 5.5.67
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.67)
+* Fixes for using credits in subscriptions
+* Add payment number when generating credit payment from subscription
+* Minor fixes for quote zips
+* Fixes for vendor imports
+
