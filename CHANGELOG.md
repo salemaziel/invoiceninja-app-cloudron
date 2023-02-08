@@ -1810,3 +1810,12 @@
 * Minor fixes for quote zips
 * Fixes for vendor imports
 
+[1.6.62]
+* Update Invoice Ninja to 5.5.69
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.69)
+* Attach recurring invoice docs by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8258
+* Feature: Webhook at send by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8245
+* Design fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8259
+* Fixes for webhooks by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8261
+* Bump predis to 2.x by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8262
+
