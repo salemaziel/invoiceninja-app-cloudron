@@ -1819,3 +1819,9 @@
 * Fixes for webhooks by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8261
 * Bump predis to 2.x by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8262
 
+[1.6.63]
+* Update Invoice Ninja to 5.5.70
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.70)
+* Fixes for translation string in subscriptions by @turbo124 in #8268
+* Fixes for archived clients attempting to view client portal. by @turbo124 in #8269
+* Fixes for job middleware by @turbo124 in #8270
