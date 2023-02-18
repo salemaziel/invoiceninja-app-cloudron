@@ -1825,3 +1825,14 @@
 * Fixes for translation string in subscriptions by @turbo124 in #8268
 * Fixes for archived clients attempting to view client portal. by @turbo124 in #8269
 * Fixes for job middleware by @turbo124 in #8270
+
+[1.6.64]
+* Update Invoice Ninja to 5.5.71
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.71)
+* Our scheduler has now been released! You can currently use the scheduler to send Client Statements at predefined intervals with their own specific date ranges
+* Fixes for base redirect
+* Remove predis 2
+* Clean up for access permissions
+* Fixes for designs and client compatibility
+* Update composer requirements
+* Remove logo from CSV importer
