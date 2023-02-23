@@ -1836,3 +1836,12 @@
 * Fixes for designs and client compatibility
 * Update composer requirements
 * Remove logo from CSV importer
+
+[1.6.65]
+* Update Invoice Ninja to 5.5.73
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.73)
+* We have improved email button compatibility across email clients, users who use Outlook should now consistently see an appropriately sized button.
+* Minor Fixes for some designs
+* Significantly reduced the number of queued jobs when performing bulk actions
+* Fixes for displaying negative currencies
+
