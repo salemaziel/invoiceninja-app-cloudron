@@ -1845,3 +1845,9 @@
 * Significantly reduced the number of queued jobs when performing bulk actions
 * Fixes for displaying negative currencies
 
+[1.6.66]
+* Update Invoice Ninja to 5.5.74
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.74)
+* Add BankTransfers From Stripe as a new payment method
+* Refactor Stripe description strings to use a common method.
+* Update Stripe Alipay to use Payment Intents
