@@ -1851,3 +1851,14 @@
 * Add BankTransfers From Stripe as a new payment method
 * Refactor Stripe description strings to use a common method.
 * Update Stripe Alipay to use Payment Intents
+
+[1.6.67]
+* Update Invoice Ninja to 5.5.76
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.76)
+* Streamline whitelabel logo styles in PdfMaker by @danielkoch in https://github.com/invoiceninja/invoiceninja/pull/8300
+* Limit per page to 5000 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8302
+* Fix for expense <> transaction decoupling by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8304
+* Add guards on invoice_id by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8305
+* Update designs by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8315
+* v5.5.76 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8318
+
