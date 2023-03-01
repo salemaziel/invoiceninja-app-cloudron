@@ -1862,3 +1862,6 @@
 * Update designs by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8315
 * v5.5.76 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8318
 
+[1.6.68]
+* Update Invoice Ninja to 5.5.78
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.78)
