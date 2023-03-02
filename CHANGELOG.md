@@ -1865,3 +1865,11 @@
 [1.6.68]
 * Update Invoice Ninja to 5.5.78
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.78)
+
+[1.6.69]
+* Update Invoice Ninja to 5.5.79
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.79)
+* Fixes for displaying negative numbers by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8324
+* Add markdown support for subscriptions by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8325
+
+
