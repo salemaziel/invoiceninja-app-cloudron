@@ -1877,3 +1877,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.80)
 * Fixes for oversized mailables
 
+[1.6.71]
+* Update Invoice Ninja to 5.5.81
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.81)
+* Fixes for PaymentExport regression.
+
