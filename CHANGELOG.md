@@ -1882,3 +1882,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.81)
 * Fixes for PaymentExport regression.
 
+[1.6.72]
+* Update Invoice Ninja to 5.5.82
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.82)
+* New Flutter AP
+
