@@ -1887,3 +1887,14 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.82)
 * New Flutter AP
 
+[1.6.73]
+* Update Invoice Ninja to 5.5.83
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.83)
+* Support processing different delimiters for CSV imports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8334
+* Fixes for React Settings Cast by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8335
+* Fixes for user stubs in random data by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8336
+* Improve rounding for negative numbers by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8337
+* Fixes for react settings by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8339
+* v5.5.83 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8340
+* Fixes for client registration migration by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8341
+
