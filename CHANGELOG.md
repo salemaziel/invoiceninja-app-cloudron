@@ -1898,3 +1898,8 @@
 * v5.5.83 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8340
 * Fixes for client registration migration by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8341
 
+[1.6.74]
+* Update Invoice Ninja to 5.5.84
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.84)
+* Email refactor by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8342
+
