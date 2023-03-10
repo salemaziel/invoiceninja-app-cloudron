@@ -1903,3 +1903,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.84)
 * Email refactor by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8342
 
+[1.6.75]
+* Update Invoice Ninja to 5.5.86
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.86)
+* Add missing migration by @turbo124 in #8348
+
