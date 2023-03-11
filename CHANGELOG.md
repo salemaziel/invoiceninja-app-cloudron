@@ -1908,3 +1908,14 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.86)
 * Add missing migration by @turbo124 in #8348
 
+[1.6.76]
+* Update Invoice Ninja to 5.5.87
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.87)
+* Create 2023_03_10_100629_add_currencies.php by @datasolutionsbz in https://github.com/invoiceninja/invoiceninja/pull/8352
+* Update texts.php by @datasolutionsbz in https://github.com/invoiceninja/invoiceninja/pull/8351
+* Updates for RandomDataSeeder by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8353
+* Add notification label by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8354
+* Stripe: Add BACS by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8079
+* v5.5.87 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8355
+* Updates for JS bundles by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8356
+
