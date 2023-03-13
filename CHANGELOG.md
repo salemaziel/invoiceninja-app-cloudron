@@ -1919,3 +1919,13 @@
 * v5.5.87 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8355
 * Updates for JS bundles by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8356
 
+[1.6.77]
+* Update Invoice Ninja to 5.5.89
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.89)
+* Prevent duplicate shipping address details on delivery notes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8358
+* v5.5.88 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8359
+* Minor formatting by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8360
+* Fixes for Invoice Preview Designer
+* Fixes for preloader - exclude testing frameworks by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8366
+* v5.5.89 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8371
+
