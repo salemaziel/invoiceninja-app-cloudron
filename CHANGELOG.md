@@ -1959,3 +1959,9 @@
 * Recurring invoice price modifications (API only)
 * Increase recurring prices (API only)
 
+[1.6.79]
+* Update Invoice Ninja to 5.5.92
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.92)
+* Fixes for quotes with deleted contacts - download PDF failures
+* Hide pre payments from client portal.
+
