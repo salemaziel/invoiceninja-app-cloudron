@@ -1929,3 +1929,33 @@
 * Fixes for preloader - exclude testing frameworks by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8366
 * v5.5.89 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8371
 
+[1.6.78]
+* Update Invoice Ninja to 5.5.90
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.90)
+* Filters for overdue invoices
+* Additional defaults for primary colors
+* Minor fixes for events for invoice was emailed
+* Expand exception handling in Email class
+* move NinjaUser to sync when creating accounts
+* Clean up for Login Controller
+* Clean up auth dir
+* Fixes for sending from email name
+* Fixes for correct token
+* Stub translated labels for designer
+* Fixes for company token sanity
+* Fixes for AVS checks using Braintree
+* Add logo class
+* Update dependencies for js
+* Add search by client from invoices
+* Search by client name in entities
+* Do not subtract services as product inventory
+* Fixes for tests
+* Allow removing deleted user
+* Liap includes
+* Updates for PDF designer with custom columns (API only)
+* Add translated stubs for the PDF Mock
+* Minor fixes for Mocks
+* Recurring invoice update / upgrade pricing (API only)
+* Recurring invoice price modifications (API only)
+* Increase recurring prices (API only)
+
