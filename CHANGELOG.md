@@ -1965,3 +1965,6 @@
 * Fixes for quotes with deleted contacts - download PDF failures
 * Hide pre payments from client portal.
 
+[1.6.80]
+* Update Invoice Ninja to 5.5.93
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.93)
