@@ -1968,3 +1968,14 @@
 [1.6.80]
 * Update Invoice Ninja to 5.5.93
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.93)
+
+[1.6.81]
+* Update Invoice Ninja to 5.5.94
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.94)
+* Fixes for webhooks not sending user detfined headers
+* Implement stubs for websockets
+* Add invoices to recurring invoices in Client Portal.
+* Stubs for Scheduling an invoice to be sent
+* API implementation of Pre Payments completed
+* Allow a CC email address to be passed into the Emailer via cc_email request parameter
+
