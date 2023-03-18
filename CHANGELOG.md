@@ -1979,3 +1979,19 @@
 * API implementation of Pre Payments completed
 * Allow a CC email address to be passed into the Emailer via cc_email request parameter
 
+[1.7.0]
+* Update Invoice Ninja to 5.5.95
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.95)
+* Websockets by @turbo124 in #8385
+* Recurring invoice price modifications
+* Translate labels for Invoice Designer
+* Updates for PDF designer with custom columns
+* Allow removing deleted user
+* Do not subtract services as product inventory
+* Search by client name in entities
+* Add search by client from invoices
+* Updates for company user / token checks
+* Update dependencies for js
+* Add logo class
+* Fixes for AVS checks using Braintree
+* Fixes for company token sanity
