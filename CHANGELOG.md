@@ -1995,3 +1995,21 @@
 * Add logo class
 * Fixes for AVS checks using Braintree
 * Fixes for company token sanity
+
+[1.7.1]
+* Update Incoive Ninja to 5.5.96
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.96)
+* cookie removed from echeck header api. by @kishanmnpatel in https://github.com/invoiceninja/invoiceninja/pull/8388
+* Hide pre payments
+* Minor changes for GoCardless
+* Catch all logo
+* Updates for favicon
+* Fixes for invoice filters - overdue
+* Schedule Entity
+* Fixes for scheduler tests after refactor
+* Update user input for po number when approving a quote
+* Update quote input from notes to purchase order number
+* Add Invoice Reference Subject
+* Add tests for scheduling email entity
+* Stub global tax rates
+
