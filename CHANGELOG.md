@@ -1999,6 +1999,7 @@
 [1.7.1]
 * Update Incoive Ninja to 5.5.96
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.96)
+* Redis is now required
 * cookie removed from echeck header api. by @kishanmnpatel in https://github.com/invoiceninja/invoiceninja/pull/8388
 * Hide pre payments
 * Minor changes for GoCardless

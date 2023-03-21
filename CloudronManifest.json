@@ -13,7 +13,8 @@
   "addons": {
     "localstorage": {},
     "mysql": {},
-    "sendmail": { "supportsDisplayName": true }
+    "sendmail": { "supportsDisplayName": true },
+    "redis": {}
   },
   "manifestVersion": 2,
   "website": "https://www.invoiceninja.org",
