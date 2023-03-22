@@ -2014,3 +2014,9 @@
 * Add tests for scheduling email entity
 * Stub global tax rates
 
+[1.7.2]
+* Update Invoice Ninja to 5.5.97
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.97)
+* Update production routes by @turbo124 in #8394
+* Fixes for limiter by @turbo124 in #8396
+
