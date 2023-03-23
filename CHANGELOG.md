@@ -2020,3 +2020,11 @@
 * Update production routes by @turbo124 in #8394
 * Fixes for limiter by @turbo124 in #8396
 
+[1.7.3]
+* Update Invoice Ninja to 5.5.98
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.98)
+* Change Pre Payments to be always available as recurring by @turbo124 in #8397
+* Tasks (descriptions per line)
+* Tasks (billable by line)
+* Invoice / Quote PDF option for separate product columns
+* Gocardless. Upgraded so that all payment methods / regions are now supported.
