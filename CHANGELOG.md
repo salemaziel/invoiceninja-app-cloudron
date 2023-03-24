@@ -2028,3 +2028,12 @@
 * Tasks (billable by line)
 * Invoice / Quote PDF option for separate product columns
 * Gocardless. Upgraded so that all payment methods / regions are now supported.
+
+[1.7.4]
+* Update Invoice Ninja to 5.5.99
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.99)
+* Fixes for react builder by @turbo124 in #8399
+* Allow custom designs to be passed into the live designer by @turbo124 in #8400
+* Update webpack by @turbo124 in #8401
+* Configurable MailGun endpoint by @turbo124 in #8402
+* Fixes for Bank Transfers with Stripe
