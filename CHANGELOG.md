@@ -2037,3 +2037,12 @@
 * Update webpack by @turbo124 in #8401
 * Configurable MailGun endpoint by @turbo124 in #8402
 * Fixes for Bank Transfers with Stripe
+
+[1.7.5]
+* Update Invoice Ninja to 5.5.101
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.101)
+* Fixes for recurring price increases/updates by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8405
+* Fixes for upcoming invoices filters by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8406
+* Add translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8407
+* Fixes for batch updating prices in recurring invoices
+
