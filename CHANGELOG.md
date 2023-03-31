@@ -2046,3 +2046,9 @@
 * Add translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8407
 * Fixes for batch updating prices in recurring invoices
 
+[1.7.6]
+* Update Invoice Ninja to 5.5.102
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.102)
+* Minor fixes for payment emailed activities by @turbo124 in #8413
+* Fixes for View Recurring Invoice PDF
+
