@@ -2052,3 +2052,16 @@
 * Minor fixes for payment emailed activities by @turbo124 in #8413
 * Fixes for View Recurring Invoice PDF
 
+[1.7.7]
+* Update Invoice Ninja to 5.5.103
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.103)
+* Updated readme by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8421
+* Set default tax id for products by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8425
+* Fixes for migrations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8426
+* Coerce the string to array if empty string passed for design by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8410
+* Add updated calculated fields cron by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8428
+* Disconnect OAuth Mailer
+* Add graceful way to handle cut/paste react links
+* Refactor to allow link multiple expenses to a transaction
+* Remove requirements for cache to be updated after .env vars are changed
+
