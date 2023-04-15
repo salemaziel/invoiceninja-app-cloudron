@@ -2065,3 +2065,11 @@
 * Refactor to allow link multiple expenses to a transaction
 * Remove requirements for cache to be updated after .env vars are changed
 
+[1.7.8]
+* Update Invoice Ninja to 5.5.104
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.104)
+* Fixes for linking expenses by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8430
+* Payment token issue solved. by @kishanmnpatel in https://github.com/invoiceninja/invoiceninja/pull/8432
+* Minor fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8436
+* Filtering by is_custom by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8433
+
