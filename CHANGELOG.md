@@ -2073,3 +2073,16 @@
 * Minor fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8436
 * Filtering by is_custom by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8433
 
+[1.7.9]
+* Update Invoice Ninja to 5.5.105
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.105)
+* Fixes for logging by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8440
+* Support for XRechnung / ZUGFeRD / e-Factur by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8368
+* Additional translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8442
+* Fixes for E-Invoice-Tests by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8444
+* Recurring invoices filters by @talkstraightuk in https://github.com/invoiceninja/invoiceninja/pull/8447
+* Updates for design filters by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8449
+* Bulk route for products by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8451
+* Minor fixes for translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8453
+* Updated translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8454
+
