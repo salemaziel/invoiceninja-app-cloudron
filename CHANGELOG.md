@@ -2086,3 +2086,10 @@
 * Minor fixes for translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8453
 * Updated translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8454
 
+[1.7.10]
+* Update Invoice Ninja to 5.5.106
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.106)
+* Facturae-Spain by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8456
+* e-invoicing by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8457
+* v5.5.106 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8459
+
