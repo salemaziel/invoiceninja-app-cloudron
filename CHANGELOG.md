@@ -2093,3 +2093,10 @@
 * e-invoicing by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8457
 * v5.5.106 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8459
 
+[1.7.11]
+* Update Invoice Ninja to 5.5.107
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.107)
+* Handle e-invoices when creating zip files by @turbo124 in #8466
+* EInvoice ZuGFeRD: Make shipping address optional by @LarsK1 in #8467
+* Fixes for reports by @turbo124 in #8468
+
