@@ -2108,3 +2108,8 @@
 * FIxes for show_credits_tables by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8473
 * Minor fixes for browser caching by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8474
 
+[1.7.13]
+* Update Invoice Ninja to 5.5.110
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.110)
+* Fix for regression by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8475
+
