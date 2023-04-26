@@ -2100,3 +2100,11 @@
 * EInvoice ZuGFeRD: Make shipping address optional by @LarsK1 in #8467
 * Fixes for reports by @turbo124 in #8468
 
+[1.7.12]
+* Update Invoice Ninja to 5.5.109
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.109)
+* Improve Cancel URL experience with Paypal by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8471
+* Update blacklist rules by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8472
+* FIxes for show_credits_tables by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8473
+* Minor fixes for browser caching by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8474
+
