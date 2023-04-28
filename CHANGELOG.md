@@ -2113,3 +2113,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.110)
 * Fix for regression by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8475
 
+[1.7.14]
+* Update Invoice Ninja to 5.5.112
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.112)
+* e-invoices fixes.
+
