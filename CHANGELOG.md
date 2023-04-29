@@ -2118,3 +2118,10 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.112)
 * e-invoices fixes.
 
+[1.7.15]
+* Update Invoice Ninja to 5.5.113
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.113)
+* Fixes for ZuGFerd E-invoice by @LarsK1 in #8486
+* Fixes for e-invoices by @turbo124 in #8487
+* Minor fixes by @turbo124 in #8488
+
