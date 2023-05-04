@@ -2125,3 +2125,9 @@
 * Fixes for e-invoices by @turbo124 in #8487
 * Minor fixes by @turbo124 in #8488
 
+[1.7.16]
+* Update Invoice Ninja to 5.5.114
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.114)
+* Updated self updater to use .tar files instead of .zip
+* Add group setting filters by @turbo124 in #8490
+
