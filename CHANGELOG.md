@@ -2131,3 +2131,11 @@
 * Updated self updater to use .tar files instead of .zip
 * Add group setting filters by @turbo124 in #8490
 
+[1.7.17]
+* Update Invoice Ninja to 5.5.115
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.115)
+* Improvements for correct ZuGFerd tax calculations by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8495
+* Log import array by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8499
+* v5.5.115 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8503
+* Fixes for InvoiceWasViewed event
+
