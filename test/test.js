@@ -240,10 +240,7 @@ describe('Application life cycle test', function () {
     it('invoice exists', retry(getInvoice));
     it('can render preview pdf', retry(getPreviewPdf));
 
-    it('can update', function () {
-        console.log('Make sure to submit the browser confirm dialog to update the flutter app.');
-        execSync('cloudron update --app ' + app.id, EXEC_ARGS);
-    });
+    it('can update', function () { execSync('cloudron update --app ' + app.id, EXEC_ARGS); });
 
     it('can login', login);
     it('vendor exists', retry(getVendor));
