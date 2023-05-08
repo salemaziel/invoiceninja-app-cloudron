@@ -2139,3 +2139,10 @@
 * v5.5.115 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8503
 * Fixes for InvoiceWasViewed event
 
+[1.7.18]
+* Update Invoice Ninja to 5.5.116
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.116)
+* Fixes for regression in Paypal Express driver.
+* Add ability to sign e-invoice with SSL
+* v5.5.116 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8504
+
