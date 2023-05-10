@@ -2146,3 +2146,11 @@
 * Add ability to sign e-invoice with SSL
 * v5.5.116 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8504
 
+[1.7.19]
+* Update Invoice Ninja to 5.5.117
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.117)
+* ES E-Invoicing by @turbo124 in #8506
+* Fix for gateway fees when using line item taxes
+* Fixes for imports
+* v5.5.117 by @turbo124 in #8507
+
