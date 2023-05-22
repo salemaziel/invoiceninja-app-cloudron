@@ -2162,3 +2162,9 @@
 * Fixes for sync quote / invoice columns
 * Fixes for e-invoicing FACe
 
+[1.7.21]
+* Update Invoice Ninja to 5.5.119
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.119)
+* Minor fixes for ZuGFeRD by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8513
+* v5.5.119 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8515
+
