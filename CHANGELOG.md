@@ -2168,3 +2168,14 @@
 * Minor fixes for ZuGFeRD by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8513
 * v5.5.119 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8515
 
+[1.8.0]
+* Update Invoice Ninja to 5.5.122
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.122)
+* Update documents by @turbo124 in #8518
+* Update documents / company settings by @turbo124 in #8519
+* Fixes for `text_body` by @turbo124 in #8520
+* Add expense categories if they do not exist on import by @turbo124 in #8522
+* Add signatures on e-invoices.
+* Fixes for Paytrace in dev mode
+* Fixes for custom email templates
+
