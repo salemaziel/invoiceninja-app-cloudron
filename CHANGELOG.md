@@ -2186,4 +2186,8 @@
 * Fixes for client settings by @turbo124 in #8529
 * Minor fixes by @turbo124 in #8530
 
-*
+[1.8.2]
+* Update Invoice Ninja to 5.5.124
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.124)
+* AT Tax enablement. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8534
+
