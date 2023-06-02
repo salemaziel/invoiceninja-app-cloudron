@@ -2179,3 +2179,11 @@
 * Fixes for Paytrace in dev mode
 * Fixes for custom email templates
 
+[1.8.1]
+* Update Invoice Ninja to 5.5.123
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.123)
+* Improve auto bill text in client portal by @turbo124 in #8525
+* Fixes for client settings by @turbo124 in #8529
+* Minor fixes by @turbo124 in #8530
+
+*
