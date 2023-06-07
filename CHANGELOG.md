@@ -2191,3 +2191,11 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.5.124)
 * AT Tax enablement. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8534
 
+[1.9.0]
+* Update Invoice Ninja to 5.6.0
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.0)
+* Updates for auth.net and require cvv codes by @turbo124 in #8535
+* GA of automated sales tax calculations
+* Refactor for administrator URLs depending on which portal you are using React / Flutter
+* Fixes for custom email templates
+* Add phone to list of required fields for auth.net
