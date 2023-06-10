@@ -2199,3 +2199,9 @@
 * Refactor for administrator URLs depending on which portal you are using React / Flutter
 * Fixes for custom email templates
 * Add phone to list of required fields for auth.net
+
+[1.9.1]
+* Update Invoice Ninja to 5.6.1
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.1)
+* Password timeout route by @turbo124 in #8538
+
