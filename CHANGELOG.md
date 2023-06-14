@@ -2205,3 +2205,10 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.1)
 * Password timeout route by @turbo124 in #8538
 
+[1.9.2]
+* Update Invoice Ninja to 5.6.2
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.2)
+* fixes for react links by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8546
+* v5.6.2 by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8553
+* Add auth to document downloads by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8555
+
