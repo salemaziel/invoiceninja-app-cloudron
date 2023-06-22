@@ -2217,3 +2217,9 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.3)
 * Client and tasks includes for project by @beganovich in #8560
 * Add "All Time" to scheduled statements date range; allow excluding clients with no matching statements by @joshuadwire in #8556
+
+[1.9.4]
+* Update Invoice Ninja to 5.6.4
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.4)
+* Minor fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8563
+
