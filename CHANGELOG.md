@@ -2223,3 +2223,12 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.4)
 * Minor fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8563
 
+[1.9.5]
+* Update Invoice Ninja to 5.6.5
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.5)
+* General fixes and improvements by @turbo124 in #8575
+* Minor fixes for bank transaction processing by @turbo124 in #8577
+* Fixes for PDF Previews by @turbo124 in #8580
+* v5.6.5 by @turbo124 in #8587
+* Add :MONTHYEAR keyword to recurring expenses by @lamaral in #8578
+
