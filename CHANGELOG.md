@@ -2232,3 +2232,14 @@
 * v5.6.5 by @turbo124 in #8587
 * Add :MONTHYEAR keyword to recurring expenses by @lamaral in #8578
 
+[1.9.6]
+* Update Invoice Ninja to 5.6.7
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.7)
+* iDeal notifications by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8590
+* minor fixes for constructor props by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8592
+* Fixes for mailer by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8593
+* More fixes for the ZUGFeRD implementation by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8599
+* Fixes for duplicated XInvoice file attachments by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8601
+* updates for user preferences route by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8602
+* Updates for composer dependencies by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8604
+
