@@ -2243,3 +2243,7 @@
 * updates for user preferences route by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8602
 * Updates for composer dependencies by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8604
 
+[1.9.7]
+* Update Invoice Ninja to 5.6.12
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.12)
+
