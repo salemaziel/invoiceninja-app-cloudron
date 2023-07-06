@@ -2247,3 +2247,9 @@
 * Update Invoice Ninja to 5.6.12
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.12)
 
+[1.9.8]
+* Update Invoice Ninja to 5.6.13
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.13)
+* Updated translations
+* Fixes for plain email template variable replacements
+
