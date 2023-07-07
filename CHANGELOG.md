@@ -2253,3 +2253,9 @@
 * Updated translations
 * Fixes for plain email template variable replacements
 
+[1.9.9]
+* Update Invoice Ninja to 5.6.14
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.14)
+* Fixes for Square
+* Signed URLs for Protected Downloads
+
