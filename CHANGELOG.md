@@ -2259,3 +2259,8 @@
 * Fixes for Square
 * Signed URLs for Protected Downloads
 
+[1.9.10]
+* Update Invoice Ninja to 5.6.15
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.15)
+* Fix for regression on rate limiting throttle by @turbo124 in #8624
+
