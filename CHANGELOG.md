@@ -2264,3 +2264,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.15)
 * Fix for regression on rate limiting throttle by @turbo124 in #8624
 
+[1.9.11]
+* Update Invoice Ninja to 5.6.17
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.17)
+* Fixes for CORS
+* Remove eval()
