@@ -2269,3 +2269,10 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.17)
 * Fixes for CORS
 * Remove eval()
+
+[1.9.12]
+* Update Invoice Ninja to 5.6.18
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.18)
+* Fixes for protected downloads in Docker Containers by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8634
+* Improve client portal when viewing on mobile
+
