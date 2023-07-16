@@ -2276,3 +2276,8 @@
 * Fixes for protected downloads in Docker Containers by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8634
 * Improve client portal when viewing on mobile
 
+[1.9.13]
+* Update Invoice Ninja to 5.6.19
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.19)
+* Fixes for signatures / terms in Client Portal
+
