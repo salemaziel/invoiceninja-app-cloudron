@@ -2281,3 +2281,10 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.19)
 * Fixes for signatures / terms in Client Portal
 
+[1.9.14]
+* Update Invoice Ninja to 5.6.20
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.20)
+* Updates for purging clients by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8651
+* Adjustments for restoring a deleted invoice with a deleted payment by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8653
+* Change length of Webhook Urls by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8656
+
