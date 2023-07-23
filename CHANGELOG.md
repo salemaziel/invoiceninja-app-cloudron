@@ -2288,3 +2288,9 @@
 * Adjustments for restoring a deleted invoice with a deleted payment by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8653
 * Change length of Webhook Urls by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8656
 
+[1.9.15]
+* Update Invoice Ninja to 5.6.21
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.21)
+* Updates for currencies by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8661
+* Silence errors on company logo delete. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8662
+
