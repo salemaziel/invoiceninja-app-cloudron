@@ -2294,3 +2294,9 @@
 * Updates for currencies by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8661
 * Silence errors on company logo delete. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8662
 
+[1.9.16]
+* Update Invoice Ninja to 5.6.22
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.22)
+* Fixes for Signatures by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8668
+* Fixes for e-invoice (Spanish) by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8669
+
