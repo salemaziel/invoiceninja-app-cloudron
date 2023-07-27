@@ -2300,3 +2300,8 @@
 * Fixes for Signatures by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8668
 * Fixes for e-invoice (Spanish) by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8669
 
+[1.9.17]
+* Update Invoice Ninja to 5.6.23
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.23)
+* Fixes for reminders - timezone offsets by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8672
+
