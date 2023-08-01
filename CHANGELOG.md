@@ -2305,3 +2305,19 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.23)
 * Fixes for reminders - timezone offsets by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8672
 
+[1.9.18]
+* Update Invoice Ninja to 5.6.24
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.24)
+* Fixes for Recurring expense generation
+* Minor fixes for inclusive tax calculations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8680
+* Minor fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8681
+* Addtional query filters for invoices
+* Fixes for deleted payments
+* Fixes for timezone corrections for reminders
+* Fixes for permissions to view tax rates
+* Fixes for recurring invoices
+* Remove currency formatting of payments from exports
+* Updates for e-invoice to include legal literals and also payments
+* Set todays date on a new expense
+* Fixes for signature dates and IP addresses
+
