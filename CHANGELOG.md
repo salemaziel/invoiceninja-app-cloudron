@@ -2321,3 +2321,10 @@
 * Set todays date on a new expense
 * Fixes for signature dates and IP addresses
 
+[1.9.19]
+* Update Invoice Ninja to 5.6.25
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.25)
+* Fixes for expense id encoding in bank transactions
+* Update last sent date for recurring expenses
+* Updates for license checks
+* Minor fixes for inclusive tax calculations
