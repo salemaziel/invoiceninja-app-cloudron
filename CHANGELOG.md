@@ -2328,3 +2328,11 @@
 * Update last sent date for recurring expenses
 * Updates for license checks
 * Minor fixes for inclusive tax calculations
+
+[1.9.20]
+* Update Invoice Ninja to 5.6.26
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.26)
+* Fixes for static analysis by @turbo124 in #8692
+* Fixes for unlinking company exports by @turbo124 in #8694
+* Minor Fixes. by @turbo124 in #8695
+
