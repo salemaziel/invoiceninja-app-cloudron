@@ -2336,3 +2336,8 @@
 * Fixes for unlinking company exports by @turbo124 in #8694
 * Minor Fixes. by @turbo124 in #8695
 
+[1.9.21]
+* Update Invoice Ninja to 5.6.27
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.27)
+* Fixes for quote approval
+
