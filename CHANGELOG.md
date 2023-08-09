@@ -2341,3 +2341,11 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.27)
 * Fixes for quote approval
 
+[1.9.22]
+* Update Invoice Ninja to 5.6.28
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.28)
+* Currencies: XAG, XAU, and missing name for LYD by @tctlrd in #8698
+* xau,xag currencies by @turbo124 in #8703
+* Fixes for currency seeder ids by @turbo124 in #8704
+* Fixes for translations file by @turbo124 in #8705
+* Fixes for Spanish E-Invoicing
