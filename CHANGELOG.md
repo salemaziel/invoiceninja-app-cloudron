@@ -2349,3 +2349,20 @@
 * Fixes for currency seeder ids by @turbo124 in #8704
 * Fixes for translations file by @turbo124 in #8705
 * Fixes for Spanish E-Invoicing
+
+[1.9.23]
+* Update Invoice Ninja to 5.6.30
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.29)
+* Update texts for tax info placeholders
+* Updates for tests for html generation
+* Updates for tests for html generation with special translations
+* Fixes for yodlee
+* Additional currencies
+* Tests for adding language ID for vendors
+* Tests for account summary DTO
+* Updates for yodlee account status
+* Add last_login timestamps for vendor contacts and vendors
+* Add events for catching contact logins
+* Support using draft credits in payments
+* Adjustments for Facturae 3.2.2
+
