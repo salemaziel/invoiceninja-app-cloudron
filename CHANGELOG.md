@@ -2366,3 +2366,8 @@
 * Support using draft credits in payments
 * Adjustments for Facturae 3.2.2
 
+[1.9.24]
+* Update Invoice Ninja to 5.6.31
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.31)
+* Adjust xml-generation for E-Invoicing by @LarsK1 in #8697
+* Adjustments e-invoicing by @turbo124 in #8722
