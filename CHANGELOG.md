@@ -2371,3 +2371,18 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.6.31)
 * Adjust xml-generation for E-Invoicing by @LarsK1 in #8697
 * Adjustments e-invoicing by @turbo124 in #8722
+
+[1.10.0]
+* Update Invoice Ninja to 5.7.0
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.0)
+* Fixes for currency seeder ids by @turbo124 in #8704
+* Fixes for translations file by @turbo124 in #8705
+* Adjust xml-generation for E-Invoicing by @LarsK1 in #8697
+* Refactor for e-invoicing by @turbo124 in #8722
+* Report Previews for Credits by @turbo124 in #8728
+* Fixes for report previews by @turbo124 in #8730
+* Fixes for collection to array conversion. by @turbo124 in #8731
+* Fixes for report previews by @turbo124 in #8732
+* Laravel 10 by @turbo124 in #8733
+* Adjustment for Purchase Orders in Portal by @turbo124 in #8734
+
