@@ -2386,3 +2386,8 @@
 * Laravel 10 by @turbo124 in #8733
 * Adjustment for Purchase Orders in Portal by @turbo124 in #8734
 
+[1.10.1]
+* Update Invoice Ninja to 5.7.3
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.3)
+* Laravel10 by @turbo124 in #8739
+
