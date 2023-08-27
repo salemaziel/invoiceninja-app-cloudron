@@ -2391,3 +2391,7 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.4)
 * Laravel10 by @turbo124 in #8739
 
+[1.10.2]
+* Update Invoice Ninja to 5.7.5
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.5)
+* Bug fix for db::raw in `payment_balance` query
