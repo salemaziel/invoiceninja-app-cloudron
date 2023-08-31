@@ -2395,3 +2395,12 @@
 * Update Invoice Ninja to 5.7.5
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.5)
 * Bug fix for db::raw in `payment_balance` query
+
+[1.10.3]
+* Update Invoice Ninja to 5.7.6
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.6)
+* Updates for credit reports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8748
+* Report Previews by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8759
+* Updates for github issue templates by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8763
+* Adjustments for invoice calculations to support higher precision by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8764
+
