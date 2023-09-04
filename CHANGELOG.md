@@ -2404,3 +2404,9 @@
 * Updates for github issue templates by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8763
 * Adjustments for invoice calculations to support higher precision by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8764
 
+[1.10.4]
+* Update Invoice Ninja to 5.7.7
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.7)
+* Improve Tax Summary Reports
+* Fixes for DB::raw() queries
+
