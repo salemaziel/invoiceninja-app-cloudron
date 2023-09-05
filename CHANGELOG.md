@@ -2410,3 +2410,10 @@
 * Improve Tax Summary Reports
 * Fixes for DB::raw() queries
 
+[1.10.5]
+* Update Invoice Ninja to 5.7.8
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.8)
+* Removes all references to storage paths for PDFs, all PDFs are now dynamincally generated on demand
+* Refactor for Bulk zip
+* Refactor for PDF Merge
+
