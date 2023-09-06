@@ -2417,3 +2417,8 @@
 * Refactor for Bulk zip
 * Refactor for PDF Merge
 
+[1.10.6]
+* Update Invoice Ninja to 5.7.9
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.9)
+* Fixes for check data script
+
