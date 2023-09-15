@@ -2430,3 +2430,9 @@
 * Update Invoice Ninja to 5.7.11
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.11)
 * added void transaction support for auth.net
+
+[1.10.9]
+* Update Invoice Ninja to 5.7.12
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.12)
+* Updates for search + fixes for gross line totals by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8797
+
