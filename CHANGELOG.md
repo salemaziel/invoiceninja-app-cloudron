@@ -2436,3 +2436,7 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.12)
 * Updates for search + fixes for gross line totals by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8797
 
+[1.10.10]
+* Update Invoice Ninja to 5.7.13
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.13)
+* Checks for missing props by @turbo124 in #8806
