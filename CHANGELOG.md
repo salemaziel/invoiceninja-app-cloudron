@@ -2440,3 +2440,9 @@
 * Update Invoice Ninja to 5.7.13
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.13)
 * Checks for missing props by @turbo124 in #8806
+
+[1.10.11]
+* Update Invoice Ninja to 5.7.14
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.14)
+* Import Company Model and Hash in usersTableSeeder.php by @chandachewe10 in #8794
+
