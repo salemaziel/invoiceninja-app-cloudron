@@ -2451,3 +2451,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.15)
 * Prioritize principle name for microsoft authentication
 
+[1.10.13]
+* Update Invoice Ninja to 5.7.17
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.17)
+* Updates for search
+
