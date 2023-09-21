@@ -2456,3 +2456,9 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.17)
 * Updates for search
 
+[1.10.14]
+* Update Invoice Ninja to 5.7.22
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.22)
+* Changes for react build by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8818
+* Fixes for react builds by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8820
+
