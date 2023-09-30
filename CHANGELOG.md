@@ -2462,3 +2462,14 @@
 * Changes for react build by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8818
 * Fixes for react builds by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8820
 
+[1.10.15]
+* Update Invoice Ninja to 5.7.24
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.24)
+* Prevent duplicate tax names by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8822
+* Minor updates + translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8826
+* Static analysis clean up by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8827
+* Updates for searching report previews by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8828
+* Migration to Vite by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8778
+* Check out only the v5-stable branch by @NucleaPeon in https://github.com/invoiceninja/invoiceninja/pull/8831
+* Update build files for vite by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8832
+
