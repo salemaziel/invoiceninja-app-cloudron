@@ -1,4 +1,4 @@
-FROM cloudron/base:4.0.0@sha256:31b195ed0662bdb06a6e8a5ddbedb6f191ce92e8bee04c03fb02dd4e9d0286df
+FROM cloudron/base:4.2.0@sha256:46da2fffb36353ef714f97ae8e962bd2c212ca091108d768ba473078319a47f4
 
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
@@ -8,7 +8,7 @@ RUN apt update && \
     apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
     rm -r /var/cache/apt /var/lib/apt/lists
 
-ARG VERSION=5.7.24
+ARG VERSION=5.7.25
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
