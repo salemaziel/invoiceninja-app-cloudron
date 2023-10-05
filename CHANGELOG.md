@@ -2478,3 +2478,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.25)
 * Improve resiliency of pdf previews by @turbo124 in #8843
 * Fixes for card-js by @beganovich in #8847
+
+[1.10.17]
+* Update Invoice Ninja to 5.7.26
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.26)
+
