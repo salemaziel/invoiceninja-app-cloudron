@@ -2483,3 +2483,9 @@
 * Update Invoice Ninja to 5.7.26
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.26)
 
+[1.10.18]
+* Update Invoice Ninja to 5.7.27
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.27)
+* Return correct identifier for reports by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8860
+* Fixes for public/private documents by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8861
+
