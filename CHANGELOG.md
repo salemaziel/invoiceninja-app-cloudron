@@ -2489,3 +2489,7 @@
 * Return correct identifier for reports by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8860
 * Fixes for public/private documents by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8861
 
+[1.10.19]
+* Update Invoice Ninja to 5.7.28
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.28)
+
