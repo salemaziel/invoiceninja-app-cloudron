@@ -2493,3 +2493,7 @@
 * Update Invoice Ninja to 5.7.28
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.28)
 
+[1.10.20]
+* Update Invoice Ninja to 5.7.29
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.29)
+
