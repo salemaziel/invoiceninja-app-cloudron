@@ -2497,3 +2497,9 @@
 * Update Invoice Ninja to 5.7.29
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.29)
 
+[1.10.21]
+* Update Invoice Ninja to 5.7.30
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.30)
+* Fixes for RandomDataSeeder by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8869
+* FIxes for Trials in subscriptions
+
