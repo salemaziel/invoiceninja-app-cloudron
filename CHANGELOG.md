@@ -2503,3 +2503,11 @@
 * Fixes for RandomDataSeeder by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8869
 * FIxes for Trials in subscriptions
 
+[1.10.22]
+* Update Invoice Ninja to 5.7.31
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.31)
+* Updates for missing props by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8875
+* Fixes for missing Tax_id prop by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8876
+* Minor fixes for paytrace by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8877
+* Fixes for Swiss QR Codes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8885
+
