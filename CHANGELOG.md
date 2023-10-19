@@ -2511,3 +2511,8 @@
 * Minor fixes for paytrace by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8877
 * Fixes for Swiss QR Codes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8885
 
+[1.10.23]
+* Update Invoice Ninja to 5.7.32
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.32)
+* Refactor for live previews.
+
