@@ -2516,3 +2516,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.32)
 * Refactor for live previews.
 
+[1.10.24]
+* Update Invoice Ninja to 5.7.33
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.33)
+* Fixes for EPC / SEPA QR Codes
+
