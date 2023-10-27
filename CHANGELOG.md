@@ -2521,3 +2521,12 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.33)
 * Fixes for EPC / SEPA QR Codes
 
+[1.10.25]
+* Update Invoice Ninja to 5.7.34
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.34)
+* Align client export with rest of code by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8891
+* Ensure order of Item exports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8893
+* Add client.number to maps by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8895
+* Add support for Libre Office by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8902
+* Fixes for QR code by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8906
+
