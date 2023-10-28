@@ -2530,3 +2530,8 @@
 * Add support for Libre Office by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8902
 * Fixes for QR code by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/8906
 
+[1.10.26]
+* Update Invoice Ninja to 5.7.35
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.35)
+* Add "uninvoiced" Task Filter by @gescarra in https://github.com/invoiceninja/invoiceninja/pull/8913
+
