@@ -2535,3 +2535,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.35)
 * Add "uninvoiced" Task Filter by @gescarra in https://github.com/invoiceninja/invoiceninja/pull/8913
 
+[1.10.27]
+* Update Invoice Ninja to 5.7.36
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.36)
+* Fixes for Flutter web application not rendering
+
