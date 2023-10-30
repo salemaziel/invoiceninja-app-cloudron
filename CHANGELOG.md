@@ -2545,3 +2545,7 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.37)
 * Fixes for variables replacements
 
+[1.10.29]
+* Update Invoice Ninja to 5.7.38
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.38)
+
