@@ -2540,3 +2540,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.36)
 * Fixes for Flutter web application not rendering
 
+[1.10.28]
+* Update Invoice Ninja to 5.7.37
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.37)
+* Fixes for variables replacements
+
