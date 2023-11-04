@@ -2557,4 +2557,7 @@
 * Update Invoice Ninja to 5.7.42
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.42)
 
-
+[1.10.32]
+* Update Invoice Ninja to 5.7.44
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.44)
+* Fixes for missing `vendor_contacts()` during migration
