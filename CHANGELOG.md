@@ -2571,3 +2571,10 @@
 * Update Invoice Ninja to 5.7.46
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.46)
 
+[1.10.35]
+* Update Invoice Ninja to 5.7.47
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.47)
+* Fixes for task id tax display by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8959
+* Minor fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8960
+* Fixes for system maintenance by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8962
+
