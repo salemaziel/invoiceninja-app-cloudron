@@ -2587,3 +2587,10 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.50)
 * Fixes for timezone offsets
 
+[1.10.38]
+* Update Invoice Ninja to 5.7.51
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.51)
+* Rollback for token auth on pdf routes
+* Fixes for send time using timezone offset calculations
+* Fixes for custom product quote columns
+
