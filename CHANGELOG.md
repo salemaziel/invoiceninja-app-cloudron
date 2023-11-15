@@ -2582,3 +2582,8 @@
 * Update Invoice Ninja to 5.7.48
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.48)
 
+[1.10.37]
+* Update Invoice Ninja to 5.7.50
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.50)
+* Fixes for timezone offsets
+
