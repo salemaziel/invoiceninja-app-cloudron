@@ -2594,3 +2594,10 @@
 * Fixes for send time using timezone offset calculations
 * Fixes for custom product quote columns
 
+[1.10.39]
+* Update Invoice Ninja to 5.7.52
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.52)
+* Adjustment for missing props by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8903
+* Fixes the reference field to be filled when scanning QR code with ban… by @sideonshore in https://github.com/invoiceninja/invoiceninja/pull/8972
+* Add link to invoice - if it exists by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8984
+
