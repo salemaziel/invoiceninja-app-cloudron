@@ -2601,3 +2601,8 @@
 * Fixes the reference field to be filled when scanning QR code with ban… by @sideonshore in https://github.com/invoiceninja/invoiceninja/pull/8972
 * Add link to invoice - if it exists by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8984
 
+[1.10.40]
+* Update Invoice Ninja to 5.7.54
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.54)
+* Translation for line item by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8989
+
