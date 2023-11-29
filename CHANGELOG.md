@@ -2606,3 +2606,12 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.54)
 * Translation for line item by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8989
 
+[1.10.41]
+* Update Invoice Ninja to 5.7.55
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.55)
+* PayPal PPCP by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8994
+* Add domain notifications by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8996
+* Feature: Add new ZuGFerD standards by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/8997
+* Stubs for extensions. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8998
+* Fixes for translation arrays by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8999
+
