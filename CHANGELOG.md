@@ -2615,3 +2615,11 @@
 * Stubs for extensions. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8998
 * Fixes for translation arrays by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/8999
 
+[1.10.42]
+* Update Invoice Ninja to 5.7.57
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.57)
+* Add margin-top to public_notes on clean design by @timconner in https://github.com/invoiceninja/invoiceninja/pull/9005
+* Added $balance_due_dec as usable variable by @kenny665 in https://github.com/invoiceninja/invoiceninja/pull/8950
+* HOTFIX: en_GB language is broken by @fidelix in https://github.com/invoiceninja/invoiceninja/pull/9010
+* Update project filters to allow filtering and sorting by client by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9011
+
