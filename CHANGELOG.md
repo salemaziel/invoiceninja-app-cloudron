@@ -2623,3 +2623,12 @@
 * HOTFIX: en_GB language is broken by @fidelix in https://github.com/invoiceninja/invoiceninja/pull/9010
 * Update project filters to allow filtering and sorting by client by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9011
 
+[1.10.43]
+* Update Invoice Ninja to 5.7.58
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.58)
+* Additional check data methods
+* Fixes for statements preventing a default invoice PDF being sent
+* Add account relation for activity table
+* Disable checkout.com pay now buttons on submit.
+* Fixes for past due/upcoming invoice filters
+* Fixes for redirecting on successful subscription purchase
