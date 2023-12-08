@@ -2632,3 +2632,9 @@
 * Disable checkout.com pay now buttons on submit.
 * Fixes for past due/upcoming invoice filters
 * Fixes for redirecting on successful subscription purchase
+
+[1.10.44]
+* Update Invoice Ninja to 5.7.59
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.59)
+* Streamline whitelabel logo styles in pdf builder by @danielkoch in https://github.com/invoiceninja/invoiceninja/pull/9027
+
