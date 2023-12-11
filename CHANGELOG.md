@@ -2638,3 +2638,17 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.59)
 * Streamline whitelabel logo styles in pdf builder by @danielkoch in https://github.com/invoiceninja/invoiceninja/pull/9027
 
+[1.10.45]
+* Update Invoice Ninja to 5.7.61
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.61)
+* Add case for transaction searches
+* Add checks for subdomain validation
+* Set appropriate date format for payment factory
+* Improvements for upcoming filters
+* Fixes for import validation
+* Update request rules for imports
+* Updates for readme
+* Fixes for report names
+* Fixes for GoCardless Instant Bank Payments
+* Fixees for numbering when set to When Sent
+
