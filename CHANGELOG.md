@@ -2652,3 +2652,7 @@
 * Fixes for GoCardless Instant Bank Payments
 * Fixees for numbering when set to When Sent
 
+[1.10.46]
+* Update Invoice Ninja to 5.7.62
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.62)
+
