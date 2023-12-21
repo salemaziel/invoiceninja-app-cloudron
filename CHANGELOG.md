@@ -2656,3 +2656,10 @@
 * Update Invoice Ninja to 5.7.62
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.62)
 
+[1.10.47]
+* Update Invoice Ninja to 5.7.63
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.7.63)
+* Add php 8.3 testing by @heddn in https://github.com/invoiceninja/invoiceninja/pull/9047
+* Update blacklist rules by @joecool1029 in https://github.com/invoiceninja/invoiceninja/pull/9046
+* Updates for readme by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9051
+
