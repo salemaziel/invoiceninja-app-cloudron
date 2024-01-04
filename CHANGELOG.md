@@ -2672,3 +2672,7 @@
 * Fixes for prepayments by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9099
 * Renaming comment in Kernel.php to "Expenses" and not "Invoices". by @JasmeowTheCat in https://github.com/invoiceninja/invoiceninja/pull/9098
 
+[1.11.1]
+* Update Invoice Ninja to 5.8.1
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.1)
+
