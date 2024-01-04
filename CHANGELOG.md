@@ -2663,3 +2663,12 @@
 * Update blacklist rules by @joecool1029 in https://github.com/invoiceninja/invoiceninja/pull/9046
 * Updates for readme by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9051
 
+[1.11.0]
+* Update Invoice Ninja to 5.8.0
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.0)
+* Feature: nordigen bank integration by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9004
+* Nordigen / GoCardless updates. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9074
+* Livewire v3 upgrade by @jasonlbeggs in https://github.com/invoiceninja/invoiceninja/pull/9041
+* Fixes for prepayments by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9099
+* Renaming comment in Kernel.php to "Expenses" and not "Invoices". by @JasmeowTheCat in https://github.com/invoiceninja/invoiceninja/pull/9098
+
