@@ -2676,3 +2676,8 @@
 * Update Invoice Ninja to 5.8.1
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.1)
 
+[1.11.2]
+* Update Invoice Ninja to 5.8.2
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.2)
+* Reset counters at client and group levels by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9103
+
