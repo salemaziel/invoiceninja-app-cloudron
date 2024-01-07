@@ -2681,3 +2681,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.2)
 * Reset counters at client and group levels by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9103
 
+[1.11.3]
+* Update Invoice Ninja to 5.8.3
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.3)
+* Fixes for Partial due date type in InvoiceTransformer
+
