@@ -2694,3 +2694,14 @@
 * Update Invoice Ninja to 5.8.9
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.9)
 
+[1.11.6]
+* Update Invoice Ninja to 5.8.10
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.10)
+* Fixes for links to forum in setup. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9145
+* fix: nordigen transaction id should be string by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9134
+* Lao currency + lang
+* Updated translations
+* Fixes for Purchase order previews
+* Fixes for Recurring Inovice statuses
+* Float parsing on imports
+
