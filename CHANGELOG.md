@@ -2705,3 +2705,9 @@
 * Fixes for Recurring Inovice statuses
 * Float parsing on imports
 
+[1.11.7]
+* Update Invoice Ninja to 5.8.11
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.11)
+* Livewire bundling by @turbo124 in #9147
+* Add mappings for participant and participant_name by @turbo124 in #9149
+
