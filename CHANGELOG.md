@@ -2711,3 +2711,11 @@
 * Livewire bundling by @turbo124 in #9147
 * Add mappings for participant and participant_name by @turbo124 in #9149
 
+[1.11.8]
+* Update Invoice Ninja to 5.8.12
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.12)
+* fix: nordigen amount imported as absolute by @paulwer in #9150
+* Partial Due Date valudation by @turbo124 in #9156
+* v5.8.12 by @turbo124 in #9165
+* Feature: nordigen additional transaction info in description by @paulwer in #9157
+
