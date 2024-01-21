@@ -2719,3 +2719,10 @@
 * v5.8.12 by @turbo124 in #9165
 * Feature: nordigen additional transaction info in description by @paulwer in #9157
 
+[1.11.9]
+* Update Invoice Ninja to 5.8.14
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.14)
+* Fixes for mailables. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9175
+* Fix: nordigen transaction import error by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9180
+* Add Net / tax amounts to expense reports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9181
+
