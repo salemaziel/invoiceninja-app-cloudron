@@ -2726,3 +2726,7 @@
 * Fix: nordigen transaction import error by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9180
 * Add Net / tax amounts to expense reports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9181
 
+[1.11.10]
+* Update Invoice Ninja to 5.8.15
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.15)
+
