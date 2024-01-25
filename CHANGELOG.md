@@ -2730,7 +2730,7 @@
 * Update Invoice Ninja to 5.8.15
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.15)
 
-[1.11.1]
+[1.11.11]
 * Update Invoice Ninja to 5.8.16
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.16)
 * E-mail preferences links by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9172
