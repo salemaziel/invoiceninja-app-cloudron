@@ -2730,3 +2730,12 @@
 * Update Invoice Ninja to 5.8.15
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.15)
 
+[1.11.1]
+* Update Invoice Ninja to 5.8.16
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.16)
+* E-mail preferences links by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9172
+* Prevent reminder fees being taxes in DE region by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9191
+* Fixes for check data
+* API Doc update
+* Raw QR codes
+
