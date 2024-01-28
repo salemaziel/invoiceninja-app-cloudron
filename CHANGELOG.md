@@ -2739,3 +2739,10 @@
 * API Doc update
 * Raw QR codes
 
+[1.11.12]
+* Update Invoice Ninja to 5.8.17
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.17)
+* Fixes for Nordigen by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9196
+* FIX: Nordigen Import Error, when missing transactionId from instituition by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9202
+* Allow Gocardless ACSS payments for CAD customers by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9203
+
