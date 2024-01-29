@@ -2746,3 +2746,9 @@
 * FIX: Nordigen Import Error, when missing transactionId from instituition by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9202
 * Allow Gocardless ACSS payments for CAD customers by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9203
 
+[1.11.13]
+* Update Invoice Ninja to 5.8.18
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.18)
+* Adjustments for logic for sending payment emails by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9209
+* Replace variables in Terms for user acceptance in Client Portal by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9210
+
