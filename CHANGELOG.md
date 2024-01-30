@@ -2752,3 +2752,7 @@
 * Adjustments for logic for sending payment emails by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9209
 * Replace variables in Terms for user acceptance in Client Portal by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9210
 
+[1.11.14]
+* Update Invoice Ninja to 5.8.19
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.19)
+
