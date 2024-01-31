@@ -2756,3 +2756,12 @@
 * Update Invoice Ninja to 5.8.19
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.19)
 
+[1.11.15]
+* Update Invoice Ninja to 5.8.20
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.20)
+* Send users to overview page instead of edit for React by @turbo124 in #9214
+* Updates for @Isset() by @turbo124 in #9220
+* Updated translations
+* Send users to overview page instead of edit for React
+* Fixes for payment emails
+
