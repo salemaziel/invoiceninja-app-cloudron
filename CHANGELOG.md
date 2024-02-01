@@ -2765,3 +2765,8 @@
 * Send users to overview page instead of edit for React
 * Fixes for payment emails
 
+[1.11.16]
+* Update Invoice Ninja to 5.8.21
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.21)
+* Fixes for plain templates.
+
