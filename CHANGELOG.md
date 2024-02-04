@@ -2770,3 +2770,9 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.21)
 * Fixes for plain templates.
 
+[1.11.17]
+* Update Invoice Ninja to 5.8.22
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.22)
+* Fixes for email templates
+* Fixes for migration scripts
+
