@@ -2776,3 +2776,12 @@
 * Fixes for email templates
 * Fixes for migration scripts
 
+[1.11.18]
+* Update Invoice Ninja to 5.8.23
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.23)
+* Required form fields by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9224
+* Fixes for RFF by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9243
+* Fixes for email reports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9244
+* RFF validation errors on invoice show page by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9245
+* Fixes for edge cases in reports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9248
+
