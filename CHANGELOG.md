@@ -2785,3 +2785,18 @@
 * RFF validation errors on invoice show page by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9245
 * Fixes for edge cases in reports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9248
 
+[1.11.19]
+* Update Invoice Ninja to 5.8.24
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.24)
+* Improve Recurring Expense Filters by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9266
+* Fixes for tax_amount when migrating by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9267
+* RFF support for purchase links by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9273
+* Pro Rata subscriptions calculation by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9278
+* Fix openAPI specification build order by @Flole998 in https://github.com/invoiceninja/invoiceninja/pull/9283
+* Switching subscriptions RFF by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9285
+* Fix missing / in openapi-docs by @Flole998 in https://github.com/invoiceninja/invoiceninja/pull/9276
+* Fix various openAPI related mistakes in openapi/paths.yaml by @Flole998 in https://github.com/invoiceninja/invoiceninja/pull/9275
+* Adjustments for task imports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9286
+* Nordigen API fix: iban should be treated as optional by @kevinpetit in https://github.com/invoiceninja/invoiceninja/pull/9289
+* Fixes for openapi spec by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9291
+
