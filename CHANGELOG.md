@@ -2800,3 +2800,8 @@
 * Nordigen API fix: iban should be treated as optional by @kevinpetit in https://github.com/invoiceninja/invoiceninja/pull/9289
 * Fixes for openapi spec by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9291
 
+[1.11.20]
+* Update Invoice Ninja to 5.8.25
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.25)
+* Set default payment notifications for new companies by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9298
+
