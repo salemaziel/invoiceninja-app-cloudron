@@ -2805,3 +2805,15 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.25)
 * Set default payment notifications for new companies by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9298
 
+[1.11.21]
+* Update Invoice Ninja to 5.8.26
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.26)
+* Add in company columns for SMTP configuration
+* Add Smtp check route
+* Adjustments for test mail server
+* Fixes for parse float
+* Updates for company factory
+* Improve PDF Mock
+* Adjustments for eager loading
+* Enforce columns that we can sort on
+
