@@ -37,13 +37,21 @@ fi
 
 # Settings to be updated on every run.
 echo "==> Update env file for database and email configs"
+
+# these variables got renamed
+sed -e 's/DB_HOST1=/DB_HOST=/' \
+    -e 's/DB_DATABASE1=/DB_DATABASE=/' \
+    -e 's/DB_USERNAME1=/DB_USERNAME=/' \
+    -e 's/DB_PASSWORD1=/DB_PASSWORD=/' \
+    -e 's/DB_PORT1=/DB_PORT=/' \
+    -i /app/data/env
+
 sed -e "s|.*\(APP_URL\).*|\1=${CLOUDRON_APP_ORIGIN}|g" \
-    -e "s|.*\(DB_TYPE1\).*|\1=mysql|g" \
-    -e "s|.*\(DB_HOST1\).*|\1=${CLOUDRON_MYSQL_HOST}|g" \
-    -e "s|.*\(DB_DATABASE1\).*|\1=${CLOUDRON_MYSQL_DATABASE}|g" \
-    -e "s|.*\(DB_USERNAME1\).*|\1=${CLOUDRON_MYSQL_USERNAME}|g" \
-    -e "s|.*\(DB_PASSWORD1\).*|\1=${CLOUDRON_MYSQL_PASSWORD}|g" \
-    -e "s|.*\(DB_PORT1\).*|\1=${CLOUDRON_MYSQL_PORT}|g" \
+    -e "s|.*\(DB_HOST\).*|\1=${CLOUDRON_MYSQL_HOST}|g" \
+    -e "s|.*\(DB_DATABASE\).*|\1=${CLOUDRON_MYSQL_DATABASE}|g" \
+    -e "s|.*\(DB_USERNAME\).*|\1=${CLOUDRON_MYSQL_USERNAME}|g" \
+    -e "s|.*\(DB_PASSWORD\).*|\1=${CLOUDRON_MYSQL_PASSWORD}|g" \
+    -e "s|.*\(DB_PORT\).*|\1=${CLOUDRON_MYSQL_PORT}|g" \
     -e "s|.*\(SESSION_DRIVER\).*|\1=redis|g" \
     -e "s|.*\(REDIS_HOST\).*|\1=${CLOUDRON_REDIS_HOST}|g" \
     -e "s|.*\(REDIS_PORT\).*|\1=${CLOUDRON_REDIS_PORT}|g" \
