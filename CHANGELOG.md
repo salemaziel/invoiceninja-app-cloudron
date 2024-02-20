@@ -2821,3 +2821,7 @@
 * Update Invoice Ninja to 5.8.27
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.27)
 * Fixes for SMTP port type
+
+[1.12.0]
+* Disable the internal queue
+
