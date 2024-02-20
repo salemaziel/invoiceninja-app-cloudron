@@ -2817,3 +2817,7 @@
 * Adjustments for eager loading
 * Enforce columns that we can sort on
 
+[1.11.22]
+* Update Invoice Ninja to 5.8.27
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.27)
+* Fixes for SMTP port type
