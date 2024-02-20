@@ -68,6 +68,11 @@ sed -e "s|.*\(APP_URL\).*|\1=${CLOUDRON_APP_ORIGIN}|g" \
     -e "s|.*\(DISABLE_AUTO_UPDATE\).*|\1=true|g" \
     -i /app/data/env
 
+# migration
+if ! grep -q INTERNAL_QUEUE_ENABLED /app/data/env; then
+    echo -e "\nINTERNAL_QUEUE_ENABLED=false" >> /app/data/env
+fi
+
 if [[ ! -f "/app/data/.dbsetup" ]]; then
     echo "==> Copying files on first run"
     cp -r /app/code/storage-vanilla /app/data/storage
