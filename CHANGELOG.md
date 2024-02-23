@@ -2825,3 +2825,15 @@
 [1.12.0]
 * Disable the internal queue
 
+[1.12.1]
+* Update Invoice Ninja to 5.8.28
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.28)
+* Feat: translations for nordigen transaction transformer - exchange rate by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9304
+* Fixes for company export paths by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9323
+* Updated translations
+* Fixes for user filter sort by
+* Adjustments for invoicesum
+* Updates for exchange rates
+* Updated 2FA error message response
+* Updates for type for smtp port
+
