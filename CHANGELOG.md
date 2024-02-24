@@ -2837,3 +2837,7 @@
 * Updated 2FA error message response
 * Updates for type for smtp port
 
+[1.12.2]
+* Update Invoice Ninja to 5.8.29
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.29)
+
