@@ -2841,3 +2841,8 @@
 * Update Invoice Ninja to 5.8.29
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.29)
 
+[1.12.3]
+* Update Invoice Ninja to 5.8.30
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.30)
+* Fixes for payment filters
+
