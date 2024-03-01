@@ -2846,3 +2846,13 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.30)
 * Fixes for payment filters
 
+[1.12.4]
+* Update Invoice Ninja to 5.8.31
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.31)
+* Updates for smtp configuration
+* Updates for parseformat
+* Remove redundant include
+* Better handling of failsafe for US State calculations
+* Fixes for payment filters
+* Set verify peer - default = true
+
