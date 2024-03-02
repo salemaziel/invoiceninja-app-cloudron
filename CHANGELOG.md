@@ -2856,3 +2856,8 @@
 * Fixes for payment filters
 * Set verify peer - default = true
 
+[1.12.5]
+* Update Invoice Ninja to 5.8.32
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.32)
+* Fixes for tax name equal to or less than 2 characters
+
