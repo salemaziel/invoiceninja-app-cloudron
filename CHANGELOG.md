@@ -2869,3 +2869,10 @@
 * Update Invoice Ninja to 5.8.34
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.34)
 
+[1.12.8]
+* Update Invoice Ninja to 5.8.35
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.35)
+* Updated translations and fixes for webhooks. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9359
+* allow plural for report names in scheduler by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9360
+* Handle edge case with Nordigen where account appears active by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9362
+
