@@ -2876,3 +2876,10 @@
 * allow plural for report names in scheduler by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9360
 * Handle edge case with Nordigen where account appears active by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9362
 
+[1.12.9]
+* Update Invoice Ninja to 5.8.36
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.36)
+* Fix regression in webhooks
+* Fixes for SMTP test sending
+* Fixes for parseFloat
+
