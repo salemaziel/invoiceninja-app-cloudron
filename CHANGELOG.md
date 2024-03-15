@@ -2883,3 +2883,8 @@
 * Fixes for SMTP test sending
 * Fixes for parseFloat
 
+[1.12.10]
+* Update Invoice Ninja to 5.8.37
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.37)
+* Fixes for updating client record
+
