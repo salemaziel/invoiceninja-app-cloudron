@@ -2888,3 +2888,5 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.37)
 * Fixes for updating client record
 
+[1.12.11]
+* Do not run scheduler and queue at the same time
