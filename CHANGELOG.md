@@ -2890,3 +2890,17 @@
 
 [1.12.11]
 * Do not run scheduler and queue at the same time
+
+[1.12.12]
+* Update Invoice Ninja to 5.8.38
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.38)
+* Feature: Brevo Email Provider by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9053
+* Gateway authentication by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9385
+* Import customers from all gateways by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9387
+* Feature: Allow more document types for E-Invoicing by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/9364
+* Fixes for payment validation by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9392
+* Fixes for tests / name spaces - e-invoicing by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9395
+* Client dashboard by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9397
+* Fixes for RFF on direct payment page by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9394
+* Updates for expense conversion from purchase order by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9402
+
