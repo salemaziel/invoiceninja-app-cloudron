@@ -2904,3 +2904,6 @@
 * Fixes for RFF on direct payment page by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9394
 * Updates for expense conversion from purchase order by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9402
 
+[1.12.13]
+* Bring back the scheduler task
+
