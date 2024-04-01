@@ -2907,3 +2907,10 @@
 [1.12.13]
 * Bring back the scheduler task
 
+[1.12.14]
+* Update Invoice Ninja to 5.8.39
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.39)
+* FIX: missing nordigen account disabled email on BankIntegrationController by @paulwer in https://github.com/invoiceninja/invoiceninja/pull/9406
+* Add client filters to exports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9408
+* Control client dashboard using setting by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9405
+
