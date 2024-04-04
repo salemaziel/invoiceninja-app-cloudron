@@ -2914,3 +2914,10 @@
 * Add client filters to exports by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9408
 * Control client dashboard using setting by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9405
 
+[1.12.15]
+* Update Invoice Ninja to 5.8.40
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.40)
+* Subscriptions v3 by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9280
+* Bulk assignment of clients to a group by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9425
+* Improvements for templates & Minor bug fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9429
+
