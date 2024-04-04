@@ -2921,3 +2921,8 @@
 * Bulk assignment of clients to a group by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9425
 * Improvements for templates & Minor bug fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9429
 
+[1.12.16]
+* Update Invoice Ninja to 5.9.41
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.41)
+* Updates for react build steps.
+
