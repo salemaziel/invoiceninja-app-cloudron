@@ -2926,3 +2926,7 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.41)
 * Updates for react build steps.
 
+[1.12.17]
+* Update Invoice Ninja to 5.9.43
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.43)
+
