@@ -2947,3 +2947,9 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.48)
 * FatturaPA by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9454
 
+[1.12.22]
+* Update Invoice Ninja to 5.9.49
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.49)
+* Updated translations by @turbo124 in #9457
+* Updates for subscriptions by @turbo124 in #9458
+* Rollback invoice requests by @turbo124 in #9459
