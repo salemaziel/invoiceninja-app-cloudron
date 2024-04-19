@@ -2955,6 +2955,6 @@
 * Rollback invoice requests by @turbo124 in #9459
 
 [1.12.23]
-* Update Invoice Ninja to 5.9.50
+* Update Invoice Ninja to 5.8.50
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.50)
 
