@@ -2953,3 +2953,8 @@
 * Updated translations by @turbo124 in #9457
 * Updates for subscriptions by @turbo124 in #9458
 * Rollback invoice requests by @turbo124 in #9459
+
+[1.12.23]
+* Update Invoice Ninja to 5.9.50
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.50)
+
