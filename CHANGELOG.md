@@ -2958,3 +2958,7 @@
 * Update Invoice Ninja to 5.8.50
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.50)
 
+[1.12.24]
+* Update Invoice Ninja to 5.8.51
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.51)
+
