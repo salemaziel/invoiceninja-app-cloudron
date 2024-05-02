@@ -2962,3 +2962,8 @@
 * Update Invoice Ninja to 5.8.51
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.51)
 
+[1.12.25]
+* Update Invoice Ninja to 5.8.52
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.52)
+* Fix secondary fonts for Invoice Design preview by @dshoreman in #9480
+
