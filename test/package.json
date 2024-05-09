@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^124.0.1",
+    "chromedriver": "^124.0.2",
     "expect.js": "^0.3.1",
     "mocha": "^10.4.0",
     "selenium-webdriver": "^4.20.0",
