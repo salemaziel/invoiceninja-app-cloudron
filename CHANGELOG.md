@@ -2971,3 +2971,12 @@
 * Update Invoice Ninja to 5.8.53
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.53)
 
+[1.12.27]
+* Updated Invoice Ninja to 5.8.54
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.54)
+* Fixes for terms on subscirptions v3 by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9504
+* Cleanup for Stripe webhooks. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9507
+* Fixes for gateway fields override by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9511
+* Fixes for client filters for synthetic props. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9512
+* Redirect client to dashboard at login if enabled by @CarrnellTech in https://github.com/invoiceninja/invoiceninja/pull/9501
+
