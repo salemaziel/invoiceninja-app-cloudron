@@ -2980,3 +2980,11 @@
 * Fixes for client filters for synthetic props. by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9512
 * Redirect client to dashboard at login if enabled by @CarrnellTech in https://github.com/invoiceninja/invoiceninja/pull/9501
 
+[1.12.28]
+* Updated Invoice Ninja to 5.8.55
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.55)
+* Task rounding implemented
+* Refactor for start / end of quarters @turbo124 in #9514
+* Version 5.8.55 by @turbo124 in #9518
+* Redirect client to dashboard at login if enabled -fix #9417 #9501 by @CarrnellTech in #9516
+
