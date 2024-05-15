@@ -2988,3 +2988,7 @@
 * Version 5.8.55 by @turbo124 in #9518
 * Redirect client to dashboard at login if enabled -fix #9417 #9501 by @CarrnellTech in #9516
 
+[1.12.29]
+* Updated Invoice Ninja to 5.8.56
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.56)
+
