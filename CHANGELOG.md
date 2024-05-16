@@ -2992,3 +2992,8 @@
 * Updated Invoice Ninja to 5.8.56
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.56)
 
+[1.12.30]
+* Update Invoice Ninja to 5.8.57
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.57)
+* Add twig security policy by default by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9525
+
