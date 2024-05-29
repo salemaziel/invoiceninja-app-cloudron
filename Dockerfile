@@ -12,9 +12,9 @@ ARG VERSION=5.8.57
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
-RUN wget https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.zip -O ninja.zip \
-    && unzip ninja.zip \
-    && rm -f /tmp/ninja.zip \
+RUN wget https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.zip -O /tmp/ninja.zip \
+    && unzip /tmp/ninja.zip \
+    && rm /tmp/ninja.zip \
     && chown -R www-data:www-data /app/code
 
 RUN sudo -u www-data php /app/code/artisan optimize -vvv \
