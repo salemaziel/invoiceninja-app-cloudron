@@ -2997,3 +2997,18 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.8.57)
 * Add twig security policy by default by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9525
 
+[1.13.0]
+* Update Invoice Ninja to 5.9.1
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.9.0)
+* Update PHP to 8.3
+* Add BTCPay payment capabilities by @Nisaba in #9520
+* Updates for einvoicing schemas/models by @turbo124 in #9533
+* Update PaymentLibrariesSeeder for BTCPay by @Nisaba in #9534
+* Fixes for XInvoice by @LarsK1 in #9523
+* Updates for BTC payment driver by @turbo124 in #9535
+* Fix: Update Nordigen to properly handle small money transfer amounts by @yannickboy15 in #9537
+* Update PayPal integration to support advanced cards by @turbo124 in #9550
+* Update labels and fix custom company values in Invoice Preview by @dshoreman in #9556
+* Updates for currencies by @turbo124 in #9565
+* Add twig security policy by default by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9525
+
