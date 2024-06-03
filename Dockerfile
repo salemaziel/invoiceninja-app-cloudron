@@ -1,4 +1,4 @@
-FROM cloudron/base:4.2.0@sha256:46da2fffb36353ef714f97ae8e962bd2c212ca091108d768ba473078319a47f4
+FROM cloudron/base:5.0.0@sha256:6bec2b5246567ef8b5b13ca0af756e2e596941e440d76b46635211cd84383922
 
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
@@ -45,17 +45,17 @@ RUN a2dismod perl && \
     a2enmod cache
 
 # artisan queue:work needs pcntl_async_signals(), pcntl_signal(), pcntl_alarm()
-RUN crudini --set /etc/php/8.1/apache2/php.ini PHP disable_functions pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_unshare, && \
-    crudini --set /etc/php/8.1/apache2/php.ini PHP upload_max_filesize 500M && \
-    crudini --set /etc/php/8.1/apache2/php.ini PHP post_max_size 500M && \
-    crudini --set /etc/php/8.1/apache2/php.ini PHP max_input_vars 1800 && \
-    crudini --set /etc/php/8.1/apache2/php.ini Session session.save_path /run/invoiceninja/sessions && \
-    crudini --set /etc/php/8.1/apache2/php.ini Session session.gc_probability 1 && \
-    crudini --set /etc/php/8.1/apache2/php.ini Session session.gc_divisor 100
+RUN crudini --set /etc/php/8.3/apache2/php.ini PHP disable_functions pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_unshare, && \
+    crudini --set /etc/php/8.3/apache2/php.ini PHP upload_max_filesize 500M && \
+    crudini --set /etc/php/8.3/apache2/php.ini PHP post_max_size 500M && \
+    crudini --set /etc/php/8.3/apache2/php.ini PHP max_input_vars 1800 && \
+    crudini --set /etc/php/8.3/apache2/php.ini Session session.save_path /run/invoiceninja/sessions && \
+    crudini --set /etc/php/8.3/apache2/php.ini Session session.gc_probability 1 && \
+    crudini --set /etc/php/8.3/apache2/php.ini Session session.gc_divisor 100
 
-RUN cp /etc/php/8.1/apache2/php.ini /app/pkg/php.ini && \
-    rm -rf /etc/php/8.1/apache2/php.ini && rm -rf /etc/php/8.1/cli/php.ini && \
-    ln -s /run/php.ini /etc/php/8.1/apache2/php.ini &&  ln -s /run/php.ini /etc/php/8.1/cli/php.ini
+RUN cp /etc/php/8.3/apache2/php.ini /app/pkg/php.ini && \
+    rm -rf /etc/php/8.3/apache2/php.ini && rm -rf /etc/php/8.3/cli/php.ini && \
+    ln -s /run/php.ini /etc/php/8.3/apache2/php.ini &&  ln -s /run/php.ini /etc/php/8.3/cli/php.ini
 
 # configure supervisor
 ADD supervisor/ /etc/supervisor/conf.d/
