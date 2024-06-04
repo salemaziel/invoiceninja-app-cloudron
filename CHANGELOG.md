@@ -3012,3 +3012,8 @@
 * Updates for currencies by @turbo124 in #9565
 * Add twig security policy by default by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9525
 
+[1.13.1]
+* Update Invoice Ninja to 5.9.2
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.9.2)
+* Fixes for BTCpay
+
