@@ -8,14 +8,15 @@ RUN apt update && \
     apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
     rm -r /var/cache/apt /var/lib/apt/lists
 
-ARG VERSION=5.9.2
+ARG VERSION=5.9.3
+
+RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code
 
 # make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
 # https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
-RUN wget https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.zip -O /tmp/ninja.zip \
-    && unzip /tmp/ninja.zip \
-    && rm /tmp/ninja.zip \
-    && chown -R www-data:www-data /app/code
+RUN chown -R www-data:www-data /app/code
+
+RUN ls -l /app/code
 
 RUN sudo -u www-data php /app/code/artisan optimize -vvv \
     && rm -rf /app/code/bootstrap/cache && ln -s /run/invoiceninja/bootstrap-cache /app/code/bootstrap/cache \
