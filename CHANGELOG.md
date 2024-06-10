@@ -3022,3 +3022,7 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.9.3)
 * Fixes a bug causing reminders not to send for users who have lock_invoices option turned on.
 
+[1.13.3]
+* Update Invoice Ninja to 5.9.4
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.9.4)
+
