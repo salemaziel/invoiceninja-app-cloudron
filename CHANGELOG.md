@@ -3049,3 +3049,7 @@
 [1.14.1]
 * Fix PDF generation
 
+[1.14.2]
+* Update Invoice Ninja to 5.10.3
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.3)
+
