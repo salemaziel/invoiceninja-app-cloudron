@@ -9,6 +9,12 @@ echo "==> Startup"
 # ensure directories
 mkdir -p /app/data/public-storage /run/invoiceninja/sessions /run/invoiceninja/bootstrap-cache /run/invoiceninja/cache/data /run/invoiceninja/logs
 
+# snappdf (setting environment variables to run chromium-browser)
+mkdir -p /run/www-data/.pki/nssdb
+chown -R www-data:www-data /run/www-data/.pki
+export XDG_CONFIG_HOME=/tmp/.config;
+export XDG_CACHE_HOME=/tmp/.config
+
 echo "==> Create php.ini"
 cp /app/pkg/php.ini /run/php.ini
 if [[ -f /sys/fs/cgroup/cgroup.controllers ]]; then # cgroup v2
