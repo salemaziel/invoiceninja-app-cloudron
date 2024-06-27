@@ -3053,3 +3053,6 @@
 * Update Invoice Ninja to 5.10.3
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.3)
 
+[1.14.3]
+* Fix sending of emails with attachments
+
