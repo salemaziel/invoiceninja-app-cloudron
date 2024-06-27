@@ -4,16 +4,12 @@ set -eu
 readonly ARTISAN="php /app/code/artisan"
 readonly COMPOSER="sudo -u www-data composer --working-dir=/app/code"
 
-echo "==> Startup"
-
-# ensure directories
-mkdir -p /app/data/public-storage /run/invoiceninja/sessions /run/invoiceninja/bootstrap-cache /run/invoiceninja/cache/data /run/invoiceninja/logs
+echo "==> Creating directories"
+mkdir -p /app/data/public-storage /run/invoiceninja/sessions /run/invoiceninja/bootstrap-cache /run/invoiceninja/cache/data /run/invoiceninja/logs /tmp/xdg
 
 # snappdf (setting environment variables to run chromium-browser)
-mkdir -p /run/www-data/.pki/nssdb
-chown -R www-data:www-data /run/www-data/.pki
-export XDG_CONFIG_HOME=/tmp/.config;
-export XDG_CACHE_HOME=/tmp/.config
+export XDG_CONFIG_HOME=/tmp/xdg/config
+export XDG_CACHE_HOME=/tmp/xdg/config
 
 echo "==> Create php.ini"
 cp /app/pkg/php.ini /run/php.ini
@@ -120,7 +116,7 @@ $ARTISAN view:clear
 $ARTISAN cache:clear
 
 # ensure permissions are set correctly
-chown -R www-data:www-data /app/data /run/invoiceninja
+chown -R www-data:www-data /app/data /run/invoiceninja /tmp/xdg
 
 echo "==> Starting InvoiceNinja"
 rm -f /run/apache2/apache2.pid

@@ -31,9 +31,6 @@ RUN /app/code/vendor/beganovich/snappdf/snappdf download
 # fix permissions
 RUN find /app/code/vendor/beganovich/snappdf/versions/*-Linux_x64/chrome-linux/ -type f -name chrome* ! -name "*.*" -print -exec chmod 755 {} \;
 
-# www-data user HOME - /var/www
-RUN ln -s /run/www-data/.pki /var/www/.pki
-
 # configure apache
 RUN rm /etc/apache2/sites-enabled/*
 RUN sed -e 's,^ErrorLog.*,ErrorLog "|/bin/cat",' -i /etc/apache2/apache2.conf
