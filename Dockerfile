@@ -10,11 +10,8 @@ RUN apt update && \
 
 ARG VERSION=5.10.10
 
-RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code
-
-# make sure to change ownership on symlinks using `chown -h www-data:www-data ...`, otherwise php refuses to include files within them:
-# https://serverfault.com/questions/393240/how-do-i-resolve-a-php-error-failed-opening-required-in-a-symlink-context
-RUN chown -R www-data:www-data /app/code
+RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
+    chown -R www-data:www-data /app/code
 
 RUN ls -l /app/code
 
