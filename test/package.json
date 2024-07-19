@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^126.0.4",
+    "chromedriver": "^126.0.5",
     "expect.js": "^0.3.1",
     "mocha": "^10.6.0",
-    "selenium-webdriver": "^4.22.0",
+    "selenium-webdriver": "^4.23.0",
     "superagent": "^9.0.2"
   }
 }
