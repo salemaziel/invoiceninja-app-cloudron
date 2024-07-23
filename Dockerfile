@@ -8,7 +8,7 @@ RUN apt update && \
     apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
     rm -r /var/cache/apt /var/lib/apt/lists
 
-ARG VERSION=5.10.12
+ARG VERSION=5.10.13
 
 RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
     chown -R www-data:www-data /app/code
@@ -26,7 +26,7 @@ RUN sudo -u www-data php /app/code/artisan optimize -vvv \
 RUN /app/code/vendor/beganovich/snappdf/snappdf download
 
 # fix permissions
-RUN find /app/code/vendor/beganovich/snappdf/versions/*-Linux_x64/chrome-linux/ -type f -name chrome* ! -name "*.*" -print -exec chmod 755 {} \;
+RUN find /app/code/vendor/beganovich/snappdf/versions/ungoogled/chrome-linux/ -type f -name chrome* ! -name "*.*" -print -exec chmod 755 {} \;
 
 # configure apache
 RUN rm /etc/apache2/sites-enabled/*
