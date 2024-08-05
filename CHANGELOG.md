@@ -3100,3 +3100,12 @@
 * Update Invoice Ninja to 5.10.16
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.16)
 
+[1.14.15]
+* Update Invoice Ninja to 5.10.18
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.18)
+* Fixes for translations in client portal by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9857
+* Remove migration for tax models by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9858
+* Updated CSS by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9859
+* Updated CSS by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9860
+* Fixes for recurring invoice queries by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9865
+
