@@ -3109,3 +3109,9 @@
 * Updated CSS by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9860
 * Fixes for recurring invoice queries by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9865
 
+[1.14.16]
+* Update Invoice Ninja to 5.10.19
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.19)
+* Fixes for subscriptions by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9874
+* Minor fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9875
+
