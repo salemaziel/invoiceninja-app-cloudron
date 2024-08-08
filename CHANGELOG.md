@@ -3115,3 +3115,13 @@
 * Fixes for subscriptions by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9874
 * Minor fixes by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9875
 
+[1.14.17]
+* Update Invoice Ninja to 5.10.20
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.20)
+* Fixes for EU tax calculations
+* Expense category filters
+* Add logic to support `task.is_running`
+* Improvements for twig and special character encoding
+* Improvements for PayPal Rest integration
+* Fixes for Subscriptions displaying unrelated plans
+* Updated chart queries
