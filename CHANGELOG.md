@@ -3125,3 +3125,12 @@
 * Improvements for PayPal Rest integration
 * Fixes for Subscriptions displaying unrelated plans
 * Updated chart queries
+
+[1.14.18]
+* Update Invoice Ninja to 5.10.21
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.21)
+* Rate limit invoice actions
+* Improve gateway fee confirmation
+* Updated mail history queries
+* Small fixes for payment email logic
+
