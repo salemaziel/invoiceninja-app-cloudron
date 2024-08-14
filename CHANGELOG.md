@@ -3134,3 +3134,7 @@
 * Updated mail history queries
 * Small fixes for payment email logic
 
+[1.14.19]
+* Update Invoice Ninja to 5.10.22
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.22)
+
