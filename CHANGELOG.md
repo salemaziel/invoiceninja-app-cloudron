@@ -3146,3 +3146,15 @@
 * Update Invoice Ninja to 5.10.24
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.24)
 
+[1.14.22]
+* Update Invoice Ninja to 5.10.25
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.25)
+* Fixes for ZUGFeRD by @LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/9914
+* Update translations by @beganovich in https://github.com/invoiceninja/invoiceninja/pull/9912
+* Fix for calculate taxes with Recurring Invoices by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9918
+* Purchase Order Accept Webhook by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9923
+* Feature/import quickbooks by @karneaud in https://github.com/invoiceninja/invoiceninja/pull/9917
+* Translations by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9924
+* feat: Add YunoHost to self-hosted options by @CodeShakingSheep in https://github.com/invoiceninja/invoiceninja/pull/9931
+* Fixes for inter EU tax rules by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9934
+
