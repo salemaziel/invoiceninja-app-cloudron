@@ -3158,3 +3158,8 @@
 * feat: Add YunoHost to self-hosted options by @CodeShakingSheep in https://github.com/invoiceninja/invoiceninja/pull/9931
 * Fixes for inter EU tax rules by @turbo124 in https://github.com/invoiceninja/invoiceninja/pull/9934
 
+[1.14.23]
+* Update Invoice Ninja to 5.10.26
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.26)
+* Fixes for custom fields that use switches - ensure output = yes/no
+
