@@ -3163,3 +3163,14 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.26)
 * Fixes for custom fields that use switches - ensure output = yes/no
 
+[1.14.24]
+* Update Invoice Ninja to 5.10.27
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.27)
+* Sort filters for `expense.payment_date` by @turbo124 in #9942
+* Rotessa: New payment flow by @beganovich in #9945
+* Minor fixes. by @turbo124 in #9948
+* Add reversal for failed BTC payments by @turbo124 in #9960
+* Updates for template service properties
+* Fixes for confirming gateway fees
+* Set blank string for signature date
+* Remove paypal express, omnipay
