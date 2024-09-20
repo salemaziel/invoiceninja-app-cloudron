@@ -3174,3 +3174,8 @@
 * Fixes for confirming gateway fees
 * Set blank string for signature date
 * Remove paypal express, omnipay
+
+[1.14.25]
+* Update Invoice Ninja to 5.10.29
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.29)
+
