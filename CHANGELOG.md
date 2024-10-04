@@ -3179,3 +3179,12 @@
 * Update Invoice Ninja to 5.10.29
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.29)
 
+[1.14.26]
+* Update Invoice Ninja to 5.10.30
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.30)
+* WebSockets: Add broadcast events by @beganovich in #10005
+* Add vi lang by @turbo124 in #10027
+* New payment flow: PDF on the show page by @beganovich in #10035
+* GoCardless: OAuth by @beganovich in #9584
+* Update translations by @beganovich in #10041
+* GoCardless: Force sandbox for specific company by @beganovich in #10042
