@@ -1,23 +1,19 @@
 #!/usr/bin/env node
 
 /* jshint esversion: 8 */
-/* global describe */
-/* global before */
-/* global after */
-/* global it */
+/* global it, xit, describe, before, after, afterEach */
 
 'use strict';
 
 // We cannot currently test the UI so we will test the API only
-
 // https://app.swaggerhub.com/apis/invoiceninja/invoiceninja/5.1.17
-
 // The api somehow needs to have website visitors to trigger some events for now
 
 require('chromedriver');
 
 const execSync = require('child_process').execSync,
     expect = require('expect.js'),
+    fs = require('fs'),
     path = require('path'),
     superagent = require('superagent'),
     { Builder } = require('selenium-webdriver'),
@@ -26,7 +22,7 @@ const execSync = require('child_process').execSync,
 describe('Application life cycle test', function () {
     this.timeout(0);
 
-    const LOCATION = 'test';
+    const LOCATION = process.env.LOCATION || 'test';
     const EXEC_ARGS = { cwd: path.resolve(__dirname, '..'), stdio: 'inherit' };
 
     const email = 'admin@cloudron.local';
@@ -38,13 +34,25 @@ describe('Application life cycle test', function () {
     let app, token, clientId, vendorId, invoiceId, browser;
 
     before(function () {
-        const options = new Options().windowSize({ width: 1280, height: 1024 });
-        if (process.env.HEADLESS) options.addArguments('headless');
-        browser = new Builder().forBrowser('chrome').setChromeOptions(options).build();
+        const chromeOptions = new Options().windowSize({ width: 1280, height: 1024 });
+        if (process.env.CI) chromeOptions.addArguments('no-sandbox', 'disable-dev-shm-usage', 'headless');
+        browser = new Builder().forBrowser('chrome').setChromeOptions(chromeOptions).build();
+        if (!fs.existsSync('./screenshots')) fs.mkdirSync('./screenshots');
     });
 
     after(function () {
         browser.quit();
+    });
+
+    afterEach(async function () {
+        if (!process.env.CI || !app) return;
+
+        const currentUrl = await browser.getCurrentUrl();
+        if (!currentUrl.includes(app.domain)) return;
+        expect(this.currentTest.title).to.be.a('string');
+
+        const screenshotData = await browser.takeScreenshot();
+        fs.writeFileSync(`./screenshots/${new Date().getTime()}-${this.currentTest.title.replaceAll(' ', '_')}.png`, screenshotData, 'base64');
     });
 
     function sleep(millis) {
@@ -72,7 +80,7 @@ describe('Application life cycle test', function () {
                     continue; // try again
                 }
             }
-        }
+        };
     }
 
     async function login() {
