@@ -8,6 +8,7 @@ RUN apt update && \
     apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
     rm -r /var/cache/apt /var/lib/apt/lists
 
+# renovate: datasource=github-releases packageName=invoiceninja/invoiceninja extractVersion=^v(?<version>.+)$ versioning=semver
 ARG VERSION=5.10.29
 
 RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
@@ -40,10 +41,7 @@ RUN echo "Listen 8000" > /etc/apache2/ports.conf
 # configure mod_php. apache2ctl -M can be used to list enabled modules
 # the sessions path is unused since invoiceninja uses lavarel sessions
 RUN a2dismod perl && \
-    a2enmod rewrite && \
-    a2enmod expires && \
-    a2enmod headers && \
-    a2enmod cache
+    a2enmod rewrite expires headers cache
 
 # artisan queue:work needs pcntl_async_signals(), pcntl_signal(), pcntl_alarm()
 RUN crudini --set /etc/php/8.3/apache2/php.ini PHP disable_functions pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_unshare, && \
