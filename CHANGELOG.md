@@ -3188,3 +3188,13 @@
 * GoCardless: OAuth by @beganovich in #9584
 * Update translations by @beganovich in #10041
 * GoCardless: Force sandbox for specific company by @beganovich in #10042
+
+[1.14.27]
+* Update Invoice Ninja to 5.10.31
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.31)
+* Merge Vendors
+* Add tests for bulk updates for expenses
+* Add Bulk Updates
+* Roll back schema
+* Disable the scout driver
+* minor fixes for Mollie
