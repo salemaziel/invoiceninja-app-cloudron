@@ -8,10 +8,10 @@ RUN apt update && \
     apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
     rm -r /var/cache/apt /var/lib/apt/lists
 
-# renovate: datasource=github-releases packageName=invoiceninja/invoiceninja extractVersion=^v(?<version>.+)$ versioning=semver
-ARG VERSION=5.10.31
+# renovate: datasource=github-releases depName=invoiceninja/invoiceninja versioning=semver extractVersion=^v(?<version>.+)$
+ARG INVOICENINJA_VERSION=5.10.31
 
-RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
+RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${INVOICENINJA_VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
     chown -R www-data:www-data /app/code
 
 RUN ls -l /app/code
