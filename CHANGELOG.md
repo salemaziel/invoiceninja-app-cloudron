@@ -3198,3 +3198,11 @@
 * Roll back schema
 * Disable the scout driver
 * minor fixes for Mollie
+
+[1.14.28]
+* Update Invoice Ninja to 5.10.32
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.32)
+* Update API docs by @turbo124 in #10083
+* Switch order of commands for PDF generation by @turbo124 in #10085
+* Fixes for migrations by @turbo124 in #10087
+* updates for composer.json by @turbo124 in #10088
