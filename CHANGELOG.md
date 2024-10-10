@@ -3206,3 +3206,11 @@
 * Switch order of commands for PDF generation by @turbo124 in #10085
 * Fixes for migrations by @turbo124 in #10087
 * updates for composer.json by @turbo124 in #10088
+
+[1.14.29]
+* Update Invoice Ninja to 5.10.34
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.34)
+* Add Taxation for Kleinunternehmerreglung and minor fixes by @​LarsK1 in https://github.com/invoiceninja/invoiceninja/pull/10082
+* Fixes for static analysis by @​turbo124 in https://github.com/invoiceninja/invoiceninja/pull/10099
+* Fixes for spacing in notes section by @​turbo124 in https://github.com/invoiceninja/invoiceninja/pull/10100 
+
