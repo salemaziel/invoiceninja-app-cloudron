@@ -3214,3 +3214,8 @@
 * Fixes for static analysis by @​turbo124 in https://github.com/invoiceninja/invoiceninja/pull/10099
 * Fixes for spacing in notes section by @​turbo124 in https://github.com/invoiceninja/invoiceninja/pull/10100 
 
+[1.14.30]
+* Update Invoice Ninja to 5.10.35
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.35)
+* Fixes for task exports by @​turbo124 in https://github.com/invoiceninja/invoiceninja/pull/10115
+
