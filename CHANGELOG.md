@@ -3219,3 +3219,8 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.35)
 * Fixes for task exports by @​turbo124 in https://github.com/invoiceninja/invoiceninja/pull/10115
 
+[1.14.31]
+* Update Invoice Ninja to 5.10.36
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.36)
+* Fixes for running template actions on Tasks and Projects
+
