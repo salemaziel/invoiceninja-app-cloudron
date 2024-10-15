@@ -3224,3 +3224,7 @@
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.36)
 * Fixes for running template actions on Tasks and Projects
 
+[1.14.32]
+* Update Invoice Ninja to 5.10.38
+* [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.38)
+
