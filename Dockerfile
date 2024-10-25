@@ -9,7 +9,7 @@ RUN apt update && \
     rm -r /var/cache/apt /var/lib/apt/lists
 
 # renovate: datasource=github-releases depName=invoiceninja/invoiceninja versioning=semver extractVersion=^v(?<version>.+)$
-ARG INVOICENINJA_VERSION=5.10.42
+ARG INVOICENINJA_VERSION=5.10.43
 
 RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${INVOICENINJA_VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
     chown -R www-data:www-data /app/code
