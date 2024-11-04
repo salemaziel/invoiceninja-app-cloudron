@@ -1,5 +1,0 @@
-include:
-  - project: devops/pipeline-components
-    ref: main
-    file: cloudron-app.gitlab-ci.yml
-
