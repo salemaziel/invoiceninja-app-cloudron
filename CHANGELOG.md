@@ -3248,3 +3248,16 @@
 * Update Invoice Ninja to 5.10.43
 * [Full changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.43)
 
+[1.14.38]
+* Update invoiceninja to 5.10.44
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.44)
+* Update variables for quotes / credits in templates by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10194
+* Add e_invoicing_token to fillable  by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10184
+* Updates for client props by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10196
+* Updates for transforming PEPPOL by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10215
+* Updated translations by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10216
+* Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10210
+* Preselecting token when available by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10191
+* Improve helper text for stripe payment methods by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10226
+* v5.10.44 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10230
+
