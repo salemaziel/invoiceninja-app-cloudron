@@ -3261,3 +3261,13 @@
 * Improve helper text for stripe payment methods by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10226
 * v5.10.44 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10230
 
+[1.14.39]
+* Update invoiceninja to 5.10.45
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.45)
+* Fixes for Twig Security Policies
+* Implementation of additional check data cli argument for client payment_balance
+* Fixes for XRechnung xml files imports (now support CII + UBL versions)
+* Implementation of xslt stylesheet formatting for e-invoicing validation + html display
+* Currency Translation Fixes by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10231
+* v5.10.45 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10235
+
