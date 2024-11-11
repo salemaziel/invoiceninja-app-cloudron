@@ -3271,3 +3271,7 @@
 * Currency Translation Fixes by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10231
 * v5.10.45 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10235
 
+[1.14.40]
+* Update invoiceninja to 5.10.46
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.46)
+
