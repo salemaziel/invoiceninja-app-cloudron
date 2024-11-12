@@ -3275,3 +3275,13 @@
 * Update invoiceninja to 5.10.46
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.46)
 
+[1.14.41]
+* Update invoiceninja to 5.10.48
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.48)
+* Improvements for payment token display (and preselection)
+* Minor fixes for Forte by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10246
+* v5.10.48 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10247
+* Improve compatibility with CIUS XRechnung schema by [@&#8203;felixfischer](https://github.com/felixfischer) in https://github.com/invoiceninja/invoiceninja/pull/10244
+* v5.10.47 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10245
+* [@&#8203;felixfischer](https://github.com/felixfischer) made their first contribution in https://github.com/invoiceninja/invoiceninja/pull/10244
+
