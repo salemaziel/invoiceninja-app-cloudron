@@ -3293,3 +3293,10 @@
 * Purchase order inventory cost => product cost
 * v5.10.49 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10256
 
+[1.14.43]
+* Update invoiceninja to 5.10.50
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.50)
+* Fixes for translation resources
+* v5.10.50 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10258
+* Fix [#&#8203;10241](https://github.com/invoiceninja/invoiceninja/issues/10241) (wrong item net prices in XInvoices) by [@&#8203;felixfischer](https://github.com/felixfischer) in https://github.com/invoiceninja/invoiceninja/pull/10257
+
