@@ -3285,3 +3285,11 @@
 * v5.10.47 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10245
 * [@&#8203;felixfischer](https://github.com/felixfischer) made their first contribution in https://github.com/invoiceninja/invoiceninja/pull/10244
 
+[1.14.42]
+* Update invoiceninja to 5.10.49
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.49)
+* Significantly improved Subscription UI/UX v2 + v3
+* Fixes for Livewire data components
+* Purchase order inventory cost => product cost
+* v5.10.49 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10256
+
