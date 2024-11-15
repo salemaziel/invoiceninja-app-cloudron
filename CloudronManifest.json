@@ -6,7 +6,7 @@
   "changelog": "file://CHANGELOG.md",
   "postInstallMessage": "file://POSTINSTALL.md",
   "tagline": "Invoice from anywhere get paid from everywhere",
-  "version": "1.14.44",
+  "version": "1.14.45",
   "upstreamVersion": "5.10.52",
   "healthCheckPath": "/",
   "httpPort": 8000,

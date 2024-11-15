@@ -3308,3 +3308,9 @@
 * v5.10.51 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10259
 * Updated translations by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10260
 
+[1.14.45]
+* Update invoiceninja to 5.10.52
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.52)
+* Fixes inappropriate route calls
+* v5.10.52 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10261
+
