@@ -3300,3 +3300,11 @@
 * v5.10.50 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10258
 * Fix [#&#8203;10241](https://github.com/invoiceninja/invoiceninja/issues/10241) (wrong item net prices in XInvoices) by [@&#8203;felixfischer](https://github.com/felixfischer) in https://github.com/invoiceninja/invoiceninja/pull/10257
 
+[1.14.44]
+* Update invoiceninja to 5.10.51
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.51)
+* Significant improvements for handling Nordigen failures where ratelimiting exceptions resulted in requisition refreshes incorrectly.
+* Vendor Portal fixes (Profile edits)
+* v5.10.51 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10259
+* Updated translations by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10260
+
