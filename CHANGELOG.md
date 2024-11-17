@@ -3314,3 +3314,8 @@
 * Fixes inappropriate route calls
 * v5.10.52 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10261
 
+[1.14.46]
+* Update invoiceninja to 5.10.53
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.53)
+* Improve return types on document submission by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10267
+
