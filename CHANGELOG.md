@@ -3319,3 +3319,15 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.53)
 * Improve return types on document submission by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10267
 
+[1.14.47]
+* Update invoiceninja to 5.10.54
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.54)
+* E-invoicing: Remove additional tax identifiers by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10275
+* E-invoicing: Fixes for acting validators by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10272
+* E-invoicing: Validation for trying to add same country by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10274
+* E-invoicing: Improve tax rate settings by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10273
+* E-invoice: Removing tax identifiers fixes by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10277
+* Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10278
+* Check for emails prior to attempting a send by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10279
+* Selfhosted Peppol documents by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10280
+
