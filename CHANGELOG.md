@@ -3331,3 +3331,10 @@
 * Check for emails prior to attempting a send by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10279
 * Selfhosted Peppol documents by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10280
 
+[1.14.48]
+* Update invoiceninja to 5.10.55
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.55)
+* Custom Payment Means for Zugferd documents
+* Sync updating local quota value for self-hosted by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10301
+* v5.10.55 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10303
+
