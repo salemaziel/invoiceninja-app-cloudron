@@ -3338,3 +3338,8 @@
 * Sync updating local quota value for self-hosted by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10301
 * v5.10.55 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10303
 
+[1.14.49]
+* Update invoiceninja to 5.10.57
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.57)
+* Reduce react js bundle to a single file
+
