@@ -3343,3 +3343,13 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.57)
 * Reduce react js bundle to a single file
 
+[1.14.50]
+* Update invoiceninja to 5.10.58
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.58)
+* Coalesce reminder resolution for invoices and quotes
+* Fixes for ubl country
+* Updated Translations
+* Adjustments for contact registration (Cloudflare Turnstil implemented)
+* Quote Conversion doc path fix. by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10318
+* v5.10.58 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10320
+
