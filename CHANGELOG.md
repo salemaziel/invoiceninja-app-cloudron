@@ -3358,3 +3358,12 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.59)
 * v5.10.59 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10337
 
+[1.14.52]
+* Update invoiceninja to 5.10.60
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.60)
+* Updating Tax Model by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10339
+* Update: Update Blockonomics driver by [@&#8203;cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10308
+* Fixes for mail - scheme - symfony mailer by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10346
+* Fixes for client portal not resolving
+* Add cloudflare turnstile to protect /client/register routes
+
