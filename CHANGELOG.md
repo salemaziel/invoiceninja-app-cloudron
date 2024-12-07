@@ -3372,3 +3372,9 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.61)
 * Rollback Symfony Mailer by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10349
 
+[1.14.54]
+* Update invoiceninja to 5.10.62
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.10.62)
+* Fixes for a regression with client statements
+* v5.10.62 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10352
+
