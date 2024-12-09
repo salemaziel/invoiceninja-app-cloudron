@@ -3378,3 +3378,10 @@
 * Fixes for a regression with client statements
 * v5.10.62 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10352
 
+[1.15.0]
+* Update invoiceninja to 5.11.0
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.0)
+* einvoicing over PEPPOL network.
+* Additional validation rules for custom surcharges by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10355
+* v5.11.0 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10360
+
