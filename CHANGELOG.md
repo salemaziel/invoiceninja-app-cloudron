@@ -3398,3 +3398,9 @@
 * Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10399
 * Nordigen fixes by [@&#8203;dshoreman](https://github.com/dshoreman) in https://github.com/invoiceninja/invoiceninja/pull/10401
 
+[1.15.2]
+* Update invoiceninja to 5.11.2
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.2)
+* Fixes for login regression
+* v5.11.2 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10404
+
