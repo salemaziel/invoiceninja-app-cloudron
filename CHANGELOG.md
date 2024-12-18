@@ -3385,3 +3385,16 @@
 * Additional validation rules for custom surcharges by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10355
 * v5.11.0 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10360
 
+[1.15.1]
+* Update invoiceninja to 5.11.1
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.1)
+* Fixes for merge pdf by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10362
+* Notifications: Generic message by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10361
+* Fixes for purchase order designs by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10380
+* Further improvements for public notifications by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10367
+* Fix inbound issues by [@&#8203;paulwer](https://github.com/paulwer) in https://github.com/invoiceninja/invoiceninja/pull/10392
+* Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10384
+* v5.11.1 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10402
+* Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10399
+* Nordigen fixes by [@&#8203;dshoreman](https://github.com/dshoreman) in https://github.com/invoiceninja/invoiceninja/pull/10401
+
