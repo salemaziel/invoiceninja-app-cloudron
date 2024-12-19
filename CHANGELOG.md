@@ -3404,3 +3404,9 @@
 * Fixes for login regression
 * v5.11.2 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10404
 
+[1.15.3]
+* Update invoiceninja to 5.11.3
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.3)
+* Fixes for missing translations in the react application
+* v5.11.3 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10408
+
