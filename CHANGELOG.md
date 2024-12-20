@@ -3410,3 +3410,14 @@
 * Fixes for missing translations in the react application
 * v5.11.3 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10408
 
+[1.15.4]
+* Update invoiceninja to 5.11.6
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.6)
+* Fixes for template email engine by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10418
+* Fixes for taxmodel migrations
+* v5.11.5 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10417
+* fix: issue when email body is empty by [@&#8203;paulwer](https://github.com/paulwer) in https://github.com/invoiceninja/invoiceninja/pull/10406
+* Improve Storecove Proxy error handling by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10414
+* Feature: nordigen bank_integration setup with end user agreement by [@&#8203;paulwer](https://github.com/paulwer) in https://github.com/invoiceninja/invoiceninja/pull/10410
+* v5.11.4 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10415
+
