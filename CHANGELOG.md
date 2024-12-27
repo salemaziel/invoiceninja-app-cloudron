@@ -3421,3 +3421,9 @@
 * Feature: nordigen bank_integration setup with end user agreement by [@&#8203;paulwer](https://github.com/paulwer) in https://github.com/invoiceninja/invoiceninja/pull/10410
 * v5.11.4 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10415
 
+[1.15.5]
+* Update invoiceninja to 5.11.7
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.7)
+* Fix for new line regression in description.
+* v5.11.7 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10436
+
