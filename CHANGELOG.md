@@ -3427,3 +3427,12 @@
 * Fix for new line regression in description.
 * v5.11.7 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10436
 
+[1.15.6]
+* Update invoiceninja to 5.11.9
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.9)
+* Fixes for html saniftation regression of QR codes <svg> tags
+* Improvements for calculate taxes
+* v5.11.9 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10463
+* Improve HTML sanitation
+* Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10443
+
