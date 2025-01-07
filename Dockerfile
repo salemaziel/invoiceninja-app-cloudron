@@ -9,8 +9,10 @@ RUN apt-get remove -y php-* php8.1-* libapache2-mod-php8.1 && \
     apt update && \
     apt install -y php8.3 php8.3-{apcu,bcmath,bz2,cgi,cli,common,curl,dba,dev,enchant,fpm,gd,gmp,gnupg,imagick,imap,interbase,intl,ldap,mailparse,mbstring,mysql,odbc,opcache,pgsql,phpdbg,pspell,readline,redis,snmp,soap,sqlite3,sybase,tidy,uuid,xml,xmlrpc,xsl,zip,zmq} libapache2-mod-php8.3 && \
     apt install -y php-{date,pear,twig,validate} && \
+    # Unicode support for PDF
+    apt install -y fonts-noto-cjk-extra fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy && \
     # dependencies for chromium headless used by https://github.com/beganovich/snappdf
-    apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
+    apt install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
     rm -rf /var/cache/apt /var/lib/apt/lists
 
 # this binaries are not updated with PHP_VERSION since it's a lot of work
