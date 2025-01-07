@@ -3436,3 +3436,8 @@
 * Improve HTML sanitation
 * Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10443
 
+[1.15.7]
+* Update invoiceninja to 5.11.10
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.10)
+* v5.11.10 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10470
+
