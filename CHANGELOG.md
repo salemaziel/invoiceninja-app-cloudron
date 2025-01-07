@@ -3441,3 +3441,6 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.10)
 * v5.11.10 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10470
 
+[1.15.8]
+* Fix PDF generation
+
