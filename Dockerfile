@@ -40,6 +40,9 @@ RUN sudo -u www-data php /app/code/artisan optimize -vvv \
 # downloads the snappdf chrome instance
 RUN /app/code/vendor/beganovich/snappdf/snappdf download
 
+# this will add --no-sandbox to chromium
+RUN sed  "s/config('ninja\.is_docker')/true/g" -i app/Utils/Traits/Pdf/PdfMaker.php
+
 # configure apache
 RUN rm /etc/apache2/sites-enabled/*
 RUN sed -e 's,^ErrorLog.*,ErrorLog "|/bin/cat",' -i /etc/apache2/apache2.conf
