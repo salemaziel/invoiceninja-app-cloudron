@@ -3444,3 +3444,11 @@
 [1.15.8]
 * Fix PDF generation
 
+[1.15.9]
+* Update invoiceninja to 5.11.11
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.11)
+* Improve performance of Html purifier.
+* Disable javascript in all invoice designs. (can be reversed by using DISABLE_PURIFY_HTML=true ).
+* Prevent deleted payments from showing in client portal.
+* v5.11.11 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10480
+
