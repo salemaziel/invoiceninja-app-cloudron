@@ -32,6 +32,10 @@ if [[ ! -f "/app/data/env" ]]; then
         /app/pkg/env.template > /app/data/env # sed -i seems to destroy symlink
 fi
 
+if ! grep -q SNAPPDF_CHROMIUM_PATH /app/data/env; then
+    sed -i '/^PDF_GENERATOR/a\SNAPPDF_CHROMIUM_PATH=/usr/bin/google-chrome-stable' /app/data/env
+fi
+
 # Ensure new config vars
 if ! grep -q "DISABLE_AUTO_UPDATE" /app/data/env; then
     echo "DISABLE_AUTO_UPDATE=true\n" >> /app/data/env
