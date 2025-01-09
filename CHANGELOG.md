@@ -3452,3 +3452,14 @@
 * Prevent deleted payments from showing in client portal.
 * v5.11.11 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10480
 
+[1.16.0]
+* Update invoiceninja to 5.11.17
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.17)
+* v5.11.17 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10494
+* Purify HTML: fix tagline by [@&#8203;ITSYV](https://github.com/ITSYV) in https://github.com/invoiceninja/invoiceninja/pull/10483
+* v5.11.12 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10485
+* Fixes for PDF's by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10486
+* Reversion to ungoogled PDF generator
+* Fixes for Headers not appearing in statements
+* [@&#8203;ITSYV](https://github.com/ITSYV) made their first contribution in https://github.com/invoiceninja/invoiceninja/pull/10483
+
