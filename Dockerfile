@@ -11,8 +11,12 @@ RUN apt-get remove -y php-* php8.1-* libapache2-mod-php8.1 && \
     apt install -y php-{date,pear,twig,validate} && \
     # Unicode support for PDF
     apt install -y fonts-noto-cjk-extra fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy && \
-    # dependencies for chromium headless used by https://github.com/beganovich/snappdf
-    apt install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libgbm1 libgtk-3-0 && \
+    rm -rf /var/cache/apt /var/lib/apt/lists
+
+RUN curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list && \
+    apt-get update && \
+    apt-get install -y google-chrome-stable && \
     rm -rf /var/cache/apt /var/lib/apt/lists
 
 # this binaries are not updated with PHP_VERSION since it's a lot of work
@@ -36,9 +40,6 @@ RUN sudo -u www-data php /app/code/artisan optimize -vvv \
     && rm -rf /app/code/public/storage && ln -s /app/data/public-storage /app/code/public/storage \
     && rm -f /app/code/.env && ln -s /app/data/env /app/code/.env \
     && rm -rf /app/code/docs
-
-# downloads the snappdf chrome instance
-RUN /app/code/vendor/beganovich/snappdf/snappdf download
 
 # this will add --no-sandbox to chromium
 RUN sed  "s/config('ninja\.is_docker')/true/g" -i app/Utils/Traits/Pdf/PdfMaker.php
