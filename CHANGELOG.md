@@ -3463,3 +3463,11 @@
 * Fixes for Headers not appearing in statements
 * [@&#8203;ITSYV](https://github.com/ITSYV) made their first contribution in https://github.com/invoiceninja/invoiceninja/pull/10483
 
+[1.16.1]
+* Update invoiceninja to 5.11.18
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.18)
+* Fixes for invoice terms display incorrectly
+* Fixes for Company Imports
+* Fixes for BCC not sending on payment failures
+* Clean up for HTML purifier
+
