@@ -3471,3 +3471,13 @@
 * Fixes for BCC not sending on payment failures
 * Clean up for HTML purifier
 
+[1.16.2]
+* Update invoiceninja to 5.11.21
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.21)
+* v5.11.21 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10511
+* Fixes for division by zero
+* v5.11.20 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10510
+* Fixes for QR codes not appearing on PDF
+* Revert Nordigen MR
+* v5.11.19 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10506
+
