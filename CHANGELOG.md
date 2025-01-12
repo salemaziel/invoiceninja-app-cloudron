@@ -3481,3 +3481,9 @@
 * Revert Nordigen MR
 * v5.11.19 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10506
 
+[1.16.3]
+* Update invoiceninja to 5.11.22
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.22)
+* Fixes for XInvoice attachments with Purify  html class
+* v5.11.22 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10518
+
