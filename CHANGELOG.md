@@ -3487,3 +3487,8 @@
 * Fixes for XInvoice attachments with Purify  html class
 * v5.11.22 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10518
 
+[1.16.4]
+* Update invoiceninja to 5.11.23
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.23)
+* Fixes for show/hide elements by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10521
+
