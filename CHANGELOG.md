@@ -3492,3 +3492,11 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.23)
 * Fixes for show/hide elements by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10521
 
+[1.16.5]
+* Update invoiceninja to 5.11.24
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.24)
+* Fixes for design when Enable Markdown is turned on.
+* Integrate octane in preload.php by [@&#8203;benbrummer](https://github.com/benbrummer) in https://github.com/invoiceninja/invoiceninja/pull/10517
+* Update invoice event when matching on invoice transactions by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10522
+* v5.11.24 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10527
+
