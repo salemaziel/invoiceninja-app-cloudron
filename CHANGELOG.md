@@ -3500,3 +3500,26 @@
 * Update invoice event when matching on invoice transactions by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10522
 * v5.11.24 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10527
 
+[1.16.6]
+* Update invoiceninja to 5.11.25
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.25)
+* Change filtering of scalars prior to validation
+* Minor cleanup for session state
+* Always update designs post self update
+* Refactor for invoice deleted
+* Add getters for line item discounts
+* Fixes for mailable logging
+* Updated dependencies
+* Updated dependencies
+* Updates for bulk emails
+* Fixes for plan features
+* Minor fixes for <br> tags in templates
+* Changes for encode/decode of custom templates
+* Update zimbabwe gold
+* Fixes for namespace
+* Expose cg settings
+* Rate limiter bump
+* E-invoicing: Healthchecks & regenerating tokens by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10525
+* fix syntax error preload.php by [@&#8203;benbrummer](https://github.com/benbrummer) in https://github.com/invoiceninja/invoiceninja/pull/10531
+* v5.11.25 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10536
+
