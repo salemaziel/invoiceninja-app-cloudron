@@ -27,7 +27,7 @@ RUN update-alternatives --set php /usr/bin/php8.3 && \
     update-alternatives --set php-config /usr/bin/php-config8.3
 
 # renovate: datasource=github-releases depName=invoiceninja/invoiceninja versioning=semver extractVersion=^v(?<version>.+)$
-ARG INVOICENINJA_VERSION=5.11.24
+ARG INVOICENINJA_VERSION=5.11.25
 
 RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${INVOICENINJA_VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
     chown -R www-data:www-data /app/code
