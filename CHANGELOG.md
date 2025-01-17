@@ -3523,3 +3523,12 @@
 * fix syntax error preload.php by [@&#8203;benbrummer](https://github.com/benbrummer) in https://github.com/invoiceninja/invoiceninja/pull/10531
 * v5.11.25 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10536
 
+[1.16.7]
+* Update invoiceninja to 5.11.26
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.26)
+* Fixes for purchase order table view in Vendor Portal
+* SMTP port fixes
+* Fixes for invoice query
+* Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10538
+* v5.11.26 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10539
+
