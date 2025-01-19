@@ -3532,3 +3532,12 @@
 * Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10538
 * v5.11.26 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10539
 
+[1.16.8]
+* Update invoiceninja to 5.11.27
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.27)
+* Added $swiss_qr_raw
+* Check if VAT number exists on PEPPOL network prior to adding
+* Custom exceptions from client portal
+* Add WST Currency
+* v5.11.27 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10546
+
