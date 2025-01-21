@@ -3541,3 +3541,14 @@
 * Add WST Currency
 * v5.11.27 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10546
 
+[1.16.9]
+* Update invoiceninja to 5.11.28
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.28)
+* Fixes for user verification emails by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10548
+* Nordigen custom agreements by [@&#8203;dshoreman](https://github.com/dshoreman) in https://github.com/invoiceninja/invoiceninja/pull/10526
+* Prevent destructive commands in production by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10551
+* Experimental new Zugferd Engine that handles inclusive/exclusive taxes along with discounts/surcharges (use the env var ZUGFERD_VERSION_TWO=true) to enable
+* Prevent apple signups due to no email address provision
+* Fixes for payment status when viewed from client portal
+* v5.11.28 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10560
+
