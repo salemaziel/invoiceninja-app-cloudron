@@ -3552,3 +3552,15 @@
 * Fixes for payment status when viewed from client portal
 * v5.11.28 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10560
 
+[1.16.10]
+* Update invoiceninja to 5.11.29
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.29)
+* Remove deprecated libxml call
+* Adjustments for chrome flags
+* Fix number casting prior to formatting
+* Fixes for session invalidation
+* Tax fixes for expenses in dashboard charts / totals
+* Make GoCardless verifications an optional setting
+* Enable Batch Jobs to improve Print PDF performance
+* Updates for incorrect translation for small_company_info
+
