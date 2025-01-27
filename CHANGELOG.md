@@ -3564,3 +3564,12 @@
 * Enable Batch Jobs to improve Print PDF performance
 * Updates for incorrect translation for small_company_info
 
+[1.16.11]
+* Update invoiceninja to 5.11.32
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.32)
+* Fixes for BTC Pay webhooks
+* Add + to allowed markdown
+* Fixes for returning early from TaskRepository
+* Fixes for sorting columns
+* v5.11.32 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10592
+
