@@ -3573,3 +3573,13 @@
 * Fixes for sorting columns
 * v5.11.32 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10592
 
+[1.16.12]
+* Update invoiceninja to 5.11.33
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.33)
+* Fixes for markdown resolution
+* Refactored for a single transaction when deleting an invoice.
+* Update default payment method if current is deleted.
+* Checks for migrations
+* Updated lock file for dependencies.
+* v5.11.33 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10601
+
