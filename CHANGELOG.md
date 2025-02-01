@@ -3583,3 +3583,15 @@
 * Updated lock file for dependencies.
 * v5.11.33 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10601
 
+[1.16.13]
+* Update invoiceninja to 5.11.34
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.34)
+* Fixes for recurring due dates
+* Adjustments for the elegant design
+* Adjustments for last login
+* Fixes for recurring invoice filters
+* Add checks for job_batches
+* Update dependencies for Braintree
+* Add no overflow when calculating due dates in recurring dates tests
+* v5.11.34 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10608
+
