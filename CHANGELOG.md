@@ -3595,3 +3595,14 @@
 * Add no overflow when calculating due dates in recurring dates tests
 * v5.11.34 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10608
 
+[1.16.14]
+* Update invoiceninja to 5.11.36
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.36)
+* Revert "exclude vendor folder from chmod" by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10632
+* v5.11.36 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10633
+* Exclude vendor folder from chmod by [@&#8203;benbrummer](https://github.com/benbrummer) in https://github.com/invoiceninja/invoiceninja/pull/10602
+* Add missing fields to FatturaPA by [@&#8203;AlessandroSechi](https://github.com/AlessandroSechi) in https://github.com/invoiceninja/invoiceninja/pull/10610
+* Fixes for timing of applying credit number by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10629
+* v5.11.35 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10631
+* [@&#8203;AlessandroSechi](https://github.com/AlessandroSechi) made their first contribution in https://github.com/invoiceninja/invoiceninja/pull/10610
+
