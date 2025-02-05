@@ -3606,3 +3606,10 @@
 * v5.11.35 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10631
 * [@&#8203;AlessandroSechi](https://github.com/AlessandroSechi) made their first contribution in https://github.com/invoiceninja/invoiceninja/pull/10610
 
+[1.17.0]
+* Update invoiceninja to 5.11.37
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.37)
+* Significant changes around PDF generation, removing multiple codepaths.
+* Updates across all designs to improve alignment and overflow conditions.
+* v5.11.37 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10636
+
