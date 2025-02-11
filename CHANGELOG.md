@@ -3613,3 +3613,18 @@
 * Updates across all designs to improve alignment and overflow conditions.
 * v5.11.37 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10636
 
+[1.17.1]
+* Update invoiceninja to 5.11.38
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.38)
+* Change default Zugferd generator
+* Design fixes
+* Updated documentation
+* Translation updates
+* Prune redundant js files
+* Adjustments for tax reports
+* Allow table breaking in calm design
+* Change email verification error code from 403 to 401
+* Update for purify html allow list.
+* Fixes for tests by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10637
+* v5.11.38 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10658
+
