@@ -3628,3 +3628,10 @@
 * Fixes for tests by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10637
 * v5.11.38 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10658
 
+[1.17.2]
+* Update invoiceninja to 5.11.39
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.39)
+* Ensure primary contact is preferences in reports
+* Quickbooks imports
+* Update INR symbol
+
