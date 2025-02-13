@@ -3635,3 +3635,8 @@
 * Quickbooks imports
 * Update INR symbol
 
+[1.17.3]
+* Update invoiceninja to 5.11.40
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.40)
+* Fixes for invoicing projects. by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10664
+
