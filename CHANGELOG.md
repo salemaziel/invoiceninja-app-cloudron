@@ -3640,3 +3640,16 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.40)
 * Fixes for invoicing projects. by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10664
 
+[1.17.4]
+* Update invoiceninja to 5.11.41
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.41)
+* Change PDF Mock dates to ones that are parseable by twig
+* Test einvoice properties at the invoice level
+* API implementation of InvoicePeriod for Invoices and Recurring Invoices
+* Added e_invoice column to recurring invoices (Invoice Period Support)
+* Implement options for the display of HTML invoices in the client portal
+* Fixes for encoded URLs in twig templates
+* QB Backup imports
+* Handle chunked file uploads by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10674
+* v5.11.41 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10686
+
