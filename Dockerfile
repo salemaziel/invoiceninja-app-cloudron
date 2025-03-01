@@ -1,14 +1,9 @@
-FROM cloudron/base:4.2.0@sha256:46da2fffb36353ef714f97ae8e962bd2c212ca091108d768ba473078319a47f4
+FROM cloudron/base:5.0.0@sha256:04fd70dbd8ad6149c19de39e35718e024417c3e01dc9c6637eaf4a41ec4e596c
 
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
 
-RUN apt-get remove -y php-* php8.1-* libapache2-mod-php8.1 && \
-    apt-get autoremove -y && \
-    add-apt-repository --yes ppa:ondrej/php && \
-    apt update && \
-    apt install -y php8.3 php8.3-{apcu,bcmath,bz2,cgi,cli,common,curl,dba,dev,enchant,fpm,gd,gmp,gnupg,imagick,imap,interbase,intl,ldap,mailparse,mbstring,mysql,odbc,opcache,pgsql,phpdbg,pspell,readline,redis,snmp,soap,sqlite3,sybase,tidy,uuid,xml,xmlrpc,xsl,zip,zmq} libapache2-mod-php8.3 && \
-    apt install -y php-{date,pear,twig,validate} && \
+RUN apt update && \
     # Unicode support for PDF
     apt install -y fonts-noto-cjk-extra fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy && \
     rm -rf /var/cache/apt /var/lib/apt/lists
@@ -18,13 +13,6 @@ RUN curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-ke
     apt-get update && \
     apt-get install -y google-chrome-stable && \
     rm -rf /var/cache/apt /var/lib/apt/lists
-
-# this binaries are not updated with PHP_VERSION since it's a lot of work
-RUN update-alternatives --set php /usr/bin/php8.3 && \
-    update-alternatives --set phar /usr/bin/phar8.3 && \
-    update-alternatives --set phar.phar /usr/bin/phar.phar8.3 && \
-    update-alternatives --set phpize /usr/bin/phpize8.3 && \
-    update-alternatives --set php-config /usr/bin/php-config8.3
 
 # renovate: datasource=github-releases depName=invoiceninja/invoiceninja versioning=semver extractVersion=^v(?<version>.+)$
 ARG INVOICENINJA_VERSION=5.11.42
