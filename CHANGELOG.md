@@ -3653,3 +3653,7 @@
 * Handle chunked file uploads by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10674
 * v5.11.41 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10686
 
+[1.17.5]
+* Update invoiceninja to 5.11.42
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.42)
+
