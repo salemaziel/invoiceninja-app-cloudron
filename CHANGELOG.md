@@ -3657,3 +3657,6 @@
 * Update invoiceninja to 5.11.42
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.42)
 
+[1.18.0]
+* Update base image to 5
+
