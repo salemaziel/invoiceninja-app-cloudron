@@ -3660,3 +3660,9 @@
 [1.18.0]
 * Update base image to 5
 
+[1.18.1]
+* Update invoiceninja to 5.11.43
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.43)
+* Minor fixes for test scenario by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10715
+* v5.11.43 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10717
+
