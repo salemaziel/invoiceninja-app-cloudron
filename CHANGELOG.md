@@ -3666,3 +3666,13 @@
 * Minor fixes for test scenario by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10715
 * v5.11.43 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10717
 
+[1.18.2]
+* Update invoiceninja to 5.11.48
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.48)
+* Fixes for company imports
+* v5.11.48 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10724
+* Fixes for Zugferd Tax Business Categorization
+* v5.11.46 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10723
+* Fixes for zugferd document
+* v5.11.45 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10722
+
