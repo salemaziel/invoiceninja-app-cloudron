@@ -3676,3 +3676,11 @@
 * Fixes for zugferd document
 * v5.11.45 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10722
 
+[1.18.3]
+* Update invoiceninja to 5.11.49
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.49)
+* Zugferd fixes
+* Prevent Client and Contact names from duplicating on PDFs
+* New React UI
+* v5.11.49 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10727
+
