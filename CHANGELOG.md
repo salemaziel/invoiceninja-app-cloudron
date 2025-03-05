@@ -3684,3 +3684,11 @@
 * New React UI
 * v5.11.49 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10727
 
+[1.18.4]
+* Update invoiceninja to 5.11.51
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.51)
+* exclude vendor folder second attempt by [@&#8203;benbrummer](https://github.com/benbrummer) in https://github.com/invoiceninja/invoiceninja/pull/10642
+* v5.11.51 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10733
+* Fixes for ZugferdDocument creation for VAT not registered businesses
+* v5.11.50 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10731
+
