@@ -3692,3 +3692,14 @@
 * Fixes for ZugferdDocument creation for VAT not registered businesses
 * v5.11.50 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10731
 
+[1.18.5]
+* Update invoiceninja to 5.11.53
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.53)
+* v5.11.53 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10744
+* Upgrade Stripe iDeal integration to 2.0
+* Client Locations
+* Updates / Checks for expired requisitions for GoCardless
+* Update translations by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10737
+* Implement missing method by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10736
+* v5.11.52 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10743
+
