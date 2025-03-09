@@ -3703,3 +3703,11 @@
 * Implement missing method by [@&#8203;beganovich](https://github.com/beganovich) in https://github.com/invoiceninja/invoiceninja/pull/10736
 * v5.11.52 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10743
 
+[1.18.6]
+* Update invoiceninja to 5.11.54
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.54)
+* Updates for readme by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10747
+* Minor updates for admin by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10749
+* Roll back for admin by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10750
+* Fixes for statements + unapplied payments by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10751
+
