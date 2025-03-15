@@ -3711,3 +3711,12 @@
 * Roll back for admin by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10750
 * Fixes for statements + unapplied payments by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10751
 
+[1.18.7]
+* Update invoiceninja to 5.11.55
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.55)
+* Fixes for react dashboard
+* Fixes for subscriptions with values less that 1 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10754
+* Fix refreshBTCPrice being out of scope by [@&#8203;cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10758
+* Various Updates by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10759
+* v5.11.55 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10771
+
