@@ -3724,3 +3724,8 @@
 * Update invoiceninja to 5.11.58
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.58)
 
+[1.18.9]
+* Update invoiceninja to 5.11.59
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.59)
+* Fixes for react build failing due to HTTP connections.
+
