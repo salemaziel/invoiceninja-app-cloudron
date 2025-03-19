@@ -3729,3 +3729,14 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.59)
 * Fixes for react build failing due to HTTP connections.
 
+[1.18.10]
+* Update invoiceninja to 5.11.60
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.60)
+* Improve filtering when sorting by client name
+* Fixes for Markdown parsing
+* Bump quickbooks minor version support => 75
+* Feature: Make health checkup return string by [@&#8203;cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10765
+* Fixes for Profit Loss by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10783
+* Remove callbackSecret from Blockonomics payments gateway by [@&#8203;cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10767
+* remove parent folder in tar.gz by [@&#8203;benbrummer](https://github.com/benbrummer) in https://github.com/invoiceninja/invoiceninja/pull/10772
+
