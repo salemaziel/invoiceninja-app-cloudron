@@ -3740,3 +3740,10 @@
 * Remove callbackSecret from Blockonomics payments gateway by [@&#8203;cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10767
 * remove parent folder in tar.gz by [@&#8203;benbrummer](https://github.com/benbrummer) in https://github.com/invoiceninja/invoiceninja/pull/10772
 
+[1.18.11]
+* Update invoiceninja to 5.11.61
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.61)
+* Fixes for markdown parsing regression
+* Upcoming  / Past Due Dashboard query updates by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10789
+* v5.11.61 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10797
+
