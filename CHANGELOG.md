@@ -3747,3 +3747,11 @@
 * Upcoming  / Past Due Dashboard query updates by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10789
 * v5.11.61 by [@&#8203;turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10797
 
+[1.18.12]
+* Update invoiceninja to 5.11.62
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.62)
+* v5.11.62 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10825
+* Improve Blockonomics Health Checkup Message by [@cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10785
+*  Update README: Improved Documentation & Formatting by [@shivansh00011](https://github.com/shivansh00011) in https://github.com/invoiceninja/invoiceninja/pull/10831
+* Adjustments for import +/- create client logic by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10832
+
