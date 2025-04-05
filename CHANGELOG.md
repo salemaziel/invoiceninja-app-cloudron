@@ -3755,3 +3755,16 @@
 *  Update README: Improved Documentation & Formatting by [@shivansh00011](https://github.com/shivansh00011) in https://github.com/invoiceninja/invoiceninja/pull/10831
 * Adjustments for import +/- create client logic by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10832
 
+[1.18.13]
+* Update invoiceninja to 5.11.63
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.63)
+* Fixes for types for qb imports  
+* Improvements for handling invoice reversals  
+* Fixes for silent / session variables  
+* Ensure Forte credentials are correctly padded  
+* Project reports  
+* Improve locations api documentation  
+* Adjustments for match transaction query  
+* Upcoming / Past Due Dashboard query updates  
+* v5.11.63 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10858
+
