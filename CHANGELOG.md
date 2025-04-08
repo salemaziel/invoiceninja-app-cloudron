@@ -3768,3 +3768,12 @@
 * Upcoming / Past Due Dashboard query updates  
 * v5.11.63 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10858
 
+[1.18.14]
+* Update invoiceninja to 5.11.65
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.65)
+* Fixes for chunked uploads in react application.  
+* Fixes for playful design not breaking correctly  
+* Catch on checkout.com credit card authorization failure  
+* Fixes for duplicate rotessa gateway being displayed  
+* Ensure payment set for statements only contain the required payments
+
