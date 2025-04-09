@@ -3777,3 +3777,10 @@
 * Fixes for duplicate rotessa gateway being displayed  
 * Ensure payment set for statements only contain the required payments
 
+[1.18.15]
+* Update invoiceninja to 5.11.66
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.66)
+* Fixes for docker logos in group/client scenarios  
+* Fixes for last year query  
+* v5.11.66 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10877
+
