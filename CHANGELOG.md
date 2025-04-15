@@ -3784,3 +3784,17 @@
 * Fixes for last year query  
 * v5.11.66 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10877
 
+[1.18.16]
+* Update invoiceninja to 5.11.67
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.67)
+* Force locale for import hints  
+* Additional middleware to check json quality  
+* Additional translations  
+* Prevent duplicate requisitions  
+* Reduce number of queries to GoCardless/Nordigen to help prevent 429's  
+* Fixes for EPC  
+* Change order of indexes  
+* Performance tracing with sentry  
+* Updates for tax summary reports  
+* Health route
+
