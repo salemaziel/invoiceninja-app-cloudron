@@ -3798,3 +3798,8 @@
 * Updates for tax summary reports  
 * Health route
 
+[1.18.17]
+* Update invoiceninja to 5.11.68
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.68)
+* Fixes for ValidJson middleware
+
