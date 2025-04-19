@@ -3803,3 +3803,13 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.68)
 * Fixes for ValidJson middleware
 
+[1.18.18]
+* Update invoiceninja to 5.11.69
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.69)
+* Disable updateAccount() methods to preserve rate limits - Nordigen  
+* Fixes for company observer checks  
+* Updated domain blacklists  
+* Fixes for braintree level 2 props  
+* Fixes for statements when viewing a client with no invoics  
+* Fixes for middle ware props causing a regression for document downloads
+
