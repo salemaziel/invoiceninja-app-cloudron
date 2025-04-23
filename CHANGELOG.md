@@ -3813,3 +3813,10 @@
 * Fixes for statements when viewing a client with no invoics  
 * Fixes for middle ware props causing a regression for document downloads
 
+[1.18.19]
+* Update invoiceninja to 5.11.70
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.70)
+* Adjustments for Importing Forte CSG customers  
+* Change permission structure for creating new companies to Owner User Only  
+* Static analysis fixes
+
