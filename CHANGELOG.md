@@ -3820,3 +3820,11 @@
 * Change permission structure for creating new companies to Owner User Only  
 * Static analysis fixes
 
+[1.18.20]
+* Update invoiceninja to 5.11.71
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.71)
+* Fixes for admin notifications for Quote Reminders
+* Fixes for Forte CSG customer imports
+* Fixes for Mollie idempotency hash
+* Push validation  fixes for payment date
+
