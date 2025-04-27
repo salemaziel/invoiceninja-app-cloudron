@@ -3828,3 +3828,15 @@
 * Fixes for Mollie idempotency hash
 * Push validation  fixes for payment date
 
+[1.18.21]
+* Update invoiceninja to 5.11.72
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.72)
+* Refactor to make the company phone number the default contact
+* Fixes for undefined array key 'message' error with postmark
+* Refactor for nordigen to drastically reduce the meagre number of allo
+* Refactor for document / file validation
+* Refactor for update entities, remove 'documents' validation
+* Fixes for tests
+* Fixes for updateclientrequest
+* Updates for logging
+
