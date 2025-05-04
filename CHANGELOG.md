@@ -3840,3 +3840,12 @@
 * Fixes for updateclientrequest
 * Updates for logging
 
+[1.18.22]
+* Update invoiceninja to 5.11.73
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.73)
+* Fixes for chunked upload security  
+* Updated blacklist domains by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10931  
+* Enhance payment status handling to include confirmed payments by [@cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10934  
+* Improve error message for missing Blockonomics callback URL by [@cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10935  
+* v5.11.73 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10950
+
