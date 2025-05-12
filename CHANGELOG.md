@@ -3849,3 +3849,17 @@
 * Improve error message for missing Blockonomics callback URL by [@cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10935  
 * v5.11.73 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10950
 
+[1.18.23]
+* Update invoiceninja to 5.11.77
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.77)
+* v5.11.77 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10973
+* Patch for disabling elastic search
+* v5.11.76 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10972
+* Disable elastic queues by default
+* v5.11.75 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10971
+* Fixes for batch DB
+* Updated translations
+* Fixes for Storing Transactions
+* Handle bulk updates on recurring invoices
+* Improve rate limiting
+
