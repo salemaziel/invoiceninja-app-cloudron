@@ -3863,3 +3863,17 @@
 * Handle bulk updates on recurring invoices
 * Improve rate limiting
 
+[1.18.24]
+* Update invoiceninja to 5.11.78
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.78)
+* Updated lang files  
+* Updates for cloudflare services credentials  
+* Minor fixes for exchange rates  
+* Adjustments for prepayment with underpayments  
+* **[ Feature ]** Authorize.net eCheck  
+* Updates for webhook urls being displayed in the UI  
+* Fixes for subscription cancellations  
+* Updates for hosted account confirmation emails  
+* New Flutter admin portal UI, release notes can be found here: https://github.com/invoiceninja/admin-portal/releases/tag/v5.0.173  
+* v5.11.78 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10986
+
