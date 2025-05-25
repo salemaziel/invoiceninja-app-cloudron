@@ -3877,3 +3877,12 @@
 * New Flutter admin portal UI, release notes can be found here: https://github.com/invoiceninja/admin-portal/releases/tag/v5.0.173  
 * v5.11.78 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10986
 
+[1.18.25]
+* Update invoiceninja to 5.11.79
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.79)
+* Fixes for Rotessa payment driver  
+* Improvements for activity exports (allow export by activity type)  
+* EInvoice report  
+* Updated openapi spec  
+* v5.11.79 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10998
+
