@@ -3886,3 +3886,8 @@
 * Updated openapi spec  
 * v5.11.79 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/10998
 
+[1.18.26]
+* Update invoiceninja to 5.11.80
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.80)
+* v5.11.80 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11005
+
