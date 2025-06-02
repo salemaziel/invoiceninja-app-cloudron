@@ -3891,3 +3891,8 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.80)
 * v5.11.80 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11005
 
+[1.18.27]
+* Update invoiceninja to 5.11.81
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.81)
+* Fixes for charts
+
