@@ -3896,3 +3896,9 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.81)
 * Fixes for charts
 
+[1.18.28]
+* Update invoiceninja to 5.11.82
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.11.82)
+* v5.11.82 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11027
+* Improvements for template service parsing and appending xml segments  by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11028
+
