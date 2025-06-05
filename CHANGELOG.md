@@ -3902,3 +3902,12 @@
 * v5.11.82 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11027
 * Improvements for template service parsing and appending xml segments  by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11028
 
+[1.19.0]
+* Update invoiceninja to 5.12.0
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.0)
+* Improvements for CSV encoding of 1252 encoded characters
+* Fixes for CSV exports and custom value labels
+* Hide excluded client fields from show/hide routes
+* ***New React Application UI design!!***
+* v5.12.0 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11036
+
