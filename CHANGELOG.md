@@ -3911,3 +3911,16 @@
 * ***New React Application UI design!!***
 * v5.12.0 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11036
 
+[1.19.1]
+* Update invoiceninja to 5.12.1
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.1)
+* Add clone gateway functionality  
+* Adjustments for transaction imports  
+* Update Tax Model for Bulgaria  
+* Fixes for React, Status colors and Total Taxes  
+* Improve blockonomics callback logic by [@cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/10975  
+* Improvement: Invoicely import (payment dates) by [@damanic](https://github.com/damanic) in https://github.com/invoiceninja/invoiceninja/pull/11044  
+* Report filters by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11055  
+* Fixes for client credit balance by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11057  
+* v5.12.1 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11062
+
