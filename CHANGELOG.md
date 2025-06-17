@@ -3924,3 +3924,12 @@
 * Fixes for client credit balance by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11057  
 * v5.12.1 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11062
 
+[1.19.2]
+* Update invoiceninja to 5.12.3
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.3)
+* Fixes for composer dependencies
+* v5.12.3 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11068
+* Improved support for PayFast Gateway with Token Billing
+* React UI bug fixes
+* v5.12.2 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11067
+
