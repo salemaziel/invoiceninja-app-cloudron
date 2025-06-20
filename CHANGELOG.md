@@ -3933,3 +3933,10 @@
 * React UI bug fixes
 * v5.12.2 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11067
 
+[1.19.3]
+* Update invoiceninja to 5.12.4
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.4)
+* Bug fixes for react UI  
+* Fixes for document export - created_at timestamp  
+* Mollie fee removal on expired/cancelled transaction
+
