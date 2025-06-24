@@ -3940,3 +3940,9 @@
 * Fixes for document export - created_at timestamp  
 * Mollie fee removal on expired/cancelled transaction
 
+[1.19.4]
+* Update invoiceninja to 5.12.5
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.5)
+* React UI fixes  
+* Zip reports if raw size > 5mb
+
