@@ -3946,3 +3946,12 @@
 * React UI fixes  
 * Zip reports if raw size > 5mb
 
+[1.19.5]
+* Update invoiceninja to 5.12.6
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.6)
+* Fixes for PDF previews  
+* Fixes for Product key selection in exports  
+* Updated dependencies  
+* Updates for chart queries.  
+* v5.12.6 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11092
+
