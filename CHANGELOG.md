@@ -3955,3 +3955,12 @@
 * Updates for chart queries.  
 * v5.12.6 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11092
 
+[1.19.6]
+* Update invoiceninja to 5.12.7
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.7)
+* Fixes for Mollie gateway fee removal  
+* Add Task Time Logs to check data script  
+* Additional task time log validation rules  
+* Fixes for page number alignment  
+* Updated Livewire dependencies
+
