@@ -3964,3 +3964,8 @@
 * Fixes for page number alignment  
 * Updated Livewire dependencies
 
+[1.19.7]
+* Update invoiceninja to 5.12.8
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.8)
+* v5.12.8 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11113
+
