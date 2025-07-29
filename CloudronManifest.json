@@ -18,6 +18,12 @@
     },
     "redis": {}
   },
+  "checklist": {
+    "change-default-password": {
+      "message": "Change the default admin password and email immediately."
+    }
+  },
+
   "manifestVersion": 2,
   "website": "https://www.invoiceninja.org",
   "contactEmail": "support@cloudron.io",
@@ -37,7 +43,7 @@
     "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/top-laptop-and-mobile-image.png",
     "https://screenshots.cloudron.io/com.invoiceninja.cloudronapp2/v5-Dashboard-Screenshot.jpeg"
   ],
-  "minBoxVersion": "7.1.2",
+  "minBoxVersion": "8.1.0",
   "forumUrl": "https://forum.cloudron.io/category/11/invoice-ninja",
   "documentationUrl": "https://docs.cloudron.io/packages/invoiceninja/"
 }
