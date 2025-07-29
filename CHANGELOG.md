@@ -3969,3 +3969,6 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.8)
 * v5.12.8 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11113
 
+[1.20.0]
+* checklist added to manifest
+

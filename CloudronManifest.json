@@ -6,7 +6,7 @@
   "changelog": "file://CHANGELOG.md",
   "postInstallMessage": "file://POSTINSTALL.md",
   "tagline": "Invoice from anywhere get paid from everywhere",
-  "version": "1.19.7",
+  "version": "1.20.0",
   "upstreamVersion": "5.12.8",
   "healthCheckPath": "/",
   "httpPort": 8000,
@@ -23,7 +23,6 @@
       "message": "Change the default admin password and email immediately."
     }
   },
-
   "manifestVersion": 2,
   "website": "https://www.invoiceninja.org",
   "contactEmail": "support@cloudron.io",
