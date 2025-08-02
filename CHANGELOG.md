@@ -3972,3 +3972,14 @@
 [1.20.0]
 * checklist added to manifest
 
+[1.20.1]
+* Update invoiceninja to 5.12.9
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.9)
+* Fixes for Restoring backups  
+* Fixes for Zugferd using Tax Exempt codes  
+* Fixes for Quote imports  
+* Fixes for Expense document count  
+* Fixes for filters in product sales reports  
+* Add migration to update Blockonomics site URL by [@cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/11135  
+* v5.12.9 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11159
+
