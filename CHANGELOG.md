@@ -3983,3 +3983,8 @@
 * Add migration to update Blockonomics site URL by [@cnohall](https://github.com/cnohall) in https://github.com/invoiceninja/invoiceninja/pull/11135  
 * v5.12.9 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11159
 
+[1.20.2]
+* Update invoiceninja to 5.12.10
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.10)
+* Fixes for task start/stop regression
+
