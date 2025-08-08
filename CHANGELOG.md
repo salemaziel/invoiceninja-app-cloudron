@@ -3988,3 +3988,8 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.10)
 * Fixes for task start/stop regression
 
+[1.20.3]
+* Update invoiceninja to 5.12.11
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.11)
+* Fixes for incorrect Carbon method by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11170
+
