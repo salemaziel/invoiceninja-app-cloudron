@@ -3993,3 +3993,8 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.11)
 * Fixes for incorrect Carbon method by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11170
 
+[1.20.4]
+* Update invoiceninja to 5.12.12
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.12)
+* v5.12.12 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11173
+
