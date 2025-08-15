@@ -4003,3 +4003,7 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.13)
 * fixes for method regression in HtmlEngine
 
+[1.20.6]
+* Update invoiceninja to 5.12.15
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.15)
+
