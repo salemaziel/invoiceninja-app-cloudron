@@ -4007,3 +4007,11 @@
 * Update invoiceninja to 5.12.15
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.15)
 
+[1.20.7]
+* Update invoiceninja to 5.12.16
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.16)
+* Fixes for broken previews in React  
+* Fixes for filtering/sorting documents from client overview  
+* Updated translations  
+* Additional validation rules on bulk Invoice route.
+
