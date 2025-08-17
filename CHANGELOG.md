@@ -4015,3 +4015,11 @@
 * Updated translations  
 * Additional validation rules on bulk Invoice route.
 
+[1.20.8]
+* Update invoiceninja to 5.12.17
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.17)
+* Fixes for export file generation  
+* Fixes for expense export and display of net amounts  
+* Fixes for statement default data when no invoices are present.  
+* v5.12.17 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11192
+
