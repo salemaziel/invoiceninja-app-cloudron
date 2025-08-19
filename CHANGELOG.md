@@ -4023,3 +4023,11 @@
 * Fixes for statement default data when no invoices are present.  
 * v5.12.17 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11192
 
+[1.20.9]
+* Update invoiceninja to 5.12.18
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.18)
+* Fixes for scout config regression  
+* Updates for quota logic by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11193  
+* Additional logic around emails for hosted platform by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11195  
+* v5.12.18 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11197  
+
