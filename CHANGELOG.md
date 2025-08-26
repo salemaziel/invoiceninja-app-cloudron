@@ -4031,3 +4031,8 @@
 * Additional logic around emails for hosted platform by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11195  
 * v5.12.18 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11197  
 
+[1.20.10]
+* Update invoiceninja to 5.12.19
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.19)
+* v5.12.19 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11221
+
