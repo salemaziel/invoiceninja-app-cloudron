@@ -4036,3 +4036,10 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.19)
 * v5.12.19 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11221
 
+[1.20.11]
+* Update invoiceninja to 5.12.20
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.20)
+* Fixes for edge cases around deleted payments (Reverse Invoices)  
+* Updates for passing custom values when billing a project  
+* Force type shape of task time log entries
+
