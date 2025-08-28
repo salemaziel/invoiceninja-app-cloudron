@@ -4043,3 +4043,8 @@
 * Updates for passing custom values when billing a project  
 * Force type shape of task time log entries
 
+[1.20.12]
+* Update invoiceninja to 5.12.21
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.21)
+* Allow X-Axis configuration of PDF Page numbers
+
