@@ -4048,3 +4048,17 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.21)
 * Allow X-Axis configuration of PDF Page numbers
 
+[1.20.13]
+* Update invoiceninja to 5.12.22
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.22)
+* Add activity events for Client Merge,Purge and Vendor Merge  
+* Fixes for x-axis positioning of page numbers  
+* Fixes for validation of XRechung extended validation (discount reason)  
+* Fixes for 2fa resets  
+* Fixes for empty source exception when creating a design for the first time  
+* Fixes for null checks in project reports  
+* Fixes for handling null Braintree responses.  
+* Payment Schedules! [docs](https://invoiceninja.github.io/en/schedules/)  
+* Invoice Outstanding Task Schedules! [docs](https://invoiceninja.github.io/en/schedules/)  
+* v5.12.22 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11238
+
