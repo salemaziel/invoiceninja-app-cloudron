@@ -4076,3 +4076,12 @@
 * Fixes for PDF X/Y axis customization
 * Add conditional loading of ScoutServiceProvider
 
+[1.20.15]
+* Update invoiceninja to 5.12.26
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.26)
+* Fixes for chart queries where deleted vendor expenses were also included in totals.  
+* Change react release back to PHP 8.2  
+* Updated translations  
+* Minor fixes for Default Mailgun edgecase invoking mailgun  
+* Updates for AWS SES driver.
+
