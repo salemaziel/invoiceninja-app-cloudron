@@ -4062,3 +4062,17 @@
 * Invoice Outstanding Task Schedules! [docs](https://invoiceninja.github.io/en/schedules/)  
 * v5.12.22 by [@turbo124](https://github.com/turbo124) in https://github.com/invoiceninja/invoiceninja/pull/11238
 
+[1.20.14]
+* Update invoiceninja to 5.12.25
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.25)
+* Changes the build pipeline used to create the .tar file to PHP 8.3
+* Add functionality to add base64 files into zugferd documents.
+* Fixes for PDF X/Y page numbering
+* Update react builds and ensure autoload rebuilds via composer
+* Add back .md files by [@turbo124](https://github.com/turbo124) in [#11252](https://github.com/invoiceninja/invoiceninja/pull/11252)
+* add in autodump for composer by [@turbo124](https://github.com/turbo124) in [#11259](https://github.com/invoiceninja/invoiceninja/pull/11259)
+* Refresh dependencies + remove redundant ones
+* Update SES driver configuration at runtime
+* Fixes for PDF X/Y axis customization
+* Add conditional loading of ScoutServiceProvider
+
