@@ -4085,3 +4085,13 @@
 * Minor fixes for Default Mailgun edgecase invoking mailgun  
 * Updates for AWS SES driver.
 
+[1.20.16]
+* Update invoiceninja to 5.12.27
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.27)
+* Fixes for e-invoice regression  
+* Fixes for double encoding on reset password links  
+* Bulk task options  
+* Introduce BCMath functions  
+* Fix minor fr\_CH localization issues by [@clementnuss](https://github.com/clementnuss) in [#11270](https://github.com/invoiceninja/invoiceninja/pull/11270)  
+* v5.12.27 by [@turbo124](https://github.com/turbo124) in [#11276](https://github.com/invoiceninja/invoiceninja/pull/11276)
+
