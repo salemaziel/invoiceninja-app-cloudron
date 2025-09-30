@@ -4095,3 +4095,17 @@
 * Fix minor fr\_CH localization issues by [@clementnuss](https://github.com/clementnuss) in [#11270](https://github.com/invoiceninja/invoiceninja/pull/11270)  
 * v5.12.27 by [@turbo124](https://github.com/turbo124) in [#11276](https://github.com/invoiceninja/invoiceninja/pull/11276)
 
+[1.20.17]
+* Update invoiceninja to 5.12.28
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.28)
+* Updates for Account Name for EPC QR Codes  
+* Extend timeout for PDF previews in client portal  
+* Additional LIAP listeners  
+* Updates for rate limits  
+* Disable chrome performance manager  
+* Disable self hosted auto updates from API  
+* Fixes for :entity\_number in translations  
+* Updated Translations  
+* Patch for better customisation of pdf-numbering-fonts (v5-develop-branch) by [@n1smithy](https://github.com/n1smithy) in [#11277](https://github.com/invoiceninja/invoiceninja/pull/11277)  
+* Improved sorting logic by [@turbo124](https://github.com/turbo124) in [#11279](https://github.com/invoiceninja/invoiceninja/pull/11279)
+
