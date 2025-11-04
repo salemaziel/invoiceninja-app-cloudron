@@ -4109,3 +4109,17 @@
 * Patch for better customisation of pdf-numbering-fonts (v5-develop-branch) by [@n1smithy](https://github.com/n1smithy) in [#11277](https://github.com/invoiceninja/invoiceninja/pull/11277)  
 * Improved sorting logic by [@turbo124](https://github.com/turbo124) in [#11279](https://github.com/invoiceninja/invoiceninja/pull/11279)
 
+[1.20.18]
+* Update invoiceninja to 5.12.30
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.30)
+* Remove PEPPOL feature flags.  
+* Verifactu by [@turbo124](https://github.com/turbo124) in [#11185](https://github.com/invoiceninja/invoiceninja/pull/11185)  
+* Timezone correction for task imports by [@turbo124](https://github.com/turbo124) in [#11318](https://github.com/invoiceninja/invoiceninja/pull/11318)  
+* Fix for issue [#11072](https://github.com/invoiceninja/invoiceninja/issues/11072)  Update Mollie CreditCard.php by [@eelco2k](https://github.com/eelco2k) in [#11327](https://github.com/invoiceninja/invoiceninja/pull/11327)  
+* Fixes for percentage discount imports by [@turbo124](https://github.com/turbo124) in [#11368](https://github.com/invoiceninja/invoiceninja/pull/11368)  
+* Fix invoice statuses for blockonomics by [@cnohall](https://github.com/cnohall) in [#11296](https://github.com/invoiceninja/invoiceninja/pull/11296)  
+* Add filtering tasks by task number  
+* Updates for translations  
+* Updates for OpenAPI spec  
+* Remove microsoft OAuth header token
+
