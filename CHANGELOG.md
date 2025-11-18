@@ -4123,3 +4123,17 @@
 * Updates for OpenAPI spec  
 * Remove microsoft OAuth header token
 
+[1.20.19]
+* Update invoiceninja to 5.12.31
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.31)
+* Add expense data to TemplateService  
+* Force all users to confirm email accounts  
+* Improvements for rate limiter  
+* Ensure Primary Contact for vendor is always present  
+* Ensure that jobs with tries = 1 never attempt to requeue  
+* Handle null values in Company Settings  
+* Force Email Validation when emails are updated  
+* Fixes for null values in PDF config/designer  
+* Support automatic invoice numbers in csv imports  
+* Support no line items present in csv imports (uses 1 x invoice amount as the line item)
+
