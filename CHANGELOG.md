@@ -4137,3 +4137,12 @@
 * Support automatic invoice numbers in csv imports  
 * Support no line items present in csv imports (uses 1 x invoice amount as the line item)
 
+[1.20.20]
+* Update invoiceninja to 5.12.33
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.33)
+* v5.12.33 by [@turbo124](https://github.com/turbo124) in [#11432](https://github.com/invoiceninja/invoiceninja/pull/11432)
+* Add BT-29 and BT-32 support to ZUGFeRD E-Document using id\_number by [@psycho0verload](https://github.com/psycho0verload) in [#11428](https://github.com/invoiceninja/invoiceninja/pull/11428)
+* Add support for multiple Blockonomics' stores by [@cnohall](https://github.com/cnohall) in [#11426](https://github.com/invoiceninja/invoiceninja/pull/11426)
+* Tax Period Reports by [@turbo124](https://github.com/turbo124) in [#11429](https://github.com/invoiceninja/invoiceninja/pull/11429)
+* v5.12.32 by [@turbo124](https://github.com/turbo124) in [#11431](https://github.com/invoiceninja/invoiceninja/pull/11431)
+
