@@ -4146,3 +4146,11 @@
 * Tax Period Reports by [@turbo124](https://github.com/turbo124) in [#11429](https://github.com/invoiceninja/invoiceninja/pull/11429)
 * v5.12.32 by [@turbo124](https://github.com/turbo124) in [#11431](https://github.com/invoiceninja/invoiceninja/pull/11431)
 
+[1.20.21]
+* Update invoiceninja to 5.12.34
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.34)
+* Add Blockonomics payment capabilities by [@cnohall](https://github.com/cnohall) in [#9970](https://github.com/invoiceninja/invoiceninja/pull/9970)
+* Revert "Add Blockonomics payment capabilities" by [@turbo124](https://github.com/turbo124) in [#10011](https://github.com/invoiceninja/invoiceninja/pull/10011)
+* Update to latest by [@turbo124](https://github.com/turbo124) in [#10282](https://github.com/invoiceninja/invoiceninja/pull/10282)
+* Add Gotenberg support for PDF generation by [@vauxia](https://github.com/vauxia) in [#11433](https://github.com/invoiceninja/invoiceninja/pull/11433)
+
