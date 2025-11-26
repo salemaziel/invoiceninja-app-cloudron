@@ -4154,3 +4154,17 @@
 * Update to latest by [@turbo124](https://github.com/turbo124) in [#10282](https://github.com/invoiceninja/invoiceninja/pull/10282)
 * Add Gotenberg support for PDF generation by [@vauxia](https://github.com/vauxia) in [#11433](https://github.com/invoiceninja/invoiceninja/pull/11433)
 
+[1.20.22]
+* Update invoiceninja to 5.12.35
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.35)
+* Updated assets  
+* Updated translations  
+* Deprecation fixes  
+* Fixes for pdf configuration accessing invalid designs  
+* Fixes for tax configuration  
+* Minor fixes for pdfmock  
+* Add additional checks and confirmations around unsubscribe links  
+* Refactor accessors for client gateway token meta prop  
+* Refactor for invoices summary  
+* Updated resources
+
