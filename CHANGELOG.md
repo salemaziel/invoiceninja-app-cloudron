@@ -4168,3 +4168,17 @@
 * Refactor for invoices summary  
 * Updated resources
 
+[1.20.23]
+* Update invoiceninja to 5.12.36
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.36)
+* fix: for payment token storage  
+* fix: Add idempotency checks to all Elasticsearch migrations  
+* fix: Remove timeout from elastic rebuild wait logic  
+* fix: Refactor blockonomics btc + qr code presentation  
+* fix: Remove blockonomics controller  
+* fix: Fixes for blockonomics  
+* fix: Add invoice\_id to credit activities - if it exists  
+* fix: Improve time\_log validation to detect and reject invalid formats  
+* fix: Updates for handling company imports with cancellation cast  
+* fix: Update report parameters for client balance and ar summary to include
+
