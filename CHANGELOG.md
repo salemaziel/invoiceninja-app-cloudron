@@ -4182,3 +4182,11 @@
 * fix: Updates for handling company imports with cancellation cast  
 * fix: Update report parameters for client balance and ar summary to include
 
+[1.20.24]
+* Update invoiceninja to 5.12.37
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.37)
+* Fixes for mark paid action on locked invoices.
+* Refactor for atomic redis operations
+* Fixes for displaying correct user id on bulk actions
+* Updated storepaymentrequest validation to enable per line validation error messages.
+
