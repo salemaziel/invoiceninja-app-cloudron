@@ -4190,3 +4190,17 @@
 * Fixes for displaying correct user id on bulk actions
 * Updated storepaymentrequest validation to enable per line validation error messages.
 
+[1.20.25]
+* Update invoiceninja to 5.12.38
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.38)
+* Fixes for payment tests  
+* Ensure users cannot add pdf\_variables to group or client settings  
+* Checks for payment notifications.  
+* Updated domains  
+* Fixes fo nmo entity being false  
+* Set is\_primary=true on new contact  
+* Refactor away from session id's as key cache  
+* Ensure location data flattens correctly for use in templates  
+* Add draft invoices into dashboard amounts if required  
+* Fixes for AEAT activity consts
+
