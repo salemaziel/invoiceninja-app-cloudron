@@ -4204,3 +4204,10 @@
 * Add draft invoices into dashboard amounts if required  
 * Fixes for AEAT activity consts
 
+[1.20.26]
+* Update invoiceninja to 5.12.39
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.39)
+* Fix for peppol credit numbering logic thks [@tcedi](https://github.com/tcedi)
+* Stripe webhook secret implimentation by [@TechNoNerd87](https://github.com/TechNoNerd87) in [#11441](https://github.com/invoiceninja/invoiceninja/pull/11441)
+* v5.12.39 by [@turbo124](https://github.com/turbo124) in [#11472](https://github.com/invoiceninja/invoiceninja/pull/11472)
+
