@@ -4211,3 +4211,17 @@
 * Stripe webhook secret implimentation by [@TechNoNerd87](https://github.com/TechNoNerd87) in [#11441](https://github.com/invoiceninja/invoiceninja/pull/11441)
 * v5.12.39 by [@turbo124](https://github.com/turbo124) in [#11472](https://github.com/invoiceninja/invoiceninja/pull/11472)
 
+[1.20.27]
+* Update invoiceninja to 5.12.40
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.40)
+* Adjustments for validating payments, preventing a negative amount bei
+* Fixes for no invitations present yet!
+* Add subtotal as a report option
+* Improve sorting of company gateways
+* Fixes for quarters
+* Cleanup for deprecation notices
+* Invoice designer v2
+* Fixes for payment types
+* Fixes for expense tax calculations
+* Stubs for Json Invoice Designer
+
