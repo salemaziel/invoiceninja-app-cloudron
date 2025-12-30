@@ -4225,3 +4225,10 @@
 * Fixes for expense tax calculations
 * Stubs for Json Invoice Designer
 
+[1.20.28]
+* Update invoiceninja to 5.12.41
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.41)
+* v5.12.38 by [@turbo124](https://github.com/turbo124) in [#11469](https://github.com/invoiceninja/invoiceninja/pull/11469)  
+* Introduce Sdks for Go Language by [@AshkanYarmoradi](https://github.com/AshkanYarmoradi) in [#11500](https://github.com/invoiceninja/invoiceninja/pull/11500)  
+* v5.12.41 by [@turbo124](https://github.com/turbo124) in [#11520](https://github.com/invoiceninja/invoiceninja/pull/11520)
+
