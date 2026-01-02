@@ -4232,3 +4232,12 @@
 * Introduce Sdks for Go Language by [@AshkanYarmoradi](https://github.com/AshkanYarmoradi) in [#11500](https://github.com/invoiceninja/invoiceninja/pull/11500)  
 * v5.12.41 by [@turbo124](https://github.com/turbo124) in [#11520](https://github.com/invoiceninja/invoiceninja/pull/11520)
 
+[1.20.29]
+* Update invoiceninja to 5.12.44
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.44)
+* Fixes for PEPPOL.  
+* v5.12.44 by [@turbo124](https://github.com/turbo124) in [#11531](https://github.com/invoiceninja/invoiceninja/pull/11531)  
+* Fixes for peppol legal entity validation  
+* v5.12.42 by [@turbo124](https://github.com/turbo124) in [#11529](https://github.com/invoiceninja/invoiceninja/pull/11529)  
+* v5.12.43 by [@turbo124](https://github.com/turbo124) in [#11530](https://github.com/invoiceninja/invoiceninja/pull/11530)
+
