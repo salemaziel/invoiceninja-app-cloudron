@@ -4241,3 +4241,13 @@
 * v5.12.42 by [@turbo124](https://github.com/turbo124) in [#11529](https://github.com/invoiceninja/invoiceninja/pull/11529)  
 * v5.12.43 by [@turbo124](https://github.com/turbo124) in [#11530](https://github.com/invoiceninja/invoiceninja/pull/11530)
 
+[1.20.30]
+* Update invoiceninja to 5.12.45
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.45)
+* Handle changes to PEPPOL rounding for line taxes  
+* Fixes for no late invoice notifications  
+* Cast correctly - include\_drafts query param  
+* Ensure location ID is passed through when creating recurring invoices  
+* Embed expense documents where add to invoice is selected in settings  
+* fix: add missing maldives currency symbol by [@ayarse](https://github.com/ayarse) in [#11536](https://github.com/invoiceninja/invoiceninja/pull/11536)
+
