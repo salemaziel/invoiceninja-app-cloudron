@@ -4251,3 +4251,17 @@
 * Embed expense documents where add to invoice is selected in settings  
 * fix: add missing maldives currency symbol by [@ayarse](https://github.com/ayarse) in [#11536](https://github.com/invoiceninja/invoiceninja/pull/11536)
 
+[1.20.31]
+* Update invoiceninja to 5.12.46
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.46)
+* Updates for task request filters  
+* Updated translations  
+* Improvements for Gateways that are preferentially sorted  
+* Minor fixes for payment intent processing  
+* Updates for PEPPOL invoices  
+* Handle null tax details  
+* Handle additional identifiers when processing inbound documents  
+* Working on additional helper to debug bad imports  
+* Add created between filter  
+* Add term\_days variable for use in templates / designs
+
