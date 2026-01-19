@@ -20,7 +20,7 @@
   },
   "checklist": {
     "change-default-password": {
-      "message": "Change the default admin password and email immediately."
+      "message": "Change the default admin password and email"
     }
   },
   "manifestVersion": 2,
