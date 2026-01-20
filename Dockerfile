@@ -14,6 +14,23 @@ RUN curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-ke
     apt-get install -y google-chrome-stable && \
     rm -rf /var/cache/apt /var/lib/apt/lists
 
+# Install saxon extension
+RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-0.zip -O saxon.zip && \
+    unzip saxon.zip -d saxon && \
+    cp -r saxon/SaxonCHE-linux-x86_64-12-9-0/SaxonCHE/bin/* /usr/bin/ && \
+    cp -r saxon/SaxonCHE-linux-x86_64-12-9-0/SaxonCHE/lib/* /usr/lib/ && \
+    cp -r saxon/SaxonCHE-linux-x86_64-12-9-0/SaxonCHE/include/* /usr/include/ && \
+    rm -rf saxon.zip && \
+    cd saxon/SaxonCHE-linux-x86_64-12-9-0/php/src/ && \
+    phpize && \
+    ./configure --with-saxon && \
+    make && \
+    make install && \
+    cd /app/code && \
+    printf "%s\n" "; configuration for php Saxon HE/PE/EE module" "extension=saxon.so" > /etc/php/8.3/mods-available/saxon.ini && \
+    phpenmod saxon && \
+    rm -rf saxon
+
 # renovate: datasource=github-releases depName=invoiceninja/invoiceninja versioning=semver extractVersion=^v(?<version>.+)$
 ARG INVOICENINJA_VERSION=5.12.46
 
