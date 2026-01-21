@@ -4268,3 +4268,17 @@
 [1.21.0]
 * Added saxon php module
 
+[1.21.1]
+* Update invoiceninja to 5.12.47
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.47)
+* Updated dependencies  
+* Expose credit backup prop  
+* Fixes for try/catch logic with Postmark webhook sync  
+* Fixes for missing backups  
+* Fixes for types  
+* Fixes for verifactu  
+* Updated translations  
+* Working on dedicated credits for PEPPOL  
+* Validation for credits  
+* Peppol support for credit + invoice document reference #
+
