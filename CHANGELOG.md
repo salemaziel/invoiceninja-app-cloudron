@@ -4282,3 +4282,8 @@
 * Validation for credits  
 * Peppol support for credit + invoice document reference #
 
+[1.21.2]
+* Update invoiceninja to 5.12.48
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.48)
+* Fixes for PEPPOL + Mollie by [@turbo124](https://github.com/turbo124) in [#11588](https://github.com/invoiceninja/invoiceninja/pull/11588)
+
