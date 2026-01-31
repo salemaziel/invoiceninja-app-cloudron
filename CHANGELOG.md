@@ -4296,3 +4296,13 @@
 * fixes for release composer by [@turbo124](https://github.com/turbo124) in [#11596](https://github.com/invoiceninja/invoiceninja/pull/11596)  
 * v5.12.50 by [@turbo124](https://github.com/turbo124) in [#11601](https://github.com/invoiceninja/invoiceninja/pull/11601)
 
+[1.21.4]
+* Update invoiceninja to 5.12.51
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.51)
+* Fixes for selfhost setup.
+* Bug Fix - Webhook creation erroneously by [@turbo124](https://github.com/turbo124) in [#11608](https://github.com/invoiceninja/invoiceninja/pull/11608)
+* Dependency updates by [@turbo124](https://github.com/turbo124) in [#11612](https://github.com/invoiceninja/invoiceninja/pull/11612)
+* Update translations by [@beganovich](https://github.com/beganovich) in [#11618](https://github.com/invoiceninja/invoiceninja/pull/11618)
+* Updated Translations by [@turbo124](https://github.com/turbo124) in [#11620](https://github.com/invoiceninja/invoiceninja/pull/11620)
+* v5.12.51 by [@turbo124](https://github.com/turbo124) in [#11624](https://github.com/invoiceninja/invoiceninja/pull/11624)
+
