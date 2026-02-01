@@ -4306,3 +4306,10 @@
 * Updated Translations by [@turbo124](https://github.com/turbo124) in [#11620](https://github.com/invoiceninja/invoiceninja/pull/11620)
 * v5.12.51 by [@turbo124](https://github.com/turbo124) in [#11624](https://github.com/invoiceninja/invoiceninja/pull/11624)
 
+[1.21.5]
+* Update invoiceninja to 5.12.52
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.52)
+* Force app.url for password resets.  
+* Updated translations by [@turbo124](https://github.com/turbo124) in [#11628](https://github.com/invoiceninja/invoiceninja/pull/11628)  
+* v5.12.52 by [@turbo124](https://github.com/turbo124) in [#11629](https://github.com/invoiceninja/invoiceninja/pull/11629)
+
