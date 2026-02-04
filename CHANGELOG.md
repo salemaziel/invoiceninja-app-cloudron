@@ -4313,3 +4313,11 @@
 * Updated translations by [@turbo124](https://github.com/turbo124) in [#11628](https://github.com/invoiceninja/invoiceninja/pull/11628)  
 * v5.12.52 by [@turbo124](https://github.com/turbo124) in [#11629](https://github.com/invoiceninja/invoiceninja/pull/11629)
 
+[1.21.6]
+* Update invoiceninja to 5.12.53
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.53)
+* Console command to pull PEPPOL docs  
+* Client portal with Projects  
+* Update translations by [@beganovich](https://github.com/beganovich) in [#11640](https://github.com/invoiceninja/invoiceninja/pull/11640)  
+* v5.12.53 by [@turbo124](https://github.com/turbo124) in [#11646](https://github.com/invoiceninja/invoiceninja/pull/11646)
+
