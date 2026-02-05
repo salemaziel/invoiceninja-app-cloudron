@@ -4321,3 +4321,12 @@
 * Update translations by [@beganovich](https://github.com/beganovich) in [#11640](https://github.com/invoiceninja/invoiceninja/pull/11640)  
 * v5.12.53 by [@turbo124](https://github.com/turbo124) in [#11646](https://github.com/invoiceninja/invoiceninja/pull/11646)
 
+[1.21.7]
+* Update invoiceninja to 5.12.55
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.55)
+* Fixes for compose dependencies  
+* v5.12.55 by [@turbo124](https://github.com/turbo124) in [#11658](https://github.com/invoiceninja/invoiceninja/pull/11658)  
+* Updated dependencies  
+* Fixes for Peppol command  
+* v5.12.54 by [@turbo124](https://github.com/turbo124) in [#11657](https://github.com/invoiceninja/invoiceninja/pull/11657)
+
