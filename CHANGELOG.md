@@ -4330,3 +4330,11 @@
 * Fixes for Peppol command  
 * v5.12.54 by [@turbo124](https://github.com/turbo124) in [#11657](https://github.com/invoiceninja/invoiceninja/pull/11657)
 
+[1.21.8]
+* Update invoiceninja to 5.12.58
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.58)
+* Fixes for Schedule request form.
+* Add missing config property by [@&#8203;beganovich](https://github.com/beganovich) in [#&#8203;11663](https://github.com/invoiceninja/invoiceninja/pull/11663)
+* Fix paymentlink `price` and `promo_price` when using inclusive taxes by [@&#8203;TheNewSound](https://github.com/TheNewSound) in [#&#8203;11666](https://github.com/invoiceninja/invoiceninja/pull/11666)
+* Use `between` rule for `frequency_id` validation, instead of `digits_between` by [@&#8203;TheNewSound](https://github.com/TheNewSound) in [#&#8203;11674](https://github.com/invoiceninja/invoiceninja/pull/11674)
+
