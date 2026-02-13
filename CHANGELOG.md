@@ -4338,3 +4338,8 @@
 * Fix paymentlink `price` and `promo_price` when using inclusive taxes by [@&#8203;TheNewSound](https://github.com/TheNewSound) in [#&#8203;11666](https://github.com/invoiceninja/invoiceninja/pull/11666)
 * Use `between` rule for `frequency_id` validation, instead of `digits_between` by [@&#8203;TheNewSound](https://github.com/TheNewSound) in [#&#8203;11674](https://github.com/invoiceninja/invoiceninja/pull/11674)
 
+[1.21.9]
+* Update invoiceninja to 5.12.59
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.59)
+* Resolves Client Portal regression
+
