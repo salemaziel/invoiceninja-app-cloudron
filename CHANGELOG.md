@@ -4343,3 +4343,8 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.59)
 * Resolves Client Portal regression
 
+[1.21.10]
+* Update invoiceninja to 5.12.60
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.60)
+* Fixes for sidebar regression in React UI
+
