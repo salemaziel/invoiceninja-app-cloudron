@@ -4348,3 +4348,9 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.60)
 * Fixes for sidebar regression in React UI
 
+[1.21.11]
+* Update invoiceninja to 5.12.62
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.62)
+* Fixes for PHP deprecations
+* Remove redundant PDF Generation classes
+
