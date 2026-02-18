@@ -4354,3 +4354,8 @@
 * Fixes for PHP deprecations
 * Remove redundant PDF Generation classes
 
+[1.21.12]
+* Update invoiceninja to 5.12.63
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.63)
+* Fixes for PHP 8.4 Rounding edge cases by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11705](https://github.com/invoiceninja/invoiceninja/pull/11705)
+
