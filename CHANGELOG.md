@@ -4365,3 +4365,9 @@
 * Fixes for build path for DocuNinja
 * Fixes for vendor country when resolving inbound PEPPOL document
 
+[1.21.14]
+* Update invoiceninja to 5.12.65
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.65)
+* Update translations by [@&#8203;beganovich](https://github.com/beganovich) in [#&#8203;11712](https://github.com/invoiceninja/invoiceninja/pull/11712)
+* v5.12.65 by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11715](https://github.com/invoiceninja/invoiceninja/pull/11715)
+
