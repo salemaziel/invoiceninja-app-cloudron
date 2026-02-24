@@ -4371,3 +4371,10 @@
 * Update translations by [@&#8203;beganovich](https://github.com/beganovich) in [#&#8203;11712](https://github.com/invoiceninja/invoiceninja/pull/11712)
 * v5.12.65 by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11715](https://github.com/invoiceninja/invoiceninja/pull/11715)
 
+[1.21.15]
+* Update invoiceninja to 5.12.66
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.66)
+* Fixes for VAT number validation
+* Refactor for float comparisons by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11717](https://github.com/invoiceninja/invoiceninja/pull/11717)
+* v5.12.66 by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11722](https://github.com/invoiceninja/invoiceninja/pull/11722)
+
