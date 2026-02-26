@@ -4378,3 +4378,11 @@
 * Refactor for float comparisons by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11717](https://github.com/invoiceninja/invoiceninja/pull/11717)
 * v5.12.66 by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11722](https://github.com/invoiceninja/invoiceninja/pull/11722)
 
+[1.21.16]
+* Update invoiceninja to 5.12.68
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.68)
+* Fixes for preload.php for users on opcache.
+* Fixes for PEPPOL attachment naming
+* Updated translations
+* Updated lock file
+
