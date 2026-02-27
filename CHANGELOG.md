@@ -4386,3 +4386,12 @@
 * Updated translations
 * Updated lock file
 
+[1.21.17]
+* Update invoiceninja to 5.12.69
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.69)
+* Fixes for query performance
+* Fixes for PEPPOL GLN scheme IDs
+* Fixes for Docuninja conflicts in SelfHosted
+* Improve email layouts to force light/dark modes
+* Fixes for credits when deleted prior to payment deletion.
+
