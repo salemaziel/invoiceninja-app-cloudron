@@ -4395,3 +4395,17 @@
 * Improve email layouts to force light/dark modes
 * Fixes for credits when deleted prior to payment deletion.
 
+[1.21.18]
+* Update invoiceninja to 5.12.70
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.12.70)
+* Allow quickbooks realm reconnection if token expires
+* Fix for credit double spend edge case
+* Allow client relation filters from list views
+* Query refactors for performance
+* Add ACH status checks for Authorize.net
+* Fixes for deadlock race condition when marking an invoice as paid from draft state
+* Minor fixes for aging interval query calculations
+* Ensure blank clients are not created erroneously when importing from CSV
+* Static Analysis cleanup
+* mode() update to allow URL Endpoint change for NMI in Authorize.Net Driver by [@&#8203;igormont](https://github.com/igormont) in [#&#8203;11748](https://github.com/invoiceninja/invoiceninja/pull/11748)
+
