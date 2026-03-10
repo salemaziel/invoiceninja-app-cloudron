@@ -4409,3 +4409,16 @@
 * Static Analysis cleanup
 * mode() update to allow URL Endpoint change for NMI in Authorize.Net Driver by [@&#8203;igormont](https://github.com/igormont) in [#&#8203;11748](https://github.com/invoiceninja/invoiceninja/pull/11748)
 
+[1.22.0]
+* Update invoiceninja to 5.13.0
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.0)
+* Upgrade Laravel 12
+* Update all required dependencies
+* Updated livewire dependencies
+* Add Entity Number as the document title for PDF
+* Fixes for Freshbooks imports
+* Fixes for BcMath comparisons
+* Fixes for Quickbooks sync where duplicate entity #'s are present
+* Fixes for null documents during company import
+* Improve Company Export/Imports
+
