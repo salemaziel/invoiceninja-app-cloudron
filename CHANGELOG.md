@@ -4422,3 +4422,11 @@
 * Fixes for null documents during company import
 * Improve Company Export/Imports
 
+[1.22.1]
+* Update invoiceninja to 5.13.1
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.1)
+* Remove redundant packages
+* Updates for Recurring Invoice imports (is\_amount\_disacount) flag
+* Add email notifications for quickbooks token expiry
+* Fixes for auth.net base URL
+
