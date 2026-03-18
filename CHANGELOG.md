@@ -4430,3 +4430,13 @@
 * Add email notifications for quickbooks token expiry
 * Fixes for auth.net base URL
 
+[1.22.2]
+* Update invoiceninja to 5.13.2
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.2)
+* Checkout.com FLOW
+* Add passkey authentication endpoints and storage. by [@&#8203;svenbledt](https://github.com/svenbledt) in [#&#8203;11739](https://github.com/invoiceninja/invoiceninja/pull/11739)
+* Fixes for tax summary report by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11769](https://github.com/invoiceninja/invoiceninja/pull/11769)
+* Fix SEPA payments blocked by Stripe Radar due to missing billing country by [@&#8203;swefd](https://github.com/swefd) in [#&#8203;11770](https://github.com/invoiceninja/invoiceninja/pull/11770)
+* Passkey Implementation fixes by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11773](https://github.com/invoiceninja/invoiceninja/pull/11773)
+* Fix AutoBillInvoice processing of invoices with 0 balance by [@&#8203;TheNewSound](https://github.com/TheNewSound) in [#&#8203;11772](https://github.com/invoiceninja/invoiceninja/pull/11772)
+
