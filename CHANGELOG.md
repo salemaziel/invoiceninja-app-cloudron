@@ -4440,3 +4440,12 @@
 * Passkey Implementation fixes by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11773](https://github.com/invoiceninja/invoiceninja/pull/11773)
 * Fix AutoBillInvoice processing of invoices with 0 balance by [@&#8203;TheNewSound](https://github.com/TheNewSound) in [#&#8203;11772](https://github.com/invoiceninja/invoiceninja/pull/11772)
 
+[1.22.3]
+* Update invoiceninja to 5.13.3
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.3)
+* Inject small delay into client webhooks to allow contacts to be returned.
+* Fixes for e-invoice notifications
+* Updates for PEPPOL SE sending
+* Ensure GoCardless displays correct payment method type
+* Updated Translations
+
