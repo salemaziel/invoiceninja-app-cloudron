@@ -4449,3 +4449,10 @@
 * Ensure GoCardless displays correct payment method type
 * Updated Translations
 
+[1.22.4]
+* Update invoiceninja to 5.13.4
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.4)
+* Refactor for sanitization of line item props + public notes / terms / footer
+* Add Vendor sync cast
+* v5.12.4 by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11811](https://github.com/invoiceninja/invoiceninja/pull/11811)
+
