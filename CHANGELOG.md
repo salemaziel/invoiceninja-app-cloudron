@@ -4456,3 +4456,16 @@
 * Add Vendor sync cast
 * v5.12.4 by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11811](https://github.com/invoiceninja/invoiceninja/pull/11811)
 
+[1.22.5]
+* Update invoiceninja to 5.13.5
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.5)
+* Fixes for disabled input fields
+* Fixes for client portal set password sessions
+* Fixes for subscription auth
+* FIxes for bank transaction imports
+* Fixes for Nordigen Bank Descriptions
+* Fixes for Quickbooks Initial Sync
+* Add throttle to client portal invitation routes
+* Improve Nordigen transaction description handling by [@&#8203;JamiePhonic](https://github.com/JamiePhonic) in [#&#8203;11803](https://github.com/invoiceninja/invoiceninja/pull/11803)
+* v5.12.5 by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11817](https://github.com/invoiceninja/invoiceninja/pull/11817)
+
