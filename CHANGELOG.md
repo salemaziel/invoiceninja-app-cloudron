@@ -4469,3 +4469,13 @@
 * Improve Nordigen transaction description handling by [@&#8203;JamiePhonic](https://github.com/JamiePhonic) in [#&#8203;11803](https://github.com/invoiceninja/invoiceninja/pull/11803)
 * v5.12.5 by [@&#8203;turbo124](https://github.com/turbo124) in [#&#8203;11817](https://github.com/invoiceninja/invoiceninja/pull/11817)
 
+[1.22.6]
+* Update invoiceninja to 5.13.8
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.8)
+* Refactor for PEPPOL to support CTC countries
+* Fixes for invoice invitation race condition
+* Fixes for client contact observer
+* Remove redundant illuminate $request methods
+* Fixes for multiple areas of the auth stack for route model binding
+* Purify additional areas of client portal
+
