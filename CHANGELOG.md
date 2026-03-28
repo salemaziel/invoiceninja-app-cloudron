@@ -4479,3 +4479,11 @@
 * Fixes for multiple areas of the auth stack for route model binding
 * Purify additional areas of client portal
 
+[1.22.7]
+* Update invoiceninja to 5.13.9
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.9)
+* Fixes for Max Results from QB API
+* Fixes for QB Imports
+* Fixes for null sorting on list endpoints
+* Improvements for Twig linting
+
