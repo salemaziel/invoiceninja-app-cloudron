@@ -4487,3 +4487,17 @@
 * Fixes for null sorting on list endpoints
 * Improvements for Twig linting
 
+[1.22.8]
+* Update invoiceninja to 5.13.11
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.11)
+* Fixes for html within product notes
+* Add custom values to project filters.
+* Handle null values for empty document arrays
+* Remove redundant codepaths.
+* Fixes for credit bank rules
+* Updated translations
+* Filter client profile fillables
+* Cleanup for validation of subscription requests
+* Adjustment for order of events in delete invoice transaction
+* QB Sync, ensure Client created when invoice pushed
+
