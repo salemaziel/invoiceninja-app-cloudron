@@ -32,7 +32,7 @@ RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-
     rm -rf saxon
 
 # renovate: datasource=github-releases depName=invoiceninja/invoiceninja versioning=semver extractVersion=^v(?<version>.+)$
-ARG INVOICENINJA_VERSION=5.13.11
+ARG INVOICENINJA_VERSION=5.13.12
 
 RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${INVOICENINJA_VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
     chown -R www-data:www-data /app/code
