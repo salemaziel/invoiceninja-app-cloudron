@@ -4501,3 +4501,15 @@
 * Adjustment for order of events in delete invoice transaction
 * QB Sync, ensure Client created when invoice pushed
 
+[1.22.9]
+* Update invoiceninja to 5.13.12
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.12)
+* Fixes for e-invoice notifications
+* Fixes for document filename sanitation
+* Fixes for outstanding invoices queries for charts
+* Add payment schedule count variable for usage in templates
+* CC additional contacts on email payment notifications
+* Fixes for reminder window calculations
+* Fixes for Purify:: cleaning [@&#8203;import](https://github.com/import)() styles
+* Handle naming collisions across vendors/employee's/customers in QB Sync
+
