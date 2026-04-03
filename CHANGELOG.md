@@ -4513,3 +4513,11 @@
 * Fixes for Purify:: cleaning [@&#8203;import](https://github.com/import)() styles
 * Handle naming collisions across vendors/employee's/customers in QB Sync
 
+[1.22.10]
+* Update invoiceninja to 5.13.14
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.14)
+* Fixes for react build
+* Add group by filter for reports
+* Add filtering for payment types
+* Add filtering by assigned users and client ids
+
