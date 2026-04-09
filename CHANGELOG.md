@@ -4521,3 +4521,17 @@
 * Add filtering for payment types
 * Add filtering by assigned users and client ids
 
+[1.22.11]
+* Update invoiceninja to 5.13.15
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.15)
+* Align payment failure subject + body text
+* Reminder Tests
+* Fixes for Tax Summary Report
+* Improvements for query filters and labelling for custom surcharges in report exports
+* Fixes for sorting by invoice # on payment list
+* Country onboarding improvements / defaults
+* Andorra peppol support
+* Singapore Storecove implementation
+* Add locked attribute to laravel livewire components
+* Fixes for event firing which caused peppol documents to not send when recurring invoices fired
+
