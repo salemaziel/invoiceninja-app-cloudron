@@ -4535,3 +4535,10 @@
 * Add locked attribute to laravel livewire components
 * Fixes for event firing which caused peppol documents to not send when recurring invoices fired
 
+[1.22.12]
+* Update invoiceninja to 5.13.16
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.16)
+* Fixes for regression on Profit/Loss report
+* Enforce client id checks for Microsoft + Google OAuth
+* Stubs for Poland Peppol
+
