@@ -4542,3 +4542,14 @@
 * Enforce client id checks for Microsoft + Google OAuth
 * Stubs for Poland Peppol
 
+[1.22.13]
+* Update invoiceninja to 5.13.17
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.17)
+* Improve company import resilience
+* Improve company import resilience
+* Remove migration codepaths
+* Additional tests non-eu => eu | tax exemption reasons
+* Fixes for Stripe ACH ba\_ legacy tokens
+* Fixes for scheduler requests
+* Reduce size of vendor folder
+
