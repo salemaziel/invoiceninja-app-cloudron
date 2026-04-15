@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^147.0.2",
-    "expect.js": "^0.3.1",
     "mocha": "^11.7.5",
     "selenium-webdriver": "^4.43.0",
     "superagent": "^10.3.0"

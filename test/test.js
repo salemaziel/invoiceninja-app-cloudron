@@ -12,7 +12,7 @@
 require('chromedriver');
 
 const execSync = require('child_process').execSync,
-    expect = require('expect.js'),
+    assert = require('node:assert/strict'),
     fs = require('fs'),
     path = require('path'),
     superagent = require('superagent'),
@@ -49,7 +49,7 @@ describe('Application life cycle test', function () {
 
         const currentUrl = await browser.getCurrentUrl();
         if (!currentUrl.includes(app.domain)) return;
-        expect(this.currentTest.title).to.be.a('string');
+        assert.strictEqual(typeof this.currentTest.title, 'string');
 
         const screenshotData = await browser.takeScreenshot();
         fs.writeFileSync(`./screenshots/${new Date().getTime()}-${this.currentTest.title.replaceAll(' ', '_')}.png`, screenshotData, 'base64');
@@ -62,7 +62,7 @@ describe('Application life cycle test', function () {
     function getAppInfo () {
         const inspect = JSON.parse(execSync('cloudron inspect'));
         app = inspect.apps.filter(a => a.location === LOCATION || a.location === LOCATION + '2')[0];
-        expect(app).to.be.an('object');
+        assert.ok(app && typeof app === 'object');
     }
 
     // the setTimout retry on 500 is since for some reason the app is shaky during startup
@@ -88,7 +88,7 @@ describe('Application life cycle test', function () {
             .send({ email: email, password: password })
             .ok(() => true);
 
-        expect(response.status).to.eql(200);
+        assert.deepStrictEqual(response.status, 200);
 
         token = response.body.data[0].token.token;
     }
@@ -99,7 +99,7 @@ describe('Application life cycle test', function () {
             .ok(() => true);
 
         if (response.status === 500) throw new Error('kickme');
-        expect(response.status).to.eql(200);
+        assert.deepStrictEqual(response.status, 200);
         vendorId = response.body.data.id;
     }
 
@@ -109,8 +109,8 @@ describe('Application life cycle test', function () {
             .ok(() => true);
 
         if (response.status === 500) throw new Error('kickme');
-        expect(response.status).to.eql(200);
-        expect(response.body.data.name).to.equal(VENDOR_NAME);
+        assert.deepStrictEqual(response.status, 200);
+        assert.strictEqual(response.body.data.name, VENDOR_NAME);
     }
 
     async function createClient() {
@@ -120,7 +120,7 @@ describe('Application life cycle test', function () {
             .ok(() => true);
 
         if (response.status === 500) throw new Error('kickme');
-        expect(response.status).to.eql(200);
+        assert.deepStrictEqual(response.status, 200);
 
         clientId = response.body.data.id;
     }
@@ -131,8 +131,8 @@ describe('Application life cycle test', function () {
             .ok(() => true);
 
         if (response.status === 500) throw new Error('kickme');
-        expect(response.status).to.eql(200);
-        expect(response.body.data.name).to.equal(CLIENT_NAME);
+        assert.deepStrictEqual(response.status, 200);
+        assert.strictEqual(response.body.data.name, CLIENT_NAME);
     }
 
     async function createInvoice() {
@@ -141,7 +141,7 @@ describe('Application life cycle test', function () {
             .ok(() => true);
 
         if (response.status === 500) throw new Error('kickme');
-        expect(response.status).to.eql(200);
+        assert.deepStrictEqual(response.status, 200);
 
         var invoice = response.body;
         invoice.client_id = clientId;
@@ -152,7 +152,7 @@ describe('Application life cycle test', function () {
             .ok(() => true);
 
         if (response2.status === 500) throw new Error('kickme');
-        expect(response2.status).to.eql(200);
+        assert.deepStrictEqual(response2.status, 200);
 
         invoiceId = response2.body.data.id;
     }
@@ -163,8 +163,8 @@ describe('Application life cycle test', function () {
             .ok(() => true);
 
         if (response.status === 500) throw new Error('kickme');
-        expect(response.status).to.eql(200);
-        expect(response.body.data.client_id).to.equal(clientId);
+        assert.deepStrictEqual(response.status, 200);
+        assert.strictEqual(response.body.data.client_id, clientId);
     }
 
     async function getPreviewPdf() {
@@ -177,8 +177,8 @@ describe('Application life cycle test', function () {
             .ok(() => true);
 
         if (response.status === 500) throw new Error('kickme');
-        expect(response.status).to.eql(200);
-        expect(response.type).to.eql('application/pdf');
+        assert.deepStrictEqual(response.status, 200);
+        assert.deepStrictEqual(response.type, 'application/pdf');
     }
 
     xit('build app', function () { execSync('cloudron build', EXEC_ARGS); });
