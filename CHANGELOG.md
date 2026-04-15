@@ -4553,3 +4553,11 @@
 * Fixes for scheduler requests
 * Reduce size of vendor folder
 
+[1.22.14]
+* Update invoiceninja to 5.13.18
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.18)
+* Security enhancements for company logos
+* Updated dependencies
+* Ensure model reguards are applied across all jobs
+* Add net costs to Product Columns for Invoice PDFs
+
