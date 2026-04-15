@@ -13,5 +13,6 @@
     "mocha": "^11.7.5",
     "selenium-webdriver": "^4.43.0",
     "superagent": "^10.3.0"
-  }
+  },
+  "type": "module"
 }

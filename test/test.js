@@ -1,29 +1,25 @@
 #!/usr/bin/env node
 
-/* jshint esversion: 8 */
-/* global it, xit, describe, before, after, afterEach */
+import 'chromedriver';
+import { execSync } from 'node:child_process';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import superagent from 'superagent';
+import { Builder } from 'selenium-webdriver';
+import { Options } from 'selenium-webdriver/chrome';
 
-'use strict';
+/* global it, xit, describe, before, after, afterEach */
 
 // We cannot currently test the UI so we will test the API only
 // https://app.swaggerhub.com/apis/invoiceninja/invoiceninja/5.1.17
 // The api somehow needs to have website visitors to trigger some events for now
 
-require('chromedriver');
-
-const execSync = require('child_process').execSync,
-    assert = require('node:assert/strict'),
-    fs = require('fs'),
-    path = require('path'),
-    superagent = require('superagent'),
-    { Builder } = require('selenium-webdriver'),
-    { Options } = require('selenium-webdriver/chrome');
-
 describe('Application life cycle test', function () {
     this.timeout(0);
 
     const LOCATION = process.env.LOCATION || 'test';
-    const EXEC_ARGS = { cwd: path.resolve(__dirname, '..'), stdio: 'inherit' };
+    const EXEC_ARGS = { cwd: path.resolve(import.meta.dirname, '..'), stdio: 'inherit' };
 
     const email = 'admin@cloudron.local';
     const password = 'changeme';
