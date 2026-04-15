@@ -5,7 +5,7 @@ import { execSync } from 'node:child_process';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
-import superagent from 'superagent';
+import superagent from '@cloudron/superagent';
 import { Builder } from 'selenium-webdriver';
 import { Options } from 'selenium-webdriver/chrome';
 
