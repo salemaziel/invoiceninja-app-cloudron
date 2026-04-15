@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import 'chromedriver';
 import { execSync } from 'node:child_process';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';

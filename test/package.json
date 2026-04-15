@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^147.0.2",
     "mocha": "^11.7.5",
     "selenium-webdriver": "^4.43.0",
     "@cloudron/superagent": "^10.3.0"
