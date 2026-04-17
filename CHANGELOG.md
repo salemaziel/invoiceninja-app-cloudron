@@ -4561,3 +4561,15 @@
 * Ensure model reguards are applied across all jobs
 * Add net costs to Product Columns for Invoice PDFs
 
+[1.22.15]
+* Update invoiceninja to 5.13.19
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.19)
+* Align all payment failure emails into single codepath
+* Fix currency codes in payment receipt templates
+* Add padding to footer in Playful design
+* Improvements for Cash Accounting tax reports
+* Roll back regression for AutoBillInvoice
+* Allow conversion of custom fields for reserved keywords such as :MONTH etc for Recurring Invoices
+* v5.13.19 by [@turbo124](https://github.com/turbo124) in [#11891](https://github.com/invoiceninja/invoiceninja/pull/11891)
+* **Full Changelog**: [https://github.com/invoiceninja/invoiceninja/compare/v5.13.18...v5.13.19](https://github.com/invoiceninja/invoiceninja/compare/v5.13.18...v5.13.19)
+
