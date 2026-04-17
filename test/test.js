@@ -173,7 +173,7 @@ describe('Application life cycle test', function () {
 
         if (response.status === 500) throw new Error('kickme');
         assert.deepStrictEqual(response.status, 200);
-        assert.deepStrictEqual(response.type, 'application/pdf');
+        assert.deepStrictEqual(response.headers['content-type'], 'application/pdf');
     }
 
     xit('build app', function () { execSync('cloudron build', EXEC_ARGS); });
