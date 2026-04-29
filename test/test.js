@@ -24,7 +24,7 @@ describe('Application life cycle test', function () {
     after(teardownBrowser);
 
     afterEach(async function () {
-        await takeScreenshot(this.currentTest.title);
+        await takeScreenshot(this.currentTest);
     });
 
     function sleep(millis) {
