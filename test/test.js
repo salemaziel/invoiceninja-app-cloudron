@@ -183,7 +183,7 @@ describe('Application life cycle test', function () {
     it('uninstall app', cloudronCli.uninstall);
 
     // update test
-    it('can install app', cloudronCli.appstoreInstall);
+    it('can install app for update', cloudronCli.appstoreInstall);
 
     it('can login', login);
     it('can create a vendor', retry(createVendor));
