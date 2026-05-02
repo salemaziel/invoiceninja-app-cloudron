@@ -4573,3 +4573,17 @@
 * v5.13.19 by [@turbo124](https://github.com/turbo124) in [#11891](https://github.com/invoiceninja/invoiceninja/pull/11891)
 * **Full Changelog**: [https://github.com/invoiceninja/invoiceninja/compare/v5.13.18...v5.13.19](https://github.com/invoiceninja/invoiceninja/compare/v5.13.18...v5.13.19)
 
+[1.22.16]
+* Update invoiceninja to 5.13.20
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.20)
+* Updates for payment failure mailer
+* Fixes for design bulk actions
+* Update merge client actions to use transactions for client balance
+* Fixes for openapi spec + e-invoicing schemeId resolution
+* Fixes for peppol multi tax invoices + quickbooks AST product creation
+* Allow signatures at client/group levels
+* Fixes for cancel/delete invoice balance adjustment sequence
+* Fixes for invoice tax summary reporting date ranges across timezones
+* feat(bank-rules): add participant fields to transaction rule matching by [@eelco2k](https://github.com/eelco2k) in [#11905](https://github.com/invoiceninja/invoiceninja/pull/11905)
+* Add expireAfter to WithoutOverlapping middleware on five webhook jobs by [@JoshSalway](https://github.com/JoshSalway) in [#11896](https://github.com/invoiceninja/invoiceninja/pull/11896)
+
