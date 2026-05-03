@@ -4587,3 +4587,8 @@
 * feat(bank-rules): add participant fields to transaction rule matching by [@eelco2k](https://github.com/eelco2k) in [#11905](https://github.com/invoiceninja/invoiceninja/pull/11905)
 * Add expireAfter to WithoutOverlapping middleware on five webhook jobs by [@JoshSalway](https://github.com/JoshSalway) in [#11896](https://github.com/invoiceninja/invoiceninja/pull/11896)
 
+[1.22.17]
+* Update invoiceninja to 5.13.21
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.21)
+* Fixes for QB push by [@turbo124](https://github.com/turbo124) in [#11928](https://github.com/invoiceninja/invoiceninja/pull/11928)
+
