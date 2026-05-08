@@ -7,7 +7,7 @@
   "postInstallMessage": "file://POSTINSTALL.md",
   "tagline": "Invoice from anywhere get paid from everywhere",
   "version": "1.22.17",
-  "upstreamVersion": "5.13.21",
+  "upstreamVersion": "5.13.22",
   "healthCheckPath": "/",
   "httpPort": 8000,
   "addons": {
