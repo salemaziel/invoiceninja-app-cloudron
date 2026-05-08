@@ -4592,3 +4592,14 @@
 * [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.21)
 * Fixes for QB push by [@turbo124](https://github.com/turbo124) in [#11928](https://github.com/invoiceninja/invoiceninja/pull/11928)
 
+[1.22.18]
+* Update invoiceninja to 5.13.22
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.22)
+* Fixes for tax period report.
+* Fixes for auth.net regression
+* Updated tests for BcMath
+* Fixes for PayPal
+* Allow sort\[] for multi column sorting
+* Set a default sort by order for al list api endpoints.
+* v5.13.22 by [@turbo124](https://github.com/turbo124) in [#11944](https://github.com/invoiceninja/invoiceninja/pull/11944)
+
