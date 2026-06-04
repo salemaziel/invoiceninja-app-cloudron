@@ -4603,3 +4603,17 @@
 * Set a default sort by order for al list api endpoints.
 * v5.13.22 by [@turbo124](https://github.com/turbo124) in [#11944](https://github.com/invoiceninja/invoiceninja/pull/11944)
 
+[1.22.19]
+* Update invoiceninja to 5.13.23
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.23)
+* Support for PHP 8.5
+* Updated translations
+* Include .xslx files when exporting reports
+* List filter sort improvements
+* ZUGFeRD pdf merge
+* QB sync fixes
+* Tags for Tasks/Projects
+* Add payware payment gateway integration by [@payware](https://github.com/payware) in [#11697](https://github.com/invoiceninja/invoiceninja/pull/11697)
+* Fix invoice filter not searching by project name by [@theoryshaw](https://github.com/theoryshaw) in [#11968](https://github.com/invoiceninja/invoiceninja/pull/11968)
+* Fix ZUGFeRD PDF merge metadata by [@bold84](https://github.com/bold84) in [#11934](https://github.com/invoiceninja/invoiceninja/pull/11934)
+
