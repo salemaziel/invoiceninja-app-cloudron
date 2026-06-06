@@ -4617,3 +4617,10 @@
 * Fix invoice filter not searching by project name by [@theoryshaw](https://github.com/theoryshaw) in [#11968](https://github.com/invoiceninja/invoiceninja/pull/11968)
 * Fix ZUGFeRD PDF merge metadata by [@bold84](https://github.com/bold84) in [#11934](https://github.com/invoiceninja/invoiceninja/pull/11934)
 
+[1.22.20]
+* Update invoiceninja to 5.13.24
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.24)
+* Update Dependabot config by [@beganovich](https://github.com/beganovich) in [#12012](https://github.com/invoiceninja/invoiceninja/pull/12012)
+* TinyMCE upgrade by [@turbo124](https://github.com/turbo124) in [#12018](https://github.com/invoiceninja/invoiceninja/pull/12018)
+* v5.13.24 by [@turbo124](https://github.com/turbo124) in [#12019](https://github.com/invoiceninja/invoiceninja/pull/12019)
+
