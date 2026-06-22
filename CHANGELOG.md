@@ -4624,3 +4624,19 @@
 * TinyMCE upgrade by [@turbo124](https://github.com/turbo124) in [#12018](https://github.com/invoiceninja/invoiceninja/pull/12018)
 * v5.13.24 by [@turbo124](https://github.com/turbo124) in [#12019](https://github.com/invoiceninja/invoiceninja/pull/12019)
 
+[1.22.21]
+* Update invoiceninja to 5.13.25
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.25)
+* Add additional time resolution in download file names
+* Updates for json design
+* Improvements for imports
+* Static analysis
+* Updates for QB rate limiter
+* Fixes for filters
+* Allow global tags to be attached to entities
+* Tags and filters
+* QB imports
+* Add balance\_taxes option into checkdata
+* Fixes for merging vendors
+* Issue [#9939](https://github.com/invoiceninja/invoiceninja/issues/9939) - Fix Light email template double border in Outlook Classic by [@3s7an](https://github.com/3s7an) in [#12010](https://github.com/invoiceninja/invoiceninja/pull/12010)
+
