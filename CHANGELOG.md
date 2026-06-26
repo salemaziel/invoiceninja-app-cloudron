@@ -4640,3 +4640,16 @@
 * Fixes for merging vendors
 * Issue [#9939](https://github.com/invoiceninja/invoiceninja/issues/9939) - Fix Light email template double border in Outlook Classic by [@3s7an](https://github.com/3s7an) in [#12010](https://github.com/invoiceninja/invoiceninja/pull/12010)
 
+[1.22.22]
+* Update invoiceninja to 5.13.26
+* [Full Changelog](https://github.com/invoiceninja/invoiceninja/releases/tag/v5.13.26)
+* Fixes for group settings factory
+* Upgrade exception to throwable for SwissQR
+* Updated translations
+* Fixes for webhooks
+* Fixes for error'd Nordigen accounts
+* Support precheck for new login flow
+* Updates for deprecation logging
+* Passkeys
+* Fix: null client crash in TemplateService::processExpenses() date formatting by [@TobiasMende](https://github.com/TobiasMende) in [#12056](https://github.com/invoiceninja/invoiceninja/pull/12056)
+
