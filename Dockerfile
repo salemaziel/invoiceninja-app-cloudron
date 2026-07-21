@@ -5,7 +5,7 @@ WORKDIR /app/code
 
 RUN apt update && \
     # Unicode support for PDF
-    apt install -y fonts-noto-cjk-extra fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy && \
+    apt install -y fonts-noto-cjk-extra fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy jq && \
     rm -rf /var/cache/apt /var/lib/apt/lists
 
 RUN curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
@@ -31,10 +31,24 @@ RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-
     phpenmod saxon && \
     rm -rf saxon
 
-# renovate: datasource=github-releases depName=invoiceninja/invoiceninja versioning=semver extractVersion=^v(?<version>.+)$
-ARG INVOICENINJA_VERSION=5.13.26
+# Source the Invoice Ninja release from salemaziel/invoiceninja. Release tags are shaped
+# v<VERSION>-fork.<run_number>, so track the full tag with loose versioning.
+# renovate: datasource=github-releases depName=salemaziel/invoiceninja versioning=loose
+ARG INVOICENINJA_RELEASE=v5.13.26-fork.2
 
-RUN curl -L https://github.com/invoiceninja/invoiceninja/releases/download/v${INVOICENINJA_VERSION}/invoiceninja.tar | tar -xz -f - -C /app/code && \
+# The source repo is private, so the release asset is fetched with an authenticated
+# GitHub API call. Pass a token with contents:read at build time:
+#   docker build --build-arg GITHUB_TOKEN=... ...
+# GITHUB_TOKEN is only referenced inside the RUN below, so its value is not baked into
+# any image layer or `docker history`.
+ARG GITHUB_TOKEN
+RUN test -n "${GITHUB_TOKEN}" || { echo "ERROR: build-arg GITHUB_TOKEN is required to fetch the release asset" >&2; exit 1; } && \
+    asset_url="$(curl -fsSL -H "Authorization: Bearer ${GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" \
+        "https://api.github.com/repos/salemaziel/invoiceninja/releases/tags/${INVOICENINJA_RELEASE}" \
+        | jq -r '.assets[] | select(.name=="invoiceninja.tar") | .url')" && \
+    test -n "${asset_url}" || { echo "ERROR: asset invoiceninja.tar not found in release ${INVOICENINJA_RELEASE}" >&2; exit 1; } && \
+    curl -fL -H "Authorization: Bearer ${GITHUB_TOKEN}" -H "Accept: application/octet-stream" "${asset_url}" \
+        | tar -xz -f - -C /app/code && \
     chown -R www-data:www-data /app/code
 
 RUN ls -l /app/code

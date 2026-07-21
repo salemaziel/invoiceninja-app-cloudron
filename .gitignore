@@ -5,3 +5,5 @@ npm-debug.log
 app/css/lib
 app/css/fonts
 app/js/lib
+
+.omc/

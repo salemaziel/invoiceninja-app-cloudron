@@ -4653,3 +4653,6 @@
 * Passkeys
 * Fix: null client crash in TemplateService::processExpenses() date formatting by [@TobiasMende](https://github.com/TobiasMende) in [#12056](https://github.com/invoiceninja/invoiceninja/pull/12056)
 
+
+[1.22.24]
+* Source the Invoice Ninja release build from salemaziel/invoiceninja (v5.13.26-fork.2)
