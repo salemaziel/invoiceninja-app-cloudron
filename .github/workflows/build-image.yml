@@ -4,7 +4,7 @@ name: Build & Publish Cloudron Image
 #
 # The image bundles the Invoice Ninja release from salemaziel/invoiceninja. That repo
 # is private, so the build needs a PAT with contents:read stored as the repo secret
-# INVOICENINJA_FORK_TOKEN to fetch the release asset.
+# INVOICENINJA_FORK_TOKEN, passed to the build as the BuildKit secret `gh_token`.
 #
 # Publishing to GHCR uses the automatic GITHUB_TOKEN (packages: write) — same
 # account, no extra secret needed.
@@ -59,14 +59,16 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64
-          # Keep the fork PAT out of build attestations/provenance.
+          # Single-manifest image (no attestation manifests) so `cloudron install` pulls cleanly.
           provenance: false
           sbom: false
           tags: |
             ${{ env.IMAGE }}:${{ steps.meta.outputs.version }}
             ${{ env.IMAGE }}:latest
+          # Token is a BuildKit secret (tmpfs-mounted for one RUN), never a build-arg.
+          secrets: |
+            gh_token=${{ secrets.INVOICENINJA_FORK_TOKEN }}
           build-args: |
-            GITHUB_TOKEN=${{ secrets.INVOICENINJA_FORK_TOKEN }}
             ${{ github.event.inputs.fork_release && format('INVOICENINJA_RELEASE={0}', github.event.inputs.fork_release) || '' }}
 
       - name: Summary

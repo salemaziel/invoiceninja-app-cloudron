@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 FROM cloudron/base:5.0.0@sha256:04fd70dbd8ad6149c19de39e35718e024417c3e01dc9c6637eaf4a41ec4e596c
 
 RUN mkdir -p /app/code /app/pkg
@@ -37,17 +38,18 @@ RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-
 ARG INVOICENINJA_RELEASE=v5.13.26-fork.2
 
 # The source repo is private, so the release asset is fetched with an authenticated
-# GitHub API call. Pass a token with contents:read at build time:
-#   docker build --build-arg GITHUB_TOKEN=... ...
-# GITHUB_TOKEN is only referenced inside the RUN below, so its value is not baked into
-# any image layer or `docker history`.
-ARG GITHUB_TOKEN
-RUN test -n "${GITHUB_TOKEN}" || { echo "ERROR: build-arg GITHUB_TOKEN is required to fetch the release asset" >&2; exit 1; } && \
-    asset_url="$(curl -fsSL -H "Authorization: Bearer ${GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" \
+# GitHub API call. The token is passed as a BuildKit secret rather than an ARG/ENV, so it
+# is never materialised in an image layer, `docker history`, or build provenance. The
+# tmpfs mount exists only for the duration of this RUN. Build with:
+#   docker build --secret id=gh_token,src=/path/to/token-file ...
+RUN --mount=type=secret,id=gh_token \
+    gh_token="$(tr -d '\n\r' < /run/secrets/gh_token 2>/dev/null)"; \
+    test -n "${gh_token}" || { echo "ERROR: build secret 'gh_token' is required to fetch the release asset" >&2; exit 1; }; \
+    asset_url="$(curl -fsSL -H "Authorization: Bearer ${gh_token}" -H "Accept: application/vnd.github+json" \
         "https://api.github.com/repos/salemaziel/invoiceninja/releases/tags/${INVOICENINJA_RELEASE}" \
-        | jq -r '.assets[] | select(.name=="invoiceninja.tar") | .url')" && \
-    test -n "${asset_url}" || { echo "ERROR: asset invoiceninja.tar not found in release ${INVOICENINJA_RELEASE}" >&2; exit 1; } && \
-    curl -fL -H "Authorization: Bearer ${GITHUB_TOKEN}" -H "Accept: application/octet-stream" "${asset_url}" \
+        | jq -r '.assets[] | select(.name=="invoiceninja.tar") | .url')"; \
+    test -n "${asset_url}" || { echo "ERROR: asset invoiceninja.tar not found in release ${INVOICENINJA_RELEASE}" >&2; exit 1; }; \
+    curl -fL -H "Authorization: Bearer ${gh_token}" -H "Accept: application/octet-stream" "${asset_url}" \
         | tar -xz -f - -C /app/code && \
     chown -R www-data:www-data /app/code
 
