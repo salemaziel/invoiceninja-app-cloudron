@@ -35,7 +35,7 @@ RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-
 # Source the Invoice Ninja release from salemaziel/invoiceninja. Release tags are shaped
 # v<VERSION>-fork.<run_number>, so track the full tag with loose versioning.
 # renovate: datasource=github-releases depName=salemaziel/invoiceninja versioning=loose
-ARG INVOICENINJA_RELEASE=v5.13.26-fork.2
+ARG INVOICENINJA_RELEASE=v5.13.26-fork.4
 
 # The source repo is private, so the release asset is fetched with an authenticated
 # GitHub API call. The token is passed as a BuildKit secret rather than an ARG/ENV, so it

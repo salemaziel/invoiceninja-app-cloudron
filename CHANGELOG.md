@@ -4656,3 +4656,6 @@
 
 [1.22.24]
 * Source the Invoice Ninja release build from salemaziel/invoiceninja (v5.13.26-fork.2)
+
+[1.22.25]
+* Update to salemaziel/invoiceninja v5.13.26-fork.4, which bundles the React frontend
