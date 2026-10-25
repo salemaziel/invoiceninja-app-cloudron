@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM cloudron/base:5.0.0@sha256:04fd70dbd8ad6149c19de39e35718e024417c3e01dc9c6637eaf4a41ec4e596c
+FROM cloudron/php-base:8.4@sha256:365607342e6b50f4f53d9b524313df4bfe654596baf762ee2e5af58c3498aa4b
 
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
@@ -28,14 +28,14 @@ RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-
     make && \
     make install && \
     cd /app/code && \
-    printf "%s\n" "; configuration for php Saxon HE/PE/EE module" "extension=saxon.so" > /etc/php/8.3/mods-available/saxon.ini && \
+    printf "%s\n" "; configuration for php Saxon HE/PE/EE module" "extension=saxon.so" > /etc/php/8.4/mods-available/saxon.ini && \
     phpenmod saxon && \
     rm -rf saxon
 
 # Source the Invoice Ninja release from salemaziel/invoiceninja. Release tags are shaped
 # v<VERSION>-fork.<run_number>, so track the full tag with loose versioning.
 # renovate: datasource=github-releases depName=salemaziel/invoiceninja versioning=loose
-ARG INVOICENINJA_RELEASE=v5.13.30-fork.5
+ARG INVOICENINJA_RELEASE=v5.13.31-fork.6
 
 # The source repo is private, so the release asset is fetched with an authenticated
 # GitHub API call. The token is passed as a BuildKit secret rather than an ARG/ENV, so it
@@ -80,17 +80,17 @@ RUN a2dismod perl && \
     a2enmod rewrite expires headers cache
 
 # artisan queue:work needs pcntl_async_signals(), pcntl_signal(), pcntl_alarm()
-RUN crudini --set /etc/php/8.3/apache2/php.ini PHP disable_functions pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_unshare, && \
-    crudini --set /etc/php/8.3/apache2/php.ini PHP upload_max_filesize 500M && \
-    crudini --set /etc/php/8.3/apache2/php.ini PHP post_max_size 500M && \
-    crudini --set /etc/php/8.3/apache2/php.ini PHP max_input_vars 1800 && \
-    crudini --set /etc/php/8.3/apache2/php.ini Session session.save_path /run/invoiceninja/sessions && \
-    crudini --set /etc/php/8.3/apache2/php.ini Session session.gc_probability 1 && \
-    crudini --set /etc/php/8.3/apache2/php.ini Session session.gc_divisor 100
+RUN crudini --set /etc/php/8.4/apache2/php.ini PHP disable_functions pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_unshare, && \
+    crudini --set /etc/php/8.4/apache2/php.ini PHP upload_max_filesize 500M && \
+    crudini --set /etc/php/8.4/apache2/php.ini PHP post_max_size 500M && \
+    crudini --set /etc/php/8.4/apache2/php.ini PHP max_input_vars 1800 && \
+    crudini --set /etc/php/8.4/apache2/php.ini Session session.save_path /run/invoiceninja/sessions && \
+    crudini --set /etc/php/8.4/apache2/php.ini Session session.gc_probability 1 && \
+    crudini --set /etc/php/8.4/apache2/php.ini Session session.gc_divisor 100
 
-RUN cp /etc/php/8.3/apache2/php.ini /app/pkg/php.ini && \
-    rm -rf /etc/php/8.3/apache2/php.ini && rm -rf /etc/php/8.3/cli/php.ini && \
-    ln -s /run/php.ini /etc/php/8.3/apache2/php.ini &&  ln -s /run/php.ini /etc/php/8.3/cli/php.ini
+RUN cp /etc/php/8.4/apache2/php.ini /app/pkg/php.ini && \
+    rm -rf /etc/php/8.4/apache2/php.ini && rm -rf /etc/php/8.4/cli/php.ini && \
+    ln -s /run/php.ini /etc/php/8.4/apache2/php.ini &&  ln -s /run/php.ini /etc/php/8.4/cli/php.ini
 
 # configure supervisor
 ADD supervisor/ /etc/supervisor/conf.d/
