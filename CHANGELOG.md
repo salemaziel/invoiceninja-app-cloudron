@@ -4659,3 +4659,6 @@
 
 [1.22.25]
 * Update to salemaziel/invoiceninja v5.13.26-fork.4, which bundles the React frontend
+
+[1.22.26]
+* Update to salemaziel/invoiceninja v5.13.30-fork.5
