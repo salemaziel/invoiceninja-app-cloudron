@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM cloudron/php-base:8.4@sha256:365607342e6b50f4f53d9b524313df4bfe654596baf762ee2e5af58c3498aa4b
+FROM cloudron/php-base:8.4-20260920@sha256:e9352b5fba7ad0a231b8a9e454034400a3a34a7fe1800425f634d32ffcae4a52
 
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
@@ -9,8 +9,8 @@ RUN apt update && \
     apt install -y fonts-noto-cjk-extra fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy jq && \
     rm -rf /var/cache/apt /var/lib/apt/lists
 
-RUN curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
-    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list && \
+RUN curl -fsSL -o /usr/share/keyrings/google-chrome.asc https://dl-ssl.google.com/linux/linux_signing_key.pub && \
+    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.asc] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
     apt-get update && \
     apt-get install -y google-chrome-stable && \
     rm -rf /var/cache/apt /var/lib/apt/lists
@@ -35,7 +35,7 @@ RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-
 # Source the Invoice Ninja release from salemaziel/invoiceninja. Release tags are shaped
 # v<VERSION>-fork.<run_number>, so track the full tag with loose versioning.
 # renovate: datasource=github-releases depName=salemaziel/invoiceninja versioning=loose
-ARG INVOICENINJA_RELEASE=v5.13.43-fork.8
+ARG INVOICENINJA_RELEASE=v5.13.44-fork.9
 
 # The source repo is private, so the release asset is fetched with an authenticated
 # GitHub API call. The token is passed as a BuildKit secret rather than an ARG/ENV, so it
@@ -76,8 +76,7 @@ RUN echo "Listen 8000" > /etc/apache2/ports.conf
 
 # configure mod_php. apache2ctl -M can be used to list enabled modules
 # the sessions path is unused since invoiceninja uses lavarel sessions
-RUN a2dismod perl && \
-    a2enmod rewrite expires headers cache
+RUN a2enmod rewrite expires headers cache
 
 # artisan queue:work needs pcntl_async_signals(), pcntl_signal(), pcntl_alarm()
 RUN crudini --set /etc/php/8.4/apache2/php.ini PHP disable_functions pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_unshare, && \

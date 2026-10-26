@@ -4672,3 +4672,7 @@
 
 [1.22.29]
 * Update to salemaziel/invoiceninja v5.13.43-fork.8
+
+[1.22.30]
+* Update to salemaziel/invoiceninja v5.13.44-fork.9
+* Use cloudron/php-base:8.4-20260920 (Ubuntu 26.04)
