@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM cloudron/php-base:8.4-20260920@sha256:e9352b5fba7ad0a231b8a9e454034400a3a34a7fe1800425f634d32ffcae4a52
+FROM cloudron/php-base:8.4-20261021@sha256:476ced2a7fd301a9cdd5aa8e8604b069215fd9cc829fe1a157829741e61ffb76
 
 RUN mkdir -p /app/code /app/pkg
 WORKDIR /app/code
@@ -35,7 +35,7 @@ RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-
 # Source the Invoice Ninja release from salemaziel/invoiceninja. Release tags are shaped
 # v<VERSION>-fork.<run_number>, so track the full tag with loose versioning.
 # renovate: datasource=github-releases depName=salemaziel/invoiceninja versioning=loose
-ARG INVOICENINJA_RELEASE=v5.13.44-fork.9
+ARG INVOICENINJA_RELEASE=v5.13.50-fork.10
 
 # The source repo is private, so the release asset is fetched with an authenticated
 # GitHub API call. The token is passed as a BuildKit secret rather than an ARG/ENV, so it
