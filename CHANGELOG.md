@@ -4684,3 +4684,6 @@
 [1.22.32]
 * Update to salemaziel/invoiceninja v5.13.51-fork.11
 * Cap uploads at 100MB to match the platform request limit
+
+[1.22.33]
+* Update to salemaziel/invoiceninja v5.13.52-fork.12
