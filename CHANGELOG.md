@@ -4687,3 +4687,6 @@
 
 [1.22.33]
 * Update to salemaziel/invoiceninja v5.13.52-fork.12
+
+[1.22.34]
+* Update to salemaziel/invoiceninja v5.13.53-fork.13
