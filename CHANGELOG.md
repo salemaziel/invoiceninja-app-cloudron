@@ -4680,3 +4680,7 @@
 [1.22.31]
 * Update to salemaziel/invoiceninja v5.13.50-fork.10
 * Use cloudron/php-base:8.4-20261021
+
+[1.22.32]
+* Update to salemaziel/invoiceninja v5.13.51-fork.11
+* Cap uploads at 100MB to match the platform request limit

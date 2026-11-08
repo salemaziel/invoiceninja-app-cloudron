@@ -35,7 +35,7 @@ RUN wget https://downloads.saxonica.com/SaxonC/HE/12/SaxonCHE-linux-x86_64-12-9-
 # Source the Invoice Ninja release from salemaziel/invoiceninja. Release tags are shaped
 # v<VERSION>-fork.<run_number>, so track the full tag with loose versioning.
 # renovate: datasource=github-releases depName=salemaziel/invoiceninja versioning=loose
-ARG INVOICENINJA_RELEASE=v5.13.50-fork.10
+ARG INVOICENINJA_RELEASE=v5.13.51-fork.11
 
 # The source repo is private, so the release asset is fetched with an authenticated
 # GitHub API call. The token is passed as a BuildKit secret rather than an ARG/ENV, so it
@@ -80,8 +80,8 @@ RUN a2enmod rewrite expires headers cache
 
 # artisan queue:work needs pcntl_async_signals(), pcntl_signal(), pcntl_alarm()
 RUN crudini --set /etc/php/8.4/apache2/php.ini PHP disable_functions pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_unshare, && \
-    crudini --set /etc/php/8.4/apache2/php.ini PHP upload_max_filesize 500M && \
-    crudini --set /etc/php/8.4/apache2/php.ini PHP post_max_size 500M && \
+    crudini --set /etc/php/8.4/apache2/php.ini PHP upload_max_filesize 100M && \
+    crudini --set /etc/php/8.4/apache2/php.ini PHP post_max_size 100M && \
     crudini --set /etc/php/8.4/apache2/php.ini PHP max_input_vars 1800 && \
     crudini --set /etc/php/8.4/apache2/php.ini Session session.save_path /run/invoiceninja/sessions && \
     crudini --set /etc/php/8.4/apache2/php.ini Session session.gc_probability 1 && \
